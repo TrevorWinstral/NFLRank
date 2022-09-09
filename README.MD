@@ -20,6 +20,64 @@ Note that we do not take much into account here, things such as home field advan
 - Each team starts this season (2022/23) out with last season's rank.
 - Each team starts this season (2022/23) out with a contracted version of last seasons rank (a sort of reset to account for teams changing).
 
+In implementing the model a range a values were tested across the 2020/21 and 2020/21 season to minimize the mean square error between the expected and realized scores. The values which were minimized over were the logistic rate, the maximal rank change $K$, and a 'reset factor' $r$ which shrinks the ranks after each season. So a reset factor of $0.1$ means that after each season, a team only keep 10% of their previous rank. Using a fairly sparse range of values for these 3 variables yielded a minimal mean square error for a logistic rate of 157, $K=10$, and $r=0.8$. This yields the following power ranking for week 1 of 2022/23:
+
+<table>
+  <tr>
+    <th>1-16</th>
+    <th>17-32</th>
+  </tr>
+ <tr>
+<td>Kansas City Chiefs</td>
+<td>Los Angeles Rams</td>
+</tr><tr>
+<td>Tampa Bay Buccaneers</td>
+<td>Green Bay Packers</td>
+</tr><tr>
+<td>Buffalo Bills</td>
+<td>Tennessee Titans</td>
+</tr><tr>
+<td>Pittsburgh Steelers</td>
+<td>New Orleans Saints</td>
+</tr><tr>
+<td>Cincinnati Bengals</td>
+<td>San Francisco 49ers</td>
+</tr><tr>
+<td>Miami Dolphins</td>
+<td>Dallas Cowboys</td>
+</tr><tr>
+<td>Indianapolis Colts</td>
+<td>Las Vegas Raiders</td>
+</tr><tr>
+<td>Cleveland Browns</td>
+<td>Arizona Cardinals</td>
+</tr><tr>
+<td>New England Patriots</td>
+<td>Baltimore Ravens</td>
+</tr><tr>
+<td>Seattle Seahawks</td>
+<td>Los Angeles Chargers</td>
+</tr><tr>
+<td>Minnesota Vikings</td>
+<td>Philadelphia Eagles</td>
+</tr><tr>
+<td>Washington Football Team</td>
+<td>Chicago Bears</td>
+</tr><tr>
+<td>Denver Broncos</td>
+<td>Atlanta Falcons</td>
+</tr><tr>
+<td>New York Giants</td>
+<td>Carolina Panthers</td>
+</tr><tr>
+<td>Detroit Lions</td>
+<td>Houston Texans</td>
+</tr><tr>
+<td>New York Jets</td>
+<td>Jacksonville Jaguars</td>
+ </tr>
+</table>
+And gave the Rams a 52% chance to win in the season opener against the Bills (not a great start, but much better than the experts on the pregame show who went around 70% for the Rams). I will continue to update the Elo power rankings each week, hopefully get that automated here soon, as well as some graphics to display the evolution over time.
 
 ## Bayes
 While Elo is an easy to implement and understand model, I am an appreciator of Bayesian statistics. So it only makes sense that I try to apply it here. I will preface everything that follows, that I really do not know what I am doing here with applying mathematical models to sports, and am just trying to learn and play with some ideas. Also all my homies hate frequentist statistics, so Bayes all the way baby.
