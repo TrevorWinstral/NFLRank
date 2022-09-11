@@ -23,10 +23,6 @@ Note that we do not take much into account here, things such as home field advan
 In implementing the model a range a values were tested across the 2020/21 and 2020/21 season to minimize the mean square error between the expected and realized scores. The values which were minimized over were the logistic rate, the maximal rank change $K$, and a 'reset factor' $r$ which shrinks the ranks after each season. So a reset factor of $0.1$ means that after each season, a team only keep 10% of their previous rank. Using a fairly sparse range of values for these 3 variables yielded a minimal mean square error for a logistic rate of 157, $K=10$, and $r=0.8$. This yields the following power ranking for week 1 of 2022/23:
 
 <table>
-  <tr>
-    <th>1-16</th>
-    <th>17-32</th>
-  </tr>
  <tr>
 <td>Kansas City Chiefs</td>
 <td>Los Angeles Rams</td>
@@ -78,6 +74,29 @@ In implementing the model a range a values were tested across the 2020/21 and 20
  </tr>
 </table>
 And gave the Rams a 52% chance to win in the season opener against the Bills (not a great start, but much better than the experts on the pregame show who went around 70% for the Rams). I will continue to update the Elo power rankings each week, hopefully get that automated here soon, as well as some graphics to display the evolution over time.
+
+
+### Matchup Predictions
+The following table lists the matchups, and the predicted chance for team 1 to win (0.46 corresponds to 46%). This is for week 1 of 2022/23.
+<table>
+<tr><th>             Team 1</th> <th>                Team 2</th><th>          Prediction</th></tr>
+<tr><td>   Buffalo Bills          </td><td> Los Angeles Rams    </td><td> 0.464895 </td></tr> 
+<tr><td>   Cleveland Browns         </td><td> Carolina Panthers    </td><td> 0.639854 </td></tr> 
+<tr><td>   Indianapolis Colts            </td><td> Houston Texans    </td><td> 0.668545 </td></tr> 
+<tr><td>   Jacksonville Jaguars  </td><td> Washington Football Team    </td><td> 0.351849 </td></tr> 
+<tr><td>   New Orleans Saints           </td><td> Atlanta Falcons    </td><td> 0.623988 </td></tr> 
+<tr><td>   New England Patriots            </td><td> Miami Dolphins    </td><td> 0.470959 </td></tr> 
+<tr><td>   Philadelphia Eagles             </td><td> Detroit Lions    </td><td> 0.597542 </td></tr> 
+<tr><td>   Pittsburgh Steelers        </td><td> Cincinnati Bengals    </td><td> 0.506445 </td></tr> 
+<tr><td>   Baltimore Ravens             </td><td> New York Jets    </td><td> 0.664253 </td></tr> 
+<tr><td>   San Francisco 49ers             </td><td> Chicago Bears    </td><td> 0.603389 </td></tr> 
+<tr><td>   Green Bay Packers         </td><td> Minnesota Vikings    </td><td> 0.636090 </td></tr> 
+<tr><td>   Kansas City Chiefs         </td><td> Arizona Cardinals    </td><td> 0.639320 </td></tr> 
+<tr><td>   New York Giants          </td><td> Tennessee Titans    </td><td> 0.307737 </td></tr> 
+<tr><td>   Las Vegas Raiders      </td><td> Los Angeles Chargers    </td><td> 0.525354 </td></tr> 
+<tr><td>   Tampa Bay Buccaneers            </td><td> Dallas Cowboys    </td><td> 0.600302 </td></tr> 
+<tr><td>   Denver Broncos          </td><td> Seattle Seahawks    </td><td> 0.423541 </td></tr> 
+</table>
 
 ## Bayes
 While Elo is an easy to implement and understand model, I am an appreciator of Bayesian statistics. So it only makes sense that I try to apply it here. I will preface everything that follows, that I really do not know what I am doing here with applying mathematical models to sports, and am just trying to learn and play with some ideas. Also all my homies hate frequentist statistics, so Bayes all the way baby.
