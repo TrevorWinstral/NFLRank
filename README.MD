@@ -18,11 +18,9 @@ $$R_i^{\textrm{new}} = R_i^{\textrm{old}} + K (S_i - E_i).$$
 $K$ represents the maximal possible adjustment per game, we will experiment with different values here, chess has used 16 for masters and 32 for noobs.
 Each team will start out with a ranking of 1000, and each week their ranking will be updated to tell us where they stand. Furthermore a predicted winner of each match will be calculated.
 
-Note that we do not take much into account here, things such as home field advantage are not looked after at all. At week 1, each team will have a equal probability to win or lose, so it may take a few weeks for the ranks to establish themselves. To address this, I will also run a simulation on the previous (2021/22) season. From here 2 different rankings will stem. 
-- Each team starts this season (2022/23) out with last season's rank.
-- Each team starts this season (2022/23) out with a contracted version of last seasons rank (a sort of reset to account for teams changing).
+Note that we do not take much into account here, things such as home field advantage are not looked after at all. At week 1, each team will have a equal probability to win or lose, so it may take a few weeks for the ranks to establish themselves. To address this, I will start the simulation from the 2020/21 season. We will reset the ranks using the rank reset factor chosen by optimization.
 
-In implementing the model a range a values were tested across the 2020/21 and 2020/21 season to minimize the mean square error between the expected and realized scores. The values which were minimized over were the logistic rate, the maximal rank change $K$, and a 'reset factor' $r$ which shrinks the ranks after each season. So a reset factor of $0.1$ means that after each season, a team only keep 10% of their previous rank. Using a fairly sparse range of values for these 3 variables yielded a minimal mean square error for a logistic rate of 157, $K=10$, and $r=0.8$. This yields the following power ranking for week 1 of 2022/23:
+In implementing the model a range a values were tested across the 2020/21 and 2021/22 season to minimize the mean square error between the expected and realized scores. The values which were minimized over were the logistic rate, the maximal rank change $K$, and a 'reset factor' $r$ which shrinks the ranks after each season. So a reset factor of $0.1$ means that after each season, a team only keep 10% of their previous rank. Testing a range of values for these 3 variables yielded a minimal mean square error for a logistic rate of 200, $K=11$, and $r=0.7$. This yields the following power ranking for week 1 of 2022/23:
 
 <table>
  <tr>
