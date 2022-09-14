@@ -1,555 +1,571 @@
-,Week,Date,Winner/tie,Loser/tie,isTie,PtsW,PtsL
-0,2020-1,2020-09-10,Kansas City Chiefs,Houston Texans,False,34,20
-1,2020-1,2020-09-13,Seattle Seahawks,Atlanta Falcons,False,38,25
-2,2020-1,2020-09-13,Buffalo Bills,New York Jets,False,27,17
-3,2020-1,2020-09-13,Las Vegas Raiders,Carolina Panthers,False,34,30
-4,2020-1,2020-09-13,Chicago Bears,Detroit Lions,False,27,23
-5,2020-1,2020-09-13,Baltimore Ravens,Cleveland Browns,False,38,6
-6,2020-1,2020-09-13,Jacksonville Jaguars,Indianapolis Colts,False,27,20
-7,2020-1,2020-09-13,Green Bay Packers,Minnesota Vikings,False,43,34
-8,2020-1,2020-09-13,New England Patriots,Miami Dolphins,False,21,11
-9,2020-1,2020-09-13,Washington Football Team,Philadelphia Eagles,False,27,17
-10,2020-1,2020-09-13,Los Angeles Chargers,Cincinnati Bengals,False,16,13
-11,2020-1,2020-09-13,Arizona Cardinals,San Francisco 49ers,False,24,20
-12,2020-1,2020-09-13,New Orleans Saints,Tampa Bay Buccaneers,False,34,23
-13,2020-1,2020-09-13,Los Angeles Rams,Dallas Cowboys,False,20,17
-14,2020-1,2020-09-14,Pittsburgh Steelers,New York Giants,False,26,16
-15,2020-1,2020-09-14,Tennessee Titans,Denver Broncos,False,16,14
-16,2020-2,2020-09-17,Cleveland Browns,Cincinnati Bengals,False,35,30
-17,2020-2,2020-09-20,Dallas Cowboys,Atlanta Falcons,False,40,39
-18,2020-2,2020-09-20,Buffalo Bills,Miami Dolphins,False,31,28
-19,2020-2,2020-09-20,Tampa Bay Buccaneers,Carolina Panthers,False,31,17
-20,2020-2,2020-09-20,Chicago Bears,New York Giants,False,17,13
-21,2020-2,2020-09-20,Indianapolis Colts,Minnesota Vikings,False,28,11
-22,2020-2,2020-09-20,Pittsburgh Steelers,Denver Broncos,False,26,21
-23,2020-2,2020-09-20,Green Bay Packers,Detroit Lions,False,42,21
-24,2020-2,2020-09-20,Tennessee Titans,Jacksonville Jaguars,False,33,30
-25,2020-2,2020-09-20,San Francisco 49ers,New York Jets,False,31,13
-26,2020-2,2020-09-20,Los Angeles Rams,Philadelphia Eagles,False,37,19
-27,2020-2,2020-09-20,Arizona Cardinals,Washington Football Team,False,30,15
-28,2020-2,2020-09-20,Baltimore Ravens,Houston Texans,False,33,16
-29,2020-2,2020-09-20,Kansas City Chiefs,Los Angeles Chargers,False,23,20
-30,2020-2,2020-09-20,Seattle Seahawks,New England Patriots,False,35,30
-31,2020-2,2020-09-21,Las Vegas Raiders,New Orleans Saints,False,34,24
-32,2020-3,2020-09-24,Miami Dolphins,Jacksonville Jaguars,False,31,13
-33,2020-3,2020-09-27,Chicago Bears,Atlanta Falcons,False,30,26
-34,2020-3,2020-09-27,Buffalo Bills,Los Angeles Rams,False,35,32
-35,2020-3,2020-09-27,Philadelphia Eagles,Cincinnati Bengals,True,23,23
-36,2020-3,2020-09-27,Cleveland Browns,Washington Football Team,False,34,20
-37,2020-3,2020-09-27,Pittsburgh Steelers,Houston Texans,False,28,21
-38,2020-3,2020-09-27,Tennessee Titans,Minnesota Vikings,False,31,30
-39,2020-3,2020-09-27,New England Patriots,Las Vegas Raiders,False,36,20
-40,2020-3,2020-09-27,San Francisco 49ers,New York Giants,False,36,9
-41,2020-3,2020-09-27,Carolina Panthers,Los Angeles Chargers,False,21,16
-42,2020-3,2020-09-27,Indianapolis Colts,New York Jets,False,36,7
-43,2020-3,2020-09-27,Detroit Lions,Arizona Cardinals,False,26,23
-44,2020-3,2020-09-27,Seattle Seahawks,Dallas Cowboys,False,38,31
-45,2020-3,2020-09-27,Tampa Bay Buccaneers,Denver Broncos,False,28,10
-46,2020-3,2020-09-27,Green Bay Packers,New Orleans Saints,False,37,30
-47,2020-3,2020-09-28,Kansas City Chiefs,Baltimore Ravens,False,34,20
-48,2020-4,2020-10-01,Denver Broncos,New York Jets,False,37,28
-49,2020-4,2020-10-04,Carolina Panthers,Arizona Cardinals,False,31,21
-50,2020-4,2020-10-04,Indianapolis Colts,Chicago Bears,False,19,11
-51,2020-4,2020-10-04,Cincinnati Bengals,Jacksonville Jaguars,False,33,25
-52,2020-4,2020-10-04,Cleveland Browns,Dallas Cowboys,False,49,38
-53,2020-4,2020-10-04,New Orleans Saints,Detroit Lions,False,35,29
-54,2020-4,2020-10-04,Minnesota Vikings,Houston Texans,False,31,23
-55,2020-4,2020-10-04,Seattle Seahawks,Miami Dolphins,False,31,23
-56,2020-4,2020-10-04,Baltimore Ravens,Washington Football Team,False,31,17
-57,2020-4,2020-10-04,Tampa Bay Buccaneers,Los Angeles Chargers,False,38,31
-58,2020-4,2020-10-04,Los Angeles Rams,New York Giants,False,17,9
-59,2020-4,2020-10-04,Buffalo Bills,Las Vegas Raiders,False,30,23
-60,2020-4,2020-10-04,Philadelphia Eagles,San Francisco 49ers,False,25,20
-61,2020-4,2020-10-05,Kansas City Chiefs,New England Patriots,False,26,10
-62,2020-4,2020-10-05,Green Bay Packers,Atlanta Falcons,False,30,16
-63,2020-5,2020-10-08,Chicago Bears,Tampa Bay Buccaneers,False,20,19
-64,2020-5,2020-10-11,Carolina Panthers,Atlanta Falcons,False,23,16
-65,2020-5,2020-10-11,Baltimore Ravens,Cincinnati Bengals,False,27,3
-66,2020-5,2020-10-11,Arizona Cardinals,New York Jets,False,30,10
-67,2020-5,2020-10-11,Houston Texans,Jacksonville Jaguars,False,30,14
-68,2020-5,2020-10-11,Las Vegas Raiders,Kansas City Chiefs,False,40,32
-69,2020-5,2020-10-11,Pittsburgh Steelers,Philadelphia Eagles,False,38,29
-70,2020-5,2020-10-11,Los Angeles Rams,Washington Football Team,False,30,10
-71,2020-5,2020-10-11,Miami Dolphins,San Francisco 49ers,False,43,17
-72,2020-5,2020-10-11,Cleveland Browns,Indianapolis Colts,False,32,23
-73,2020-5,2020-10-11,Dallas Cowboys,New York Giants,False,37,34
-74,2020-5,2020-10-11,Seattle Seahawks,Minnesota Vikings,False,27,26
-75,2020-5,2020-10-12,New Orleans Saints,Los Angeles Chargers,False,30,27
-76,2020-5,2020-10-13,Tennessee Titans,Buffalo Bills,False,42,16
-77,2020-6,2020-10-18,Denver Broncos,New England Patriots,False,18,12
-78,2020-6,2020-10-18,Detroit Lions,Jacksonville Jaguars,False,34,16
-79,2020-6,2020-10-18,Atlanta Falcons,Minnesota Vikings,False,40,23
-80,2020-6,2020-10-18,Chicago Bears,Carolina Panthers,False,23,16
-81,2020-6,2020-10-18,Indianapolis Colts,Cincinnati Bengals,False,31,27
-82,2020-6,2020-10-18,Pittsburgh Steelers,Cleveland Browns,False,38,7
-83,2020-6,2020-10-18,Tennessee Titans,Houston Texans,False,42,36
-84,2020-6,2020-10-18,New York Giants,Washington Football Team,False,20,19
-85,2020-6,2020-10-18,Baltimore Ravens,Philadelphia Eagles,False,30,28
-86,2020-6,2020-10-18,Miami Dolphins,New York Jets,False,24,0
-87,2020-6,2020-10-18,Tampa Bay Buccaneers,Green Bay Packers,False,38,10
-88,2020-6,2020-10-18,San Francisco 49ers,Los Angeles Rams,False,24,16
-89,2020-6,2020-10-19,Kansas City Chiefs,Buffalo Bills,False,26,17
-90,2020-6,2020-10-19,Arizona Cardinals,Dallas Cowboys,False,38,10
-91,2020-7,2020-10-22,Philadelphia Eagles,New York Giants,False,22,21
-92,2020-7,2020-10-25,Green Bay Packers,Houston Texans,False,35,20
-93,2020-7,2020-10-25,Pittsburgh Steelers,Tennessee Titans,False,27,24
-94,2020-7,2020-10-25,Detroit Lions,Atlanta Falcons,False,23,22
-95,2020-7,2020-10-25,Buffalo Bills,New York Jets,False,18,10
-96,2020-7,2020-10-25,New Orleans Saints,Carolina Panthers,False,27,24
-97,2020-7,2020-10-25,Cleveland Browns,Cincinnati Bengals,False,37,34
-98,2020-7,2020-10-25,Washington Football Team,Dallas Cowboys,False,25,3
-99,2020-7,2020-10-25,Tampa Bay Buccaneers,Las Vegas Raiders,False,45,20
-100,2020-7,2020-10-25,Kansas City Chiefs,Denver Broncos,False,43,16
-101,2020-7,2020-10-25,San Francisco 49ers,New England Patriots,False,33,6
-102,2020-7,2020-10-25,Los Angeles Chargers,Jacksonville Jaguars,False,39,29
-103,2020-7,2020-10-25,Arizona Cardinals,Seattle Seahawks,False,37,34
-104,2020-7,2020-10-26,Los Angeles Rams,Chicago Bears,False,24,10
-105,2020-8,2020-10-29,Atlanta Falcons,Carolina Panthers,False,25,17
-106,2020-8,2020-11-01,Indianapolis Colts,Detroit Lions,False,41,21
-107,2020-8,2020-11-01,Minnesota Vikings,Green Bay Packers,False,28,22
-108,2020-8,2020-11-01,Miami Dolphins,Los Angeles Rams,False,28,17
-109,2020-8,2020-11-01,Pittsburgh Steelers,Baltimore Ravens,False,28,24
-110,2020-8,2020-11-01,Buffalo Bills,New England Patriots,False,24,21
-111,2020-8,2020-11-01,Cincinnati Bengals,Tennessee Titans,False,31,20
-112,2020-8,2020-11-01,Las Vegas Raiders,Cleveland Browns,False,16,6
-113,2020-8,2020-11-01,Kansas City Chiefs,New York Jets,False,35,9
-114,2020-8,2020-11-01,Denver Broncos,Los Angeles Chargers,False,31,30
-115,2020-8,2020-11-01,Seattle Seahawks,San Francisco 49ers,False,37,27
-116,2020-8,2020-11-01,New Orleans Saints,Chicago Bears,False,26,23
-117,2020-8,2020-11-01,Philadelphia Eagles,Dallas Cowboys,False,23,9
-118,2020-8,2020-11-02,Tampa Bay Buccaneers,New York Giants,False,25,23
-119,2020-9,2020-11-05,Green Bay Packers,San Francisco 49ers,False,34,17
-120,2020-9,2020-11-08,Baltimore Ravens,Indianapolis Colts,False,24,10
-121,2020-9,2020-11-08,Minnesota Vikings,Detroit Lions,False,34,20
-122,2020-9,2020-11-08,Houston Texans,Jacksonville Jaguars,False,27,25
-123,2020-9,2020-11-08,Atlanta Falcons,Denver Broncos,False,34,27
-124,2020-9,2020-11-08,Buffalo Bills,Seattle Seahawks,False,44,34
-125,2020-9,2020-11-08,Kansas City Chiefs,Carolina Panthers,False,33,31
-126,2020-9,2020-11-08,Tennessee Titans,Chicago Bears,False,24,17
-127,2020-9,2020-11-08,New York Giants,Washington Football Team,False,23,20
-128,2020-9,2020-11-08,Las Vegas Raiders,Los Angeles Chargers,False,31,26
-129,2020-9,2020-11-08,Miami Dolphins,Arizona Cardinals,False,34,31
-130,2020-9,2020-11-08,Pittsburgh Steelers,Dallas Cowboys,False,24,19
-131,2020-9,2020-11-08,New Orleans Saints,Tampa Bay Buccaneers,False,38,3
-132,2020-9,2020-11-09,New England Patriots,New York Jets,False,30,27
-133,2020-10,2020-11-12,Indianapolis Colts,Tennessee Titans,False,34,17
-134,2020-10,2020-11-15,Cleveland Browns,Houston Texans,False,10,7
-135,2020-10,2020-11-15,Detroit Lions,Washington Football Team,False,30,27
-136,2020-10,2020-11-15,Green Bay Packers,Jacksonville Jaguars,False,24,20
-137,2020-10,2020-11-15,Tampa Bay Buccaneers,Carolina Panthers,False,46,23
-138,2020-10,2020-11-15,New York Giants,Philadelphia Eagles,False,27,17
-139,2020-10,2020-11-15,Las Vegas Raiders,Denver Broncos,False,37,12
-140,2020-10,2020-11-15,Miami Dolphins,Los Angeles Chargers,False,29,21
-141,2020-10,2020-11-15,Arizona Cardinals,Buffalo Bills,False,32,30
-142,2020-10,2020-11-15,Pittsburgh Steelers,Cincinnati Bengals,False,36,10
-143,2020-10,2020-11-15,New Orleans Saints,San Francisco 49ers,False,27,13
-144,2020-10,2020-11-15,Los Angeles Rams,Seattle Seahawks,False,23,16
-145,2020-10,2020-11-15,New England Patriots,Baltimore Ravens,False,23,17
-146,2020-10,2020-11-16,Minnesota Vikings,Chicago Bears,False,19,13
-147,2020-11,2020-11-19,Seattle Seahawks,Arizona Cardinals,False,28,21
-148,2020-11,2020-11-22,New Orleans Saints,Atlanta Falcons,False,24,9
-149,2020-11,2020-11-22,Washington Football Team,Cincinnati Bengals,False,20,9
-150,2020-11,2020-11-22,Cleveland Browns,Philadelphia Eagles,False,22,17
-151,2020-11,2020-11-22,Houston Texans,New England Patriots,False,27,20
-152,2020-11,2020-11-22,Pittsburgh Steelers,Jacksonville Jaguars,False,27,3
-153,2020-11,2020-11-22,Tennessee Titans,Baltimore Ravens,False,30,24
-154,2020-11,2020-11-22,Carolina Panthers,Detroit Lions,False,20,0
-155,2020-11,2020-11-22,Denver Broncos,Miami Dolphins,False,20,13
-156,2020-11,2020-11-22,Los Angeles Chargers,New York Jets,False,34,28
-157,2020-11,2020-11-22,Indianapolis Colts,Green Bay Packers,False,34,31
-158,2020-11,2020-11-22,Dallas Cowboys,Minnesota Vikings,False,31,28
-159,2020-11,2020-11-22,Kansas City Chiefs,Las Vegas Raiders,False,35,31
-160,2020-11,2020-11-23,Los Angeles Rams,Tampa Bay Buccaneers,False,27,24
-161,2020-12,2020-11-26,Houston Texans,Detroit Lions,False,41,25
-162,2020-12,2020-11-26,Washington Football Team,Dallas Cowboys,False,41,16
-163,2020-12,2020-11-29,Atlanta Falcons,Las Vegas Raiders,False,43,6
-164,2020-12,2020-11-29,Buffalo Bills,Los Angeles Chargers,False,27,17
-165,2020-12,2020-11-29,New York Giants,Cincinnati Bengals,False,19,17
-166,2020-12,2020-11-29,Cleveland Browns,Jacksonville Jaguars,False,27,25
-167,2020-12,2020-11-29,Tennessee Titans,Indianapolis Colts,False,45,26
-168,2020-12,2020-11-29,New England Patriots,Arizona Cardinals,False,20,17
-169,2020-12,2020-11-29,Miami Dolphins,New York Jets,False,20,3
-170,2020-12,2020-11-29,Minnesota Vikings,Carolina Panthers,False,28,27
-171,2020-12,2020-11-29,New Orleans Saints,Denver Broncos,False,31,3
-172,2020-12,2020-11-29,San Francisco 49ers,Los Angeles Rams,False,23,20
-173,2020-12,2020-11-29,Kansas City Chiefs,Tampa Bay Buccaneers,False,27,24
-174,2020-12,2020-11-29,Green Bay Packers,Chicago Bears,False,41,25
-175,2020-12,2020-11-30,Seattle Seahawks,Philadelphia Eagles,False,23,17
-176,2020-12,2020-12-02,Pittsburgh Steelers,Baltimore Ravens,False,19,14
-177,2020-13,2020-12-06,New Orleans Saints,Atlanta Falcons,False,21,16
-178,2020-13,2020-12-06,Detroit Lions,Chicago Bears,False,34,30
-179,2020-13,2020-12-06,Miami Dolphins,Cincinnati Bengals,False,19,7
-180,2020-13,2020-12-06,Cleveland Browns,Tennessee Titans,False,41,35
-181,2020-13,2020-12-06,Indianapolis Colts,Houston Texans,False,26,20
-182,2020-13,2020-12-06,Minnesota Vikings,Jacksonville Jaguars,False,27,24
-183,2020-13,2020-12-06,Las Vegas Raiders,New York Jets,False,31,28
-184,2020-13,2020-12-06,Los Angeles Rams,Arizona Cardinals,False,38,28
-185,2020-13,2020-12-06,New York Giants,Seattle Seahawks,False,17,12
-186,2020-13,2020-12-06,Green Bay Packers,Philadelphia Eagles,False,30,16
-187,2020-13,2020-12-06,New England Patriots,Los Angeles Chargers,False,45,0
-188,2020-13,2020-12-06,Kansas City Chiefs,Denver Broncos,False,22,16
-189,2020-13,2020-12-07,Washington Football Team,Pittsburgh Steelers,False,23,17
-190,2020-13,2020-12-07,Buffalo Bills,San Francisco 49ers,False,34,24
-191,2020-13,2020-12-08,Baltimore Ravens,Dallas Cowboys,False,34,17
-192,2020-14,2020-12-10,Los Angeles Rams,New England Patriots,False,24,3
-193,2020-14,2020-12-13,Denver Broncos,Carolina Panthers,False,32,27
-194,2020-14,2020-12-13,Chicago Bears,Houston Texans,False,36,7
-195,2020-14,2020-12-13,Dallas Cowboys,Cincinnati Bengals,False,30,7
-196,2020-14,2020-12-13,Arizona Cardinals,New York Giants,False,26,7
-197,2020-14,2020-12-13,Tennessee Titans,Jacksonville Jaguars,False,31,10
-198,2020-14,2020-12-13,Kansas City Chiefs,Miami Dolphins,False,33,27
-199,2020-14,2020-12-13,Tampa Bay Buccaneers,Minnesota Vikings,False,26,14
-200,2020-14,2020-12-13,Indianapolis Colts,Las Vegas Raiders,False,44,27
-201,2020-14,2020-12-13,Seattle Seahawks,New York Jets,False,40,3
-202,2020-14,2020-12-13,Los Angeles Chargers,Atlanta Falcons,False,20,17
-203,2020-14,2020-12-13,Green Bay Packers,Detroit Lions,False,31,24
-204,2020-14,2020-12-13,Philadelphia Eagles,New Orleans Saints,False,24,21
-205,2020-14,2020-12-13,Washington Football Team,San Francisco 49ers,False,23,15
-206,2020-14,2020-12-13,Buffalo Bills,Pittsburgh Steelers,False,26,15
-207,2020-14,2020-12-14,Baltimore Ravens,Cleveland Browns,False,47,42
-208,2020-15,2020-12-17,Los Angeles Chargers,Las Vegas Raiders,False,30,27
-209,2020-15,2020-12-19,Buffalo Bills,Denver Broncos,False,48,19
-210,2020-15,2020-12-19,Green Bay Packers,Carolina Panthers,False,24,16
-211,2020-15,2020-12-20,Tampa Bay Buccaneers,Atlanta Falcons,False,31,27
-212,2020-15,2020-12-20,Chicago Bears,Minnesota Vikings,False,33,27
-213,2020-15,2020-12-20,Indianapolis Colts,Houston Texans,False,27,20
-214,2020-15,2020-12-20,Dallas Cowboys,San Francisco 49ers,False,41,33
-215,2020-15,2020-12-20,Tennessee Titans,Detroit Lions,False,46,25
-216,2020-15,2020-12-20,Baltimore Ravens,Jacksonville Jaguars,False,40,14
-217,2020-15,2020-12-20,Miami Dolphins,New England Patriots,False,22,12
-218,2020-15,2020-12-20,Seattle Seahawks,Washington Football Team,False,20,15
-219,2020-15,2020-12-20,Arizona Cardinals,Philadelphia Eagles,False,33,26
-220,2020-15,2020-12-20,New York Jets,Los Angeles Rams,False,23,20
-221,2020-15,2020-12-20,Kansas City Chiefs,New Orleans Saints,False,32,29
-222,2020-15,2020-12-20,Cleveland Browns,New York Giants,False,20,6
-223,2020-15,2020-12-21,Cincinnati Bengals,Pittsburgh Steelers,False,27,17
-224,2020-16,2020-12-25,New Orleans Saints,Minnesota Vikings,False,52,33
-225,2020-16,2020-12-26,Tampa Bay Buccaneers,Detroit Lions,False,47,7
-226,2020-16,2020-12-26,San Francisco 49ers,Arizona Cardinals,False,20,12
-227,2020-16,2020-12-26,Miami Dolphins,Las Vegas Raiders,False,26,25
-228,2020-16,2020-12-27,Kansas City Chiefs,Atlanta Falcons,False,17,14
-229,2020-16,2020-12-27,Chicago Bears,Jacksonville Jaguars,False,41,17
-230,2020-16,2020-12-27,Cincinnati Bengals,Houston Texans,False,37,31
-231,2020-16,2020-12-27,New York Jets,Cleveland Browns,False,23,16
-232,2020-16,2020-12-27,Pittsburgh Steelers,Indianapolis Colts,False,28,24
-233,2020-16,2020-12-27,Baltimore Ravens,New York Giants,False,27,13
-234,2020-16,2020-12-27,Carolina Panthers,Washington Football Team,False,20,13
-235,2020-16,2020-12-27,Los Angeles Chargers,Denver Broncos,False,19,16
-236,2020-16,2020-12-27,Dallas Cowboys,Philadelphia Eagles,False,37,17
-237,2020-16,2020-12-27,Seattle Seahawks,Los Angeles Rams,False,20,9
-238,2020-16,2020-12-27,Green Bay Packers,Tennessee Titans,False,40,14
-239,2020-16,2020-12-28,Buffalo Bills,New England Patriots,False,38,9
-240,2020-17,2021-01-03,Tampa Bay Buccaneers,Atlanta Falcons,False,44,27
-241,2020-17,2021-01-03,Buffalo Bills,Miami Dolphins,False,56,26
-242,2020-17,2021-01-03,Baltimore Ravens,Cincinnati Bengals,False,38,3
-243,2020-17,2021-01-03,Cleveland Browns,Pittsburgh Steelers,False,24,22
-244,2020-17,2021-01-03,New York Giants,Dallas Cowboys,False,23,19
-245,2020-17,2021-01-03,Minnesota Vikings,Detroit Lions,False,37,35
-246,2020-17,2021-01-03,New England Patriots,New York Jets,False,28,14
-247,2020-17,2021-01-03,New Orleans Saints,Carolina Panthers,False,33,7
-248,2020-17,2021-01-03,Green Bay Packers,Chicago Bears,False,35,16
-249,2020-17,2021-01-03,Indianapolis Colts,Jacksonville Jaguars,False,28,14
-250,2020-17,2021-01-03,Los Angeles Rams,Arizona Cardinals,False,18,7
-251,2020-17,2021-01-03,Las Vegas Raiders,Denver Broncos,False,32,31
-252,2020-17,2021-01-03,Tennessee Titans,Houston Texans,False,41,38
-253,2020-17,2021-01-03,Los Angeles Chargers,Kansas City Chiefs,False,38,21
-254,2020-17,2021-01-03,Seattle Seahawks,San Francisco 49ers,False,26,23
-255,2020-17,2021-01-03,Washington Football Team,Philadelphia Eagles,False,20,14
-256,2020-WildCard,2021-01-09,Buffalo Bills,Indianapolis Colts,False,27,24
-257,2020-WildCard,2021-01-09,Los Angeles Rams,Seattle Seahawks,False,30,20
-258,2020-WildCard,2021-01-09,Tampa Bay Buccaneers,Washington Football Team,False,31,23
-259,2020-WildCard,2021-01-10,Baltimore Ravens,Tennessee Titans,False,20,13
-260,2020-WildCard,2021-01-10,New Orleans Saints,Chicago Bears,False,21,9
-261,2020-WildCard,2021-01-10,Cleveland Browns,Pittsburgh Steelers,False,48,37
-262,2020-Division,2021-01-16,Green Bay Packers,Los Angeles Rams,False,32,18
-263,2020-Division,2021-01-16,Buffalo Bills,Baltimore Ravens,False,17,3
-264,2020-Division,2021-01-17,Kansas City Chiefs,Cleveland Browns,False,22,17
-265,2020-Division,2021-01-17,Tampa Bay Buccaneers,New Orleans Saints,False,30,20
-266,2020-ConfChamp,2021-01-24,Tampa Bay Buccaneers,Green Bay Packers,False,31,26
-267,2020-ConfChamp,2021-01-24,Kansas City Chiefs,Buffalo Bills,False,38,24
-268,2020-SuperBowl,2021-02-07,Tampa Bay Buccaneers,Kansas City Chiefs,False,31,9
-269,2021-1,2021-09-09,Tampa Bay Buccaneers,Dallas Cowboys,False,31,29
-270,2021-1,2021-09-12,Philadelphia Eagles,Atlanta Falcons,False,32,6
-271,2021-1,2021-09-12,Pittsburgh Steelers,Buffalo Bills,False,23,16
-272,2021-1,2021-09-12,Carolina Panthers,New York Jets,False,19,14
-273,2021-1,2021-09-12,Cincinnati Bengals,Minnesota Vikings,False,27,24
-274,2021-1,2021-09-12,Seattle Seahawks,Indianapolis Colts,False,28,16
-275,2021-1,2021-09-12,Arizona Cardinals,Tennessee Titans,False,38,13
-276,2021-1,2021-09-12,San Francisco 49ers,Detroit Lions,False,41,33
-277,2021-1,2021-09-12,Houston Texans,Jacksonville Jaguars,False,37,21
-278,2021-1,2021-09-12,Los Angeles Chargers,Washington Football Team,False,20,16
-279,2021-1,2021-09-12,Kansas City Chiefs,Cleveland Browns,False,33,29
-280,2021-1,2021-09-12,Denver Broncos,New York Giants,False,27,13
-281,2021-1,2021-09-12,New Orleans Saints,Green Bay Packers,False,38,3
-282,2021-1,2021-09-12,Miami Dolphins,New England Patriots,False,17,16
-283,2021-1,2021-09-12,Los Angeles Rams,Chicago Bears,False,34,14
-284,2021-1,2021-09-13,Las Vegas Raiders,Baltimore Ravens,False,33,27
-285,2021-2,2021-09-16,Washington Football Team,New York Giants,False,30,29
-286,2021-2,2021-09-19,Buffalo Bills,Miami Dolphins,False,35,0
-287,2021-2,2021-09-19,Carolina Panthers,New Orleans Saints,False,26,7
-288,2021-2,2021-09-19,Chicago Bears,Cincinnati Bengals,False,20,17
-289,2021-2,2021-09-19,Cleveland Browns,Houston Texans,False,31,21
-290,2021-2,2021-09-19,Los Angeles Rams,Indianapolis Colts,False,27,24
-291,2021-2,2021-09-19,Denver Broncos,Jacksonville Jaguars,False,23,13
-292,2021-2,2021-09-19,New England Patriots,New York Jets,False,25,6
-293,2021-2,2021-09-19,San Francisco 49ers,Philadelphia Eagles,False,17,11
-294,2021-2,2021-09-19,Las Vegas Raiders,Pittsburgh Steelers,False,26,17
-295,2021-2,2021-09-19,Tampa Bay Buccaneers,Atlanta Falcons,False,48,25
-296,2021-2,2021-09-19,Arizona Cardinals,Minnesota Vikings,False,34,33
-297,2021-2,2021-09-19,Dallas Cowboys,Los Angeles Chargers,False,20,17
-298,2021-2,2021-09-19,Tennessee Titans,Seattle Seahawks,False,33,30
-299,2021-2,2021-09-19,Baltimore Ravens,Kansas City Chiefs,False,36,35
-300,2021-2,2021-09-20,Green Bay Packers,Detroit Lions,False,35,17
-301,2021-3,2021-09-23,Carolina Panthers,Houston Texans,False,24,9
-302,2021-3,2021-09-26,Atlanta Falcons,New York Giants,False,17,14
-303,2021-3,2021-09-26,Buffalo Bills,Washington Football Team,False,43,21
-304,2021-3,2021-09-26,Cleveland Browns,Chicago Bears,False,26,6
-305,2021-3,2021-09-26,Cincinnati Bengals,Pittsburgh Steelers,False,24,10
-306,2021-3,2021-09-26,Tennessee Titans,Indianapolis Colts,False,25,16
-307,2021-3,2021-09-26,Arizona Cardinals,Jacksonville Jaguars,False,31,19
-308,2021-3,2021-09-26,Baltimore Ravens,Detroit Lions,False,19,17
-309,2021-3,2021-09-26,Los Angeles Chargers,Kansas City Chiefs,False,30,24
-310,2021-3,2021-09-26,New Orleans Saints,New England Patriots,False,28,13
-311,2021-3,2021-09-26,Denver Broncos,New York Jets,False,26,0
-312,2021-3,2021-09-26,Las Vegas Raiders,Miami Dolphins,False,31,28
-313,2021-3,2021-09-26,Minnesota Vikings,Seattle Seahawks,False,30,17
-314,2021-3,2021-09-26,Los Angeles Rams,Tampa Bay Buccaneers,False,34,24
-315,2021-3,2021-09-26,Green Bay Packers,San Francisco 49ers,False,30,28
-316,2021-3,2021-09-27,Dallas Cowboys,Philadelphia Eagles,False,41,21
-317,2021-4,2021-09-30,Cincinnati Bengals,Jacksonville Jaguars,False,24,21
-318,2021-4,2021-10-03,Washington Football Team,Atlanta Falcons,False,34,30
-319,2021-4,2021-10-03,Buffalo Bills,Houston Texans,False,40,0
-320,2021-4,2021-10-03,Dallas Cowboys,Carolina Panthers,False,36,28
-321,2021-4,2021-10-03,Chicago Bears,Detroit Lions,False,24,14
-322,2021-4,2021-10-03,Cleveland Browns,Minnesota Vikings,False,14,7
-323,2021-4,2021-10-03,Indianapolis Colts,Miami Dolphins,False,27,17
-324,2021-4,2021-10-03,Kansas City Chiefs,Philadelphia Eagles,False,42,30
-325,2021-4,2021-10-03,New York Giants,New Orleans Saints,False,27,21
-326,2021-4,2021-10-03,New York Jets,Tennessee Titans,False,27,24
-327,2021-4,2021-10-03,Arizona Cardinals,Los Angeles Rams,False,37,20
-328,2021-4,2021-10-03,Seattle Seahawks,San Francisco 49ers,False,28,21
-329,2021-4,2021-10-03,Baltimore Ravens,Denver Broncos,False,23,7
-330,2021-4,2021-10-03,Green Bay Packers,Pittsburgh Steelers,False,27,17
-331,2021-4,2021-10-03,Tampa Bay Buccaneers,New England Patriots,False,19,17
-332,2021-4,2021-10-04,Los Angeles Chargers,Las Vegas Raiders,False,28,14
-333,2021-5,2021-10-07,Los Angeles Rams,Seattle Seahawks,False,26,17
-334,2021-5,2021-10-10,Atlanta Falcons,New York Jets,False,27,20
-335,2021-5,2021-10-10,Philadelphia Eagles,Carolina Panthers,False,21,18
-336,2021-5,2021-10-10,Green Bay Packers,Cincinnati Bengals,False,25,22
-337,2021-5,2021-10-10,Pittsburgh Steelers,Denver Broncos,False,27,19
-338,2021-5,2021-10-10,Minnesota Vikings,Detroit Lions,False,19,17
-339,2021-5,2021-10-10,New England Patriots,Houston Texans,False,25,22
-340,2021-5,2021-10-10,Tennessee Titans,Jacksonville Jaguars,False,37,19
-341,2021-5,2021-10-10,Tampa Bay Buccaneers,Miami Dolphins,False,45,17
-342,2021-5,2021-10-10,New Orleans Saints,Washington Football Team,False,33,22
-343,2021-5,2021-10-10,Chicago Bears,Las Vegas Raiders,False,20,9
-344,2021-5,2021-10-10,Los Angeles Chargers,Cleveland Browns,False,47,42
-345,2021-5,2021-10-10,Arizona Cardinals,San Francisco 49ers,False,17,10
-346,2021-5,2021-10-10,Dallas Cowboys,New York Giants,False,44,20
-347,2021-5,2021-10-10,Buffalo Bills,Kansas City Chiefs,False,38,20
-348,2021-5,2021-10-11,Baltimore Ravens,Indianapolis Colts,False,31,25
-349,2021-6,2021-10-14,Tampa Bay Buccaneers,Philadelphia Eagles,False,28,22
-350,2021-6,2021-10-17,Jacksonville Jaguars,Miami Dolphins,False,23,20
-351,2021-6,2021-10-17,Minnesota Vikings,Carolina Panthers,False,34,28
-352,2021-6,2021-10-17,Green Bay Packers,Chicago Bears,False,24,14
-353,2021-6,2021-10-17,Cincinnati Bengals,Detroit Lions,False,34,11
-354,2021-6,2021-10-17,Indianapolis Colts,Houston Texans,False,31,3
-355,2021-6,2021-10-17,Kansas City Chiefs,Washington Football Team,False,31,13
-356,2021-6,2021-10-17,Los Angeles Rams,New York Giants,False,38,11
-357,2021-6,2021-10-17,Baltimore Ravens,Los Angeles Chargers,False,34,6
-358,2021-6,2021-10-17,Arizona Cardinals,Cleveland Browns,False,37,14
-359,2021-6,2021-10-17,Dallas Cowboys,New England Patriots,False,35,29
-360,2021-6,2021-10-17,Las Vegas Raiders,Denver Broncos,False,34,24
-361,2021-6,2021-10-17,Pittsburgh Steelers,Seattle Seahawks,False,23,20
-362,2021-6,2021-10-18,Tennessee Titans,Buffalo Bills,False,34,31
-363,2021-7,2021-10-21,Cleveland Browns,Denver Broncos,False,17,14
-364,2021-7,2021-10-24,Atlanta Falcons,Miami Dolphins,False,30,28
-365,2021-7,2021-10-24,New York Giants,Carolina Panthers,False,25,3
-366,2021-7,2021-10-24,Cincinnati Bengals,Baltimore Ravens,False,41,17
-367,2021-7,2021-10-24,Green Bay Packers,Washington Football Team,False,24,10
-368,2021-7,2021-10-24,Tennessee Titans,Kansas City Chiefs,False,27,3
-369,2021-7,2021-10-24,New England Patriots,New York Jets,False,54,13
-370,2021-7,2021-10-24,Los Angeles Rams,Detroit Lions,False,28,19
-371,2021-7,2021-10-24,Las Vegas Raiders,Philadelphia Eagles,False,33,22
-372,2021-7,2021-10-24,Tampa Bay Buccaneers,Chicago Bears,False,38,3
-373,2021-7,2021-10-24,Arizona Cardinals,Houston Texans,False,31,5
-374,2021-7,2021-10-24,Indianapolis Colts,San Francisco 49ers,False,30,18
-375,2021-7,2021-10-25,New Orleans Saints,Seattle Seahawks,False,13,10
-376,2021-8,2021-10-28,Green Bay Packers,Arizona Cardinals,False,24,21
-377,2021-8,2021-10-31,Carolina Panthers,Atlanta Falcons,False,19,13
-378,2021-8,2021-10-31,Buffalo Bills,Miami Dolphins,False,26,11
-379,2021-8,2021-10-31,San Francisco 49ers,Chicago Bears,False,33,22
-380,2021-8,2021-10-31,New York Jets,Cincinnati Bengals,False,34,31
-381,2021-8,2021-10-31,Pittsburgh Steelers,Cleveland Browns,False,15,10
-382,2021-8,2021-10-31,Tennessee Titans,Indianapolis Colts,False,34,31
-383,2021-8,2021-10-31,Philadelphia Eagles,Detroit Lions,False,44,6
-384,2021-8,2021-10-31,Los Angeles Rams,Houston Texans,False,38,22
-385,2021-8,2021-10-31,Seattle Seahawks,Jacksonville Jaguars,False,31,7
-386,2021-8,2021-10-31,New England Patriots,Los Angeles Chargers,False,27,24
-387,2021-8,2021-10-31,New Orleans Saints,Tampa Bay Buccaneers,False,36,27
-388,2021-8,2021-10-31,Denver Broncos,Washington Football Team,False,17,10
-389,2021-8,2021-10-31,Dallas Cowboys,Minnesota Vikings,False,20,16
-390,2021-8,2021-11-01,Kansas City Chiefs,New York Giants,False,20,17
-391,2021-9,2021-11-04,Indianapolis Colts,New York Jets,False,45,30
-392,2021-9,2021-11-07,Atlanta Falcons,New Orleans Saints,False,27,25
-393,2021-9,2021-11-07,Jacksonville Jaguars,Buffalo Bills,False,9,6
-394,2021-9,2021-11-07,Denver Broncos,Dallas Cowboys,False,30,16
-395,2021-9,2021-11-07,Baltimore Ravens,Minnesota Vikings,False,34,31
-396,2021-9,2021-11-07,New England Patriots,Carolina Panthers,False,24,6
-397,2021-9,2021-11-07,Cleveland Browns,Cincinnati Bengals,False,41,16
-398,2021-9,2021-11-07,Miami Dolphins,Houston Texans,False,17,9
-399,2021-9,2021-11-07,New York Giants,Las Vegas Raiders,False,23,16
-400,2021-9,2021-11-07,Los Angeles Chargers,Philadelphia Eagles,False,27,24
-401,2021-9,2021-11-07,Arizona Cardinals,San Francisco 49ers,False,31,17
-402,2021-9,2021-11-07,Kansas City Chiefs,Green Bay Packers,False,13,7
-403,2021-9,2021-11-07,Tennessee Titans,Los Angeles Rams,False,28,16
-404,2021-9,2021-11-08,Pittsburgh Steelers,Chicago Bears,False,29,27
-405,2021-10,2021-11-11,Miami Dolphins,Baltimore Ravens,False,22,10
-406,2021-10,2021-11-14,Dallas Cowboys,Atlanta Falcons,False,43,3
-407,2021-10,2021-11-14,Buffalo Bills,New York Jets,False,45,17
-408,2021-10,2021-11-14,Pittsburgh Steelers,Detroit Lions,True,16,16
-409,2021-10,2021-11-14,Tennessee Titans,New Orleans Saints,False,23,21
-410,2021-10,2021-11-14,Washington Football Team,Tampa Bay Buccaneers,False,29,19
-411,2021-10,2021-11-14,New England Patriots,Cleveland Browns,False,45,7
-412,2021-10,2021-11-14,Indianapolis Colts,Jacksonville Jaguars,False,23,17
-413,2021-10,2021-11-14,Minnesota Vikings,Los Angeles Chargers,False,27,20
-414,2021-10,2021-11-14,Carolina Panthers,Arizona Cardinals,False,34,10
-415,2021-10,2021-11-14,Philadelphia Eagles,Denver Broncos,False,30,13
-416,2021-10,2021-11-14,Green Bay Packers,Seattle Seahawks,False,17,0
-417,2021-10,2021-11-14,Kansas City Chiefs,Las Vegas Raiders,False,41,14
-418,2021-10,2021-11-15,San Francisco 49ers,Los Angeles Rams,False,31,10
-419,2021-11,2021-11-18,New England Patriots,Atlanta Falcons,False,25,0
-420,2021-11,2021-11-21,Indianapolis Colts,Buffalo Bills,False,41,15
-421,2021-11,2021-11-21,Baltimore Ravens,Chicago Bears,False,16,13
-422,2021-11,2021-11-21,Houston Texans,Tennessee Titans,False,22,13
-423,2021-11,2021-11-21,San Francisco 49ers,Jacksonville Jaguars,False,30,10
-424,2021-11,2021-11-21,Philadelphia Eagles,New Orleans Saints,False,40,29
-425,2021-11,2021-11-21,Washington Football Team,Carolina Panthers,False,27,21
-426,2021-11,2021-11-21,Cleveland Browns,Detroit Lions,False,13,10
-427,2021-11,2021-11-21,Minnesota Vikings,Green Bay Packers,False,34,31
-428,2021-11,2021-11-21,Miami Dolphins,New York Jets,False,24,17
-429,2021-11,2021-11-21,Cincinnati Bengals,Las Vegas Raiders,False,32,13
-430,2021-11,2021-11-21,Kansas City Chiefs,Dallas Cowboys,False,19,9
-431,2021-11,2021-11-21,Arizona Cardinals,Seattle Seahawks,False,23,13
-432,2021-11,2021-11-21,Los Angeles Chargers,Pittsburgh Steelers,False,41,37
-433,2021-11,2021-11-22,Tampa Bay Buccaneers,New York Giants,False,30,10
-434,2021-12,2021-11-25,Chicago Bears,Detroit Lions,False,16,14
-435,2021-12,2021-11-25,Las Vegas Raiders,Dallas Cowboys,False,36,33
-436,2021-12,2021-11-25,Buffalo Bills,New Orleans Saints,False,31,6
-437,2021-12,2021-11-28,Atlanta Falcons,Jacksonville Jaguars,False,21,14
-438,2021-12,2021-11-28,Cincinnati Bengals,Pittsburgh Steelers,False,41,10
-439,2021-12,2021-11-28,New York Jets,Houston Texans,False,21,14
-440,2021-12,2021-11-28,New York Giants,Philadelphia Eagles,False,13,7
-441,2021-12,2021-11-28,Miami Dolphins,Carolina Panthers,False,33,10
-442,2021-12,2021-11-28,Tampa Bay Buccaneers,Indianapolis Colts,False,38,31
-443,2021-12,2021-11-28,New England Patriots,Tennessee Titans,False,36,13
-444,2021-12,2021-11-28,Denver Broncos,Los Angeles Chargers,False,28,13
-445,2021-12,2021-11-28,San Francisco 49ers,Minnesota Vikings,False,34,26
-446,2021-12,2021-11-28,Green Bay Packers,Los Angeles Rams,False,36,28
-447,2021-12,2021-11-28,Baltimore Ravens,Cleveland Browns,False,16,10
-448,2021-12,2021-11-29,Washington Football Team,Seattle Seahawks,False,17,15
-449,2021-13,2021-12-02,Dallas Cowboys,New Orleans Saints,False,27,17
-450,2021-13,2021-12-05,Tampa Bay Buccaneers,Atlanta Falcons,False,30,17
-451,2021-13,2021-12-05,Arizona Cardinals,Chicago Bears,False,33,22
-452,2021-13,2021-12-05,Los Angeles Chargers,Cincinnati Bengals,False,41,22
-453,2021-13,2021-12-05,Detroit Lions,Minnesota Vikings,False,29,27
-454,2021-13,2021-12-05,Philadelphia Eagles,New York Jets,False,33,18
-455,2021-13,2021-12-05,Indianapolis Colts,Houston Texans,False,31,0
-456,2021-13,2021-12-05,Miami Dolphins,New York Giants,False,20,9
-457,2021-13,2021-12-05,Seattle Seahawks,San Francisco 49ers,False,30,23
-458,2021-13,2021-12-05,Washington Football Team,Las Vegas Raiders,False,17,15
-459,2021-13,2021-12-05,Los Angeles Rams,Jacksonville Jaguars,False,37,7
-460,2021-13,2021-12-05,Pittsburgh Steelers,Baltimore Ravens,False,20,19
-461,2021-13,2021-12-05,Kansas City Chiefs,Denver Broncos,False,22,9
-462,2021-13,2021-12-06,New England Patriots,Buffalo Bills,False,14,10
-463,2021-14,2021-12-09,Minnesota Vikings,Pittsburgh Steelers,False,36,28
-464,2021-14,2021-12-12,Atlanta Falcons,Carolina Panthers,False,29,21
-465,2021-14,2021-12-12,San Francisco 49ers,Cincinnati Bengals,False,26,23
-466,2021-14,2021-12-12,Cleveland Browns,Baltimore Ravens,False,24,22
-467,2021-14,2021-12-12,Dallas Cowboys,Washington Football Team,False,27,20
-468,2021-14,2021-12-12,Seattle Seahawks,Houston Texans,False,33,13
-469,2021-14,2021-12-12,Tennessee Titans,Jacksonville Jaguars,False,20,0
-470,2021-14,2021-12-12,Kansas City Chiefs,Las Vegas Raiders,False,48,9
-471,2021-14,2021-12-12,New Orleans Saints,New York Jets,False,30,9
-472,2021-14,2021-12-12,Denver Broncos,Detroit Lions,False,38,10
-473,2021-14,2021-12-12,Los Angeles Chargers,New York Giants,False,37,21
-474,2021-14,2021-12-12,Tampa Bay Buccaneers,Buffalo Bills,False,33,27
-475,2021-14,2021-12-12,Green Bay Packers,Chicago Bears,False,45,30
-476,2021-14,2021-12-13,Los Angeles Rams,Arizona Cardinals,False,30,23
-477,2021-15,2021-12-16,Kansas City Chiefs,Los Angeles Chargers,False,34,28
-478,2021-15,2021-12-18,Indianapolis Colts,New England Patriots,False,27,17
-479,2021-15,2021-12-19,Buffalo Bills,Carolina Panthers,False,31,14
-480,2021-15,2021-12-19,Detroit Lions,Arizona Cardinals,False,30,12
-481,2021-15,2021-12-19,Dallas Cowboys,New York Giants,False,21,6
-482,2021-15,2021-12-19,Green Bay Packers,Baltimore Ravens,False,31,30
-483,2021-15,2021-12-19,Houston Texans,Jacksonville Jaguars,False,30,16
-484,2021-15,2021-12-19,Miami Dolphins,New York Jets,False,31,24
-485,2021-15,2021-12-19,Pittsburgh Steelers,Tennessee Titans,False,19,13
-486,2021-15,2021-12-19,San Francisco 49ers,Atlanta Falcons,False,31,13
-487,2021-15,2021-12-19,Cincinnati Bengals,Denver Broncos,False,15,10
-488,2021-15,2021-12-19,New Orleans Saints,Tampa Bay Buccaneers,False,9,0
-489,2021-15,2021-12-20,Las Vegas Raiders,Cleveland Browns,False,16,14
-490,2021-15,2021-12-20,Minnesota Vikings,Chicago Bears,False,17,9
-491,2021-15,2021-12-21,Philadelphia Eagles,Washington Football Team,False,27,17
-492,2021-15,2021-12-21,Los Angeles Rams,Seattle Seahawks,False,20,10
-493,2021-16,2021-12-23,Tennessee Titans,San Francisco 49ers,False,20,17
-494,2021-16,2021-12-25,Green Bay Packers,Cleveland Browns,False,24,22
-495,2021-16,2021-12-25,Indianapolis Colts,Arizona Cardinals,False,22,16
-496,2021-16,2021-12-26,Atlanta Falcons,Detroit Lions,False,20,16
-497,2021-16,2021-12-26,Buffalo Bills,New England Patriots,False,33,21
-498,2021-16,2021-12-26,Tampa Bay Buccaneers,Carolina Panthers,False,32,6
-499,2021-16,2021-12-26,Cincinnati Bengals,Baltimore Ravens,False,41,21
-500,2021-16,2021-12-26,Houston Texans,Los Angeles Chargers,False,41,29
-501,2021-16,2021-12-26,New York Jets,Jacksonville Jaguars,False,26,21
-502,2021-16,2021-12-26,Los Angeles Rams,Minnesota Vikings,False,30,23
-503,2021-16,2021-12-26,Philadelphia Eagles,New York Giants,False,34,10
-504,2021-16,2021-12-26,Chicago Bears,Seattle Seahawks,False,25,24
-505,2021-16,2021-12-26,Las Vegas Raiders,Denver Broncos,False,17,13
-506,2021-16,2021-12-26,Kansas City Chiefs,Pittsburgh Steelers,False,36,10
-507,2021-16,2021-12-26,Dallas Cowboys,Washington Football Team,False,56,14
-508,2021-16,2021-12-27,Miami Dolphins,New Orleans Saints,False,20,3
-509,2021-17,2022-01-02,Buffalo Bills,Atlanta Falcons,False,29,15
-510,2021-17,2022-01-02,New Orleans Saints,Carolina Panthers,False,18,10
-511,2021-17,2022-01-02,Chicago Bears,New York Giants,False,29,3
-512,2021-17,2022-01-02,Cincinnati Bengals,Kansas City Chiefs,False,34,31
-513,2021-17,2022-01-02,Las Vegas Raiders,Indianapolis Colts,False,23,20
-514,2021-17,2022-01-02,Arizona Cardinals,Dallas Cowboys,False,25,22
-515,2021-17,2022-01-02,New England Patriots,Jacksonville Jaguars,False,50,10
-516,2021-17,2022-01-02,Tennessee Titans,Miami Dolphins,False,34,3
-517,2021-17,2022-01-02,Tampa Bay Buccaneers,New York Jets,False,28,24
-518,2021-17,2022-01-02,Philadelphia Eagles,Washington Football Team,False,20,16
-519,2021-17,2022-01-02,Los Angeles Chargers,Denver Broncos,False,34,13
-520,2021-17,2022-01-02,San Francisco 49ers,Houston Texans,False,23,7
-521,2021-17,2022-01-02,Seattle Seahawks,Detroit Lions,False,51,29
-522,2021-17,2022-01-02,Los Angeles Rams,Baltimore Ravens,False,20,19
-523,2021-17,2022-01-02,Green Bay Packers,Minnesota Vikings,False,37,10
-524,2021-17,2022-01-03,Pittsburgh Steelers,Cleveland Browns,False,26,14
-525,2021-18,2022-01-08,Kansas City Chiefs,Denver Broncos,False,28,24
-526,2021-18,2022-01-08,Dallas Cowboys,Philadelphia Eagles,False,51,26
-527,2021-18,2022-01-09,New Orleans Saints,Atlanta Falcons,False,30,20
-528,2021-18,2022-01-09,Buffalo Bills,New York Jets,False,27,10
-529,2021-18,2022-01-09,Tampa Bay Buccaneers,Carolina Panthers,False,41,17
-530,2021-18,2022-01-09,Minnesota Vikings,Chicago Bears,False,31,17
-531,2021-18,2022-01-09,Cleveland Browns,Cincinnati Bengals,False,21,16
-532,2021-18,2022-01-09,Jacksonville Jaguars,Indianapolis Colts,False,26,11
-533,2021-18,2022-01-09,Detroit Lions,Green Bay Packers,False,37,30
-534,2021-18,2022-01-09,Tennessee Titans,Houston Texans,False,28,25
-535,2021-18,2022-01-09,Miami Dolphins,New England Patriots,False,33,24
-536,2021-18,2022-01-09,Washington Football Team,New York Giants,False,22,7
-537,2021-18,2022-01-09,Pittsburgh Steelers,Baltimore Ravens,False,16,13
-538,2021-18,2022-01-09,Seattle Seahawks,Arizona Cardinals,False,38,30
-539,2021-18,2022-01-09,San Francisco 49ers,Los Angeles Rams,False,27,24
-540,2021-18,2022-01-09,Las Vegas Raiders,Los Angeles Chargers,False,35,32
-541,2021-WildCard,2022-01-15,Cincinnati Bengals,Las Vegas Raiders,False,26,19
-542,2021-WildCard,2022-01-15,Buffalo Bills,New England Patriots,False,47,17
-543,2021-WildCard,2022-01-16,Tampa Bay Buccaneers,Philadelphia Eagles,False,31,15
-544,2021-WildCard,2022-01-16,San Francisco 49ers,Dallas Cowboys,False,23,17
-545,2021-WildCard,2022-01-16,Kansas City Chiefs,Pittsburgh Steelers,False,42,21
-546,2021-WildCard,2022-01-17,Los Angeles Rams,Arizona Cardinals,False,34,11
-547,2021-Division,2022-01-22,Cincinnati Bengals,Tennessee Titans,False,19,16
-548,2021-Division,2022-01-22,San Francisco 49ers,Green Bay Packers,False,13,10
-549,2021-Division,2022-01-23,Los Angeles Rams,Tampa Bay Buccaneers,False,30,27
-550,2021-Division,2022-01-23,Kansas City Chiefs,Buffalo Bills,False,42,36
-551,2021-ConfChamp,2022-01-30,Cincinnati Bengals,Kansas City Chiefs,False,27,24
-552,2021-ConfChamp,2022-01-30,Los Angeles Rams,San Francisco 49ers,False,20,17
-553,2021-SuperBowl,2022-02-13,Los Angeles Rams,Cincinnati Bengals,False,23,20
+,Week,Date,Winner/tie,Loser/tie,isTie,PtsW,PtsL,type
+0,2020-1,2020-09-10,Kansas City Chiefs,Houston Texans,False,34.0,20.0,boxscore
+1,2020-1,2020-09-13,Seattle Seahawks,Atlanta Falcons,False,38.0,25.0,boxscore
+2,2020-1,2020-09-13,Buffalo Bills,New York Jets,False,27.0,17.0,boxscore
+3,2020-1,2020-09-13,Las Vegas Raiders,Carolina Panthers,False,34.0,30.0,boxscore
+4,2020-1,2020-09-13,Chicago Bears,Detroit Lions,False,27.0,23.0,boxscore
+5,2020-1,2020-09-13,Baltimore Ravens,Cleveland Browns,False,38.0,6.0,boxscore
+6,2020-1,2020-09-13,Jacksonville Jaguars,Indianapolis Colts,False,27.0,20.0,boxscore
+7,2020-1,2020-09-13,Green Bay Packers,Minnesota Vikings,False,43.0,34.0,boxscore
+8,2020-1,2020-09-13,New England Patriots,Miami Dolphins,False,21.0,11.0,boxscore
+9,2020-1,2020-09-13,Washington Commanders,Philadelphia Eagles,False,27.0,17.0,boxscore
+10,2020-1,2020-09-13,Los Angeles Chargers,Cincinnati Bengals,False,16.0,13.0,boxscore
+11,2020-1,2020-09-13,Arizona Cardinals,San Francisco 49ers,False,24.0,20.0,boxscore
+12,2020-1,2020-09-13,New Orleans Saints,Tampa Bay Buccaneers,False,34.0,23.0,boxscore
+13,2020-1,2020-09-13,Los Angeles Rams,Dallas Cowboys,False,20.0,17.0,boxscore
+14,2020-1,2020-09-14,Pittsburgh Steelers,New York Giants,False,26.0,16.0,boxscore
+15,2020-1,2020-09-14,Tennessee Titans,Denver Broncos,False,16.0,14.0,boxscore
+16,2020-2,2020-09-17,Cleveland Browns,Cincinnati Bengals,False,35.0,30.0,boxscore
+17,2020-2,2020-09-20,Dallas Cowboys,Atlanta Falcons,False,40.0,39.0,boxscore
+18,2020-2,2020-09-20,Buffalo Bills,Miami Dolphins,False,31.0,28.0,boxscore
+19,2020-2,2020-09-20,Tampa Bay Buccaneers,Carolina Panthers,False,31.0,17.0,boxscore
+20,2020-2,2020-09-20,Chicago Bears,New York Giants,False,17.0,13.0,boxscore
+21,2020-2,2020-09-20,Indianapolis Colts,Minnesota Vikings,False,28.0,11.0,boxscore
+22,2020-2,2020-09-20,Pittsburgh Steelers,Denver Broncos,False,26.0,21.0,boxscore
+23,2020-2,2020-09-20,Green Bay Packers,Detroit Lions,False,42.0,21.0,boxscore
+24,2020-2,2020-09-20,Tennessee Titans,Jacksonville Jaguars,False,33.0,30.0,boxscore
+25,2020-2,2020-09-20,San Francisco 49ers,New York Jets,False,31.0,13.0,boxscore
+26,2020-2,2020-09-20,Los Angeles Rams,Philadelphia Eagles,False,37.0,19.0,boxscore
+27,2020-2,2020-09-20,Arizona Cardinals,Washington Commanders,False,30.0,15.0,boxscore
+28,2020-2,2020-09-20,Baltimore Ravens,Houston Texans,False,33.0,16.0,boxscore
+29,2020-2,2020-09-20,Kansas City Chiefs,Los Angeles Chargers,False,23.0,20.0,boxscore
+30,2020-2,2020-09-20,Seattle Seahawks,New England Patriots,False,35.0,30.0,boxscore
+31,2020-2,2020-09-21,Las Vegas Raiders,New Orleans Saints,False,34.0,24.0,boxscore
+32,2020-3,2020-09-24,Miami Dolphins,Jacksonville Jaguars,False,31.0,13.0,boxscore
+33,2020-3,2020-09-27,Chicago Bears,Atlanta Falcons,False,30.0,26.0,boxscore
+34,2020-3,2020-09-27,Buffalo Bills,Los Angeles Rams,False,35.0,32.0,boxscore
+35,2020-3,2020-09-27,Philadelphia Eagles,Cincinnati Bengals,True,23.0,23.0,boxscore
+36,2020-3,2020-09-27,Cleveland Browns,Washington Commanders,False,34.0,20.0,boxscore
+37,2020-3,2020-09-27,Pittsburgh Steelers,Houston Texans,False,28.0,21.0,boxscore
+38,2020-3,2020-09-27,Tennessee Titans,Minnesota Vikings,False,31.0,30.0,boxscore
+39,2020-3,2020-09-27,New England Patriots,Las Vegas Raiders,False,36.0,20.0,boxscore
+40,2020-3,2020-09-27,San Francisco 49ers,New York Giants,False,36.0,9.0,boxscore
+41,2020-3,2020-09-27,Carolina Panthers,Los Angeles Chargers,False,21.0,16.0,boxscore
+42,2020-3,2020-09-27,Indianapolis Colts,New York Jets,False,36.0,7.0,boxscore
+43,2020-3,2020-09-27,Detroit Lions,Arizona Cardinals,False,26.0,23.0,boxscore
+44,2020-3,2020-09-27,Seattle Seahawks,Dallas Cowboys,False,38.0,31.0,boxscore
+45,2020-3,2020-09-27,Tampa Bay Buccaneers,Denver Broncos,False,28.0,10.0,boxscore
+46,2020-3,2020-09-27,Green Bay Packers,New Orleans Saints,False,37.0,30.0,boxscore
+47,2020-3,2020-09-28,Kansas City Chiefs,Baltimore Ravens,False,34.0,20.0,boxscore
+48,2020-4,2020-10-01,Denver Broncos,New York Jets,False,37.0,28.0,boxscore
+49,2020-4,2020-10-04,Carolina Panthers,Arizona Cardinals,False,31.0,21.0,boxscore
+50,2020-4,2020-10-04,Indianapolis Colts,Chicago Bears,False,19.0,11.0,boxscore
+51,2020-4,2020-10-04,Cincinnati Bengals,Jacksonville Jaguars,False,33.0,25.0,boxscore
+52,2020-4,2020-10-04,Cleveland Browns,Dallas Cowboys,False,49.0,38.0,boxscore
+53,2020-4,2020-10-04,New Orleans Saints,Detroit Lions,False,35.0,29.0,boxscore
+54,2020-4,2020-10-04,Minnesota Vikings,Houston Texans,False,31.0,23.0,boxscore
+55,2020-4,2020-10-04,Seattle Seahawks,Miami Dolphins,False,31.0,23.0,boxscore
+56,2020-4,2020-10-04,Baltimore Ravens,Washington Commanders,False,31.0,17.0,boxscore
+57,2020-4,2020-10-04,Tampa Bay Buccaneers,Los Angeles Chargers,False,38.0,31.0,boxscore
+58,2020-4,2020-10-04,Los Angeles Rams,New York Giants,False,17.0,9.0,boxscore
+59,2020-4,2020-10-04,Buffalo Bills,Las Vegas Raiders,False,30.0,23.0,boxscore
+60,2020-4,2020-10-04,Philadelphia Eagles,San Francisco 49ers,False,25.0,20.0,boxscore
+61,2020-4,2020-10-05,Kansas City Chiefs,New England Patriots,False,26.0,10.0,boxscore
+62,2020-4,2020-10-05,Green Bay Packers,Atlanta Falcons,False,30.0,16.0,boxscore
+63,2020-5,2020-10-08,Chicago Bears,Tampa Bay Buccaneers,False,20.0,19.0,boxscore
+64,2020-5,2020-10-11,Carolina Panthers,Atlanta Falcons,False,23.0,16.0,boxscore
+65,2020-5,2020-10-11,Baltimore Ravens,Cincinnati Bengals,False,27.0,3.0,boxscore
+66,2020-5,2020-10-11,Arizona Cardinals,New York Jets,False,30.0,10.0,boxscore
+67,2020-5,2020-10-11,Houston Texans,Jacksonville Jaguars,False,30.0,14.0,boxscore
+68,2020-5,2020-10-11,Las Vegas Raiders,Kansas City Chiefs,False,40.0,32.0,boxscore
+69,2020-5,2020-10-11,Pittsburgh Steelers,Philadelphia Eagles,False,38.0,29.0,boxscore
+70,2020-5,2020-10-11,Los Angeles Rams,Washington Commanders,False,30.0,10.0,boxscore
+71,2020-5,2020-10-11,Miami Dolphins,San Francisco 49ers,False,43.0,17.0,boxscore
+72,2020-5,2020-10-11,Cleveland Browns,Indianapolis Colts,False,32.0,23.0,boxscore
+73,2020-5,2020-10-11,Dallas Cowboys,New York Giants,False,37.0,34.0,boxscore
+74,2020-5,2020-10-11,Seattle Seahawks,Minnesota Vikings,False,27.0,26.0,boxscore
+75,2020-5,2020-10-12,New Orleans Saints,Los Angeles Chargers,False,30.0,27.0,boxscore
+76,2020-5,2020-10-13,Tennessee Titans,Buffalo Bills,False,42.0,16.0,boxscore
+77,2020-6,2020-10-18,Denver Broncos,New England Patriots,False,18.0,12.0,boxscore
+78,2020-6,2020-10-18,Detroit Lions,Jacksonville Jaguars,False,34.0,16.0,boxscore
+79,2020-6,2020-10-18,Atlanta Falcons,Minnesota Vikings,False,40.0,23.0,boxscore
+80,2020-6,2020-10-18,Chicago Bears,Carolina Panthers,False,23.0,16.0,boxscore
+81,2020-6,2020-10-18,Indianapolis Colts,Cincinnati Bengals,False,31.0,27.0,boxscore
+82,2020-6,2020-10-18,Pittsburgh Steelers,Cleveland Browns,False,38.0,7.0,boxscore
+83,2020-6,2020-10-18,Tennessee Titans,Houston Texans,False,42.0,36.0,boxscore
+84,2020-6,2020-10-18,New York Giants,Washington Commanders,False,20.0,19.0,boxscore
+85,2020-6,2020-10-18,Baltimore Ravens,Philadelphia Eagles,False,30.0,28.0,boxscore
+86,2020-6,2020-10-18,Miami Dolphins,New York Jets,False,24.0,0.0,boxscore
+87,2020-6,2020-10-18,Tampa Bay Buccaneers,Green Bay Packers,False,38.0,10.0,boxscore
+88,2020-6,2020-10-18,San Francisco 49ers,Los Angeles Rams,False,24.0,16.0,boxscore
+89,2020-6,2020-10-19,Kansas City Chiefs,Buffalo Bills,False,26.0,17.0,boxscore
+90,2020-6,2020-10-19,Arizona Cardinals,Dallas Cowboys,False,38.0,10.0,boxscore
+91,2020-7,2020-10-22,Philadelphia Eagles,New York Giants,False,22.0,21.0,boxscore
+92,2020-7,2020-10-25,Green Bay Packers,Houston Texans,False,35.0,20.0,boxscore
+93,2020-7,2020-10-25,Pittsburgh Steelers,Tennessee Titans,False,27.0,24.0,boxscore
+94,2020-7,2020-10-25,Detroit Lions,Atlanta Falcons,False,23.0,22.0,boxscore
+95,2020-7,2020-10-25,Buffalo Bills,New York Jets,False,18.0,10.0,boxscore
+96,2020-7,2020-10-25,New Orleans Saints,Carolina Panthers,False,27.0,24.0,boxscore
+97,2020-7,2020-10-25,Cleveland Browns,Cincinnati Bengals,False,37.0,34.0,boxscore
+98,2020-7,2020-10-25,Washington Commanders,Dallas Cowboys,False,25.0,3.0,boxscore
+99,2020-7,2020-10-25,Tampa Bay Buccaneers,Las Vegas Raiders,False,45.0,20.0,boxscore
+100,2020-7,2020-10-25,Kansas City Chiefs,Denver Broncos,False,43.0,16.0,boxscore
+101,2020-7,2020-10-25,San Francisco 49ers,New England Patriots,False,33.0,6.0,boxscore
+102,2020-7,2020-10-25,Los Angeles Chargers,Jacksonville Jaguars,False,39.0,29.0,boxscore
+103,2020-7,2020-10-25,Arizona Cardinals,Seattle Seahawks,False,37.0,34.0,boxscore
+104,2020-7,2020-10-26,Los Angeles Rams,Chicago Bears,False,24.0,10.0,boxscore
+105,2020-8,2020-10-29,Atlanta Falcons,Carolina Panthers,False,25.0,17.0,boxscore
+106,2020-8,2020-11-01,Indianapolis Colts,Detroit Lions,False,41.0,21.0,boxscore
+107,2020-8,2020-11-01,Minnesota Vikings,Green Bay Packers,False,28.0,22.0,boxscore
+108,2020-8,2020-11-01,Miami Dolphins,Los Angeles Rams,False,28.0,17.0,boxscore
+109,2020-8,2020-11-01,Pittsburgh Steelers,Baltimore Ravens,False,28.0,24.0,boxscore
+110,2020-8,2020-11-01,Buffalo Bills,New England Patriots,False,24.0,21.0,boxscore
+111,2020-8,2020-11-01,Cincinnati Bengals,Tennessee Titans,False,31.0,20.0,boxscore
+112,2020-8,2020-11-01,Las Vegas Raiders,Cleveland Browns,False,16.0,6.0,boxscore
+113,2020-8,2020-11-01,Kansas City Chiefs,New York Jets,False,35.0,9.0,boxscore
+114,2020-8,2020-11-01,Denver Broncos,Los Angeles Chargers,False,31.0,30.0,boxscore
+115,2020-8,2020-11-01,Seattle Seahawks,San Francisco 49ers,False,37.0,27.0,boxscore
+116,2020-8,2020-11-01,New Orleans Saints,Chicago Bears,False,26.0,23.0,boxscore
+117,2020-8,2020-11-01,Philadelphia Eagles,Dallas Cowboys,False,23.0,9.0,boxscore
+118,2020-8,2020-11-02,Tampa Bay Buccaneers,New York Giants,False,25.0,23.0,boxscore
+119,2020-9,2020-11-05,Green Bay Packers,San Francisco 49ers,False,34.0,17.0,boxscore
+120,2020-9,2020-11-08,Baltimore Ravens,Indianapolis Colts,False,24.0,10.0,boxscore
+121,2020-9,2020-11-08,Minnesota Vikings,Detroit Lions,False,34.0,20.0,boxscore
+122,2020-9,2020-11-08,Houston Texans,Jacksonville Jaguars,False,27.0,25.0,boxscore
+123,2020-9,2020-11-08,Atlanta Falcons,Denver Broncos,False,34.0,27.0,boxscore
+124,2020-9,2020-11-08,Buffalo Bills,Seattle Seahawks,False,44.0,34.0,boxscore
+125,2020-9,2020-11-08,Kansas City Chiefs,Carolina Panthers,False,33.0,31.0,boxscore
+126,2020-9,2020-11-08,Tennessee Titans,Chicago Bears,False,24.0,17.0,boxscore
+127,2020-9,2020-11-08,New York Giants,Washington Commanders,False,23.0,20.0,boxscore
+128,2020-9,2020-11-08,Las Vegas Raiders,Los Angeles Chargers,False,31.0,26.0,boxscore
+129,2020-9,2020-11-08,Miami Dolphins,Arizona Cardinals,False,34.0,31.0,boxscore
+130,2020-9,2020-11-08,Pittsburgh Steelers,Dallas Cowboys,False,24.0,19.0,boxscore
+131,2020-9,2020-11-08,New Orleans Saints,Tampa Bay Buccaneers,False,38.0,3.0,boxscore
+132,2020-9,2020-11-09,New England Patriots,New York Jets,False,30.0,27.0,boxscore
+133,2020-10,2020-11-12,Indianapolis Colts,Tennessee Titans,False,34.0,17.0,boxscore
+134,2020-10,2020-11-15,Cleveland Browns,Houston Texans,False,10.0,7.0,boxscore
+135,2020-10,2020-11-15,Detroit Lions,Washington Commanders,False,30.0,27.0,boxscore
+136,2020-10,2020-11-15,Green Bay Packers,Jacksonville Jaguars,False,24.0,20.0,boxscore
+137,2020-10,2020-11-15,Tampa Bay Buccaneers,Carolina Panthers,False,46.0,23.0,boxscore
+138,2020-10,2020-11-15,New York Giants,Philadelphia Eagles,False,27.0,17.0,boxscore
+139,2020-10,2020-11-15,Las Vegas Raiders,Denver Broncos,False,37.0,12.0,boxscore
+140,2020-10,2020-11-15,Miami Dolphins,Los Angeles Chargers,False,29.0,21.0,boxscore
+141,2020-10,2020-11-15,Arizona Cardinals,Buffalo Bills,False,32.0,30.0,boxscore
+142,2020-10,2020-11-15,Pittsburgh Steelers,Cincinnati Bengals,False,36.0,10.0,boxscore
+143,2020-10,2020-11-15,New Orleans Saints,San Francisco 49ers,False,27.0,13.0,boxscore
+144,2020-10,2020-11-15,Los Angeles Rams,Seattle Seahawks,False,23.0,16.0,boxscore
+145,2020-10,2020-11-15,New England Patriots,Baltimore Ravens,False,23.0,17.0,boxscore
+146,2020-10,2020-11-16,Minnesota Vikings,Chicago Bears,False,19.0,13.0,boxscore
+147,2020-11,2020-11-19,Seattle Seahawks,Arizona Cardinals,False,28.0,21.0,boxscore
+148,2020-11,2020-11-22,New Orleans Saints,Atlanta Falcons,False,24.0,9.0,boxscore
+149,2020-11,2020-11-22,Washington Commanders,Cincinnati Bengals,False,20.0,9.0,boxscore
+150,2020-11,2020-11-22,Cleveland Browns,Philadelphia Eagles,False,22.0,17.0,boxscore
+151,2020-11,2020-11-22,Houston Texans,New England Patriots,False,27.0,20.0,boxscore
+152,2020-11,2020-11-22,Pittsburgh Steelers,Jacksonville Jaguars,False,27.0,3.0,boxscore
+153,2020-11,2020-11-22,Tennessee Titans,Baltimore Ravens,False,30.0,24.0,boxscore
+154,2020-11,2020-11-22,Carolina Panthers,Detroit Lions,False,20.0,0.0,boxscore
+155,2020-11,2020-11-22,Denver Broncos,Miami Dolphins,False,20.0,13.0,boxscore
+156,2020-11,2020-11-22,Los Angeles Chargers,New York Jets,False,34.0,28.0,boxscore
+157,2020-11,2020-11-22,Indianapolis Colts,Green Bay Packers,False,34.0,31.0,boxscore
+158,2020-11,2020-11-22,Dallas Cowboys,Minnesota Vikings,False,31.0,28.0,boxscore
+159,2020-11,2020-11-22,Kansas City Chiefs,Las Vegas Raiders,False,35.0,31.0,boxscore
+160,2020-11,2020-11-23,Los Angeles Rams,Tampa Bay Buccaneers,False,27.0,24.0,boxscore
+161,2020-12,2020-11-26,Houston Texans,Detroit Lions,False,41.0,25.0,boxscore
+162,2020-12,2020-11-26,Washington Commanders,Dallas Cowboys,False,41.0,16.0,boxscore
+163,2020-12,2020-11-29,Atlanta Falcons,Las Vegas Raiders,False,43.0,6.0,boxscore
+164,2020-12,2020-11-29,Buffalo Bills,Los Angeles Chargers,False,27.0,17.0,boxscore
+165,2020-12,2020-11-29,New York Giants,Cincinnati Bengals,False,19.0,17.0,boxscore
+166,2020-12,2020-11-29,Cleveland Browns,Jacksonville Jaguars,False,27.0,25.0,boxscore
+167,2020-12,2020-11-29,Tennessee Titans,Indianapolis Colts,False,45.0,26.0,boxscore
+168,2020-12,2020-11-29,New England Patriots,Arizona Cardinals,False,20.0,17.0,boxscore
+169,2020-12,2020-11-29,Miami Dolphins,New York Jets,False,20.0,3.0,boxscore
+170,2020-12,2020-11-29,Minnesota Vikings,Carolina Panthers,False,28.0,27.0,boxscore
+171,2020-12,2020-11-29,New Orleans Saints,Denver Broncos,False,31.0,3.0,boxscore
+172,2020-12,2020-11-29,San Francisco 49ers,Los Angeles Rams,False,23.0,20.0,boxscore
+173,2020-12,2020-11-29,Kansas City Chiefs,Tampa Bay Buccaneers,False,27.0,24.0,boxscore
+174,2020-12,2020-11-29,Green Bay Packers,Chicago Bears,False,41.0,25.0,boxscore
+175,2020-12,2020-11-30,Seattle Seahawks,Philadelphia Eagles,False,23.0,17.0,boxscore
+176,2020-12,2020-12-02,Pittsburgh Steelers,Baltimore Ravens,False,19.0,14.0,boxscore
+177,2020-13,2020-12-06,New Orleans Saints,Atlanta Falcons,False,21.0,16.0,boxscore
+178,2020-13,2020-12-06,Detroit Lions,Chicago Bears,False,34.0,30.0,boxscore
+179,2020-13,2020-12-06,Miami Dolphins,Cincinnati Bengals,False,19.0,7.0,boxscore
+180,2020-13,2020-12-06,Cleveland Browns,Tennessee Titans,False,41.0,35.0,boxscore
+181,2020-13,2020-12-06,Indianapolis Colts,Houston Texans,False,26.0,20.0,boxscore
+182,2020-13,2020-12-06,Minnesota Vikings,Jacksonville Jaguars,False,27.0,24.0,boxscore
+183,2020-13,2020-12-06,Las Vegas Raiders,New York Jets,False,31.0,28.0,boxscore
+184,2020-13,2020-12-06,Los Angeles Rams,Arizona Cardinals,False,38.0,28.0,boxscore
+185,2020-13,2020-12-06,New York Giants,Seattle Seahawks,False,17.0,12.0,boxscore
+186,2020-13,2020-12-06,Green Bay Packers,Philadelphia Eagles,False,30.0,16.0,boxscore
+187,2020-13,2020-12-06,New England Patriots,Los Angeles Chargers,False,45.0,0.0,boxscore
+188,2020-13,2020-12-06,Kansas City Chiefs,Denver Broncos,False,22.0,16.0,boxscore
+189,2020-13,2020-12-07,Washington Commanders,Pittsburgh Steelers,False,23.0,17.0,boxscore
+190,2020-13,2020-12-07,Buffalo Bills,San Francisco 49ers,False,34.0,24.0,boxscore
+191,2020-13,2020-12-08,Baltimore Ravens,Dallas Cowboys,False,34.0,17.0,boxscore
+192,2020-14,2020-12-10,Los Angeles Rams,New England Patriots,False,24.0,3.0,boxscore
+193,2020-14,2020-12-13,Denver Broncos,Carolina Panthers,False,32.0,27.0,boxscore
+194,2020-14,2020-12-13,Chicago Bears,Houston Texans,False,36.0,7.0,boxscore
+195,2020-14,2020-12-13,Dallas Cowboys,Cincinnati Bengals,False,30.0,7.0,boxscore
+196,2020-14,2020-12-13,Arizona Cardinals,New York Giants,False,26.0,7.0,boxscore
+197,2020-14,2020-12-13,Tennessee Titans,Jacksonville Jaguars,False,31.0,10.0,boxscore
+198,2020-14,2020-12-13,Kansas City Chiefs,Miami Dolphins,False,33.0,27.0,boxscore
+199,2020-14,2020-12-13,Tampa Bay Buccaneers,Minnesota Vikings,False,26.0,14.0,boxscore
+200,2020-14,2020-12-13,Indianapolis Colts,Las Vegas Raiders,False,44.0,27.0,boxscore
+201,2020-14,2020-12-13,Seattle Seahawks,New York Jets,False,40.0,3.0,boxscore
+202,2020-14,2020-12-13,Los Angeles Chargers,Atlanta Falcons,False,20.0,17.0,boxscore
+203,2020-14,2020-12-13,Green Bay Packers,Detroit Lions,False,31.0,24.0,boxscore
+204,2020-14,2020-12-13,Philadelphia Eagles,New Orleans Saints,False,24.0,21.0,boxscore
+205,2020-14,2020-12-13,Washington Commanders,San Francisco 49ers,False,23.0,15.0,boxscore
+206,2020-14,2020-12-13,Buffalo Bills,Pittsburgh Steelers,False,26.0,15.0,boxscore
+207,2020-14,2020-12-14,Baltimore Ravens,Cleveland Browns,False,47.0,42.0,boxscore
+208,2020-15,2020-12-17,Los Angeles Chargers,Las Vegas Raiders,False,30.0,27.0,boxscore
+209,2020-15,2020-12-19,Buffalo Bills,Denver Broncos,False,48.0,19.0,boxscore
+210,2020-15,2020-12-19,Green Bay Packers,Carolina Panthers,False,24.0,16.0,boxscore
+211,2020-15,2020-12-20,Tampa Bay Buccaneers,Atlanta Falcons,False,31.0,27.0,boxscore
+212,2020-15,2020-12-20,Chicago Bears,Minnesota Vikings,False,33.0,27.0,boxscore
+213,2020-15,2020-12-20,Indianapolis Colts,Houston Texans,False,27.0,20.0,boxscore
+214,2020-15,2020-12-20,Dallas Cowboys,San Francisco 49ers,False,41.0,33.0,boxscore
+215,2020-15,2020-12-20,Tennessee Titans,Detroit Lions,False,46.0,25.0,boxscore
+216,2020-15,2020-12-20,Baltimore Ravens,Jacksonville Jaguars,False,40.0,14.0,boxscore
+217,2020-15,2020-12-20,Miami Dolphins,New England Patriots,False,22.0,12.0,boxscore
+218,2020-15,2020-12-20,Seattle Seahawks,Washington Commanders,False,20.0,15.0,boxscore
+219,2020-15,2020-12-20,Arizona Cardinals,Philadelphia Eagles,False,33.0,26.0,boxscore
+220,2020-15,2020-12-20,New York Jets,Los Angeles Rams,False,23.0,20.0,boxscore
+221,2020-15,2020-12-20,Kansas City Chiefs,New Orleans Saints,False,32.0,29.0,boxscore
+222,2020-15,2020-12-20,Cleveland Browns,New York Giants,False,20.0,6.0,boxscore
+223,2020-15,2020-12-21,Cincinnati Bengals,Pittsburgh Steelers,False,27.0,17.0,boxscore
+224,2020-16,2020-12-25,New Orleans Saints,Minnesota Vikings,False,52.0,33.0,boxscore
+225,2020-16,2020-12-26,Tampa Bay Buccaneers,Detroit Lions,False,47.0,7.0,boxscore
+226,2020-16,2020-12-26,San Francisco 49ers,Arizona Cardinals,False,20.0,12.0,boxscore
+227,2020-16,2020-12-26,Miami Dolphins,Las Vegas Raiders,False,26.0,25.0,boxscore
+228,2020-16,2020-12-27,Kansas City Chiefs,Atlanta Falcons,False,17.0,14.0,boxscore
+229,2020-16,2020-12-27,Chicago Bears,Jacksonville Jaguars,False,41.0,17.0,boxscore
+230,2020-16,2020-12-27,Cincinnati Bengals,Houston Texans,False,37.0,31.0,boxscore
+231,2020-16,2020-12-27,New York Jets,Cleveland Browns,False,23.0,16.0,boxscore
+232,2020-16,2020-12-27,Pittsburgh Steelers,Indianapolis Colts,False,28.0,24.0,boxscore
+233,2020-16,2020-12-27,Baltimore Ravens,New York Giants,False,27.0,13.0,boxscore
+234,2020-16,2020-12-27,Carolina Panthers,Washington Commanders,False,20.0,13.0,boxscore
+235,2020-16,2020-12-27,Los Angeles Chargers,Denver Broncos,False,19.0,16.0,boxscore
+236,2020-16,2020-12-27,Dallas Cowboys,Philadelphia Eagles,False,37.0,17.0,boxscore
+237,2020-16,2020-12-27,Seattle Seahawks,Los Angeles Rams,False,20.0,9.0,boxscore
+238,2020-16,2020-12-27,Green Bay Packers,Tennessee Titans,False,40.0,14.0,boxscore
+239,2020-16,2020-12-28,Buffalo Bills,New England Patriots,False,38.0,9.0,boxscore
+240,2020-17,2021-01-03,Tampa Bay Buccaneers,Atlanta Falcons,False,44.0,27.0,boxscore
+241,2020-17,2021-01-03,Buffalo Bills,Miami Dolphins,False,56.0,26.0,boxscore
+242,2020-17,2021-01-03,Baltimore Ravens,Cincinnati Bengals,False,38.0,3.0,boxscore
+243,2020-17,2021-01-03,Cleveland Browns,Pittsburgh Steelers,False,24.0,22.0,boxscore
+244,2020-17,2021-01-03,New York Giants,Dallas Cowboys,False,23.0,19.0,boxscore
+245,2020-17,2021-01-03,Minnesota Vikings,Detroit Lions,False,37.0,35.0,boxscore
+246,2020-17,2021-01-03,New England Patriots,New York Jets,False,28.0,14.0,boxscore
+247,2020-17,2021-01-03,New Orleans Saints,Carolina Panthers,False,33.0,7.0,boxscore
+248,2020-17,2021-01-03,Green Bay Packers,Chicago Bears,False,35.0,16.0,boxscore
+249,2020-17,2021-01-03,Indianapolis Colts,Jacksonville Jaguars,False,28.0,14.0,boxscore
+250,2020-17,2021-01-03,Los Angeles Rams,Arizona Cardinals,False,18.0,7.0,boxscore
+251,2020-17,2021-01-03,Las Vegas Raiders,Denver Broncos,False,32.0,31.0,boxscore
+252,2020-17,2021-01-03,Tennessee Titans,Houston Texans,False,41.0,38.0,boxscore
+253,2020-17,2021-01-03,Los Angeles Chargers,Kansas City Chiefs,False,38.0,21.0,boxscore
+254,2020-17,2021-01-03,Seattle Seahawks,San Francisco 49ers,False,26.0,23.0,boxscore
+255,2020-17,2021-01-03,Washington Commanders,Philadelphia Eagles,False,20.0,14.0,boxscore
+256,2020-WildCard,2021-01-09,Buffalo Bills,Indianapolis Colts,False,27.0,24.0,boxscore
+257,2020-WildCard,2021-01-09,Los Angeles Rams,Seattle Seahawks,False,30.0,20.0,boxscore
+258,2020-WildCard,2021-01-09,Tampa Bay Buccaneers,Washington Commanders,False,31.0,23.0,boxscore
+259,2020-WildCard,2021-01-10,Baltimore Ravens,Tennessee Titans,False,20.0,13.0,boxscore
+260,2020-WildCard,2021-01-10,New Orleans Saints,Chicago Bears,False,21.0,9.0,boxscore
+261,2020-WildCard,2021-01-10,Cleveland Browns,Pittsburgh Steelers,False,48.0,37.0,boxscore
+262,2020-Division,2021-01-16,Green Bay Packers,Los Angeles Rams,False,32.0,18.0,boxscore
+263,2020-Division,2021-01-16,Buffalo Bills,Baltimore Ravens,False,17.0,3.0,boxscore
+264,2020-Division,2021-01-17,Kansas City Chiefs,Cleveland Browns,False,22.0,17.0,boxscore
+265,2020-Division,2021-01-17,Tampa Bay Buccaneers,New Orleans Saints,False,30.0,20.0,boxscore
+266,2020-ConfChamp,2021-01-24,Tampa Bay Buccaneers,Green Bay Packers,False,31.0,26.0,boxscore
+267,2020-ConfChamp,2021-01-24,Kansas City Chiefs,Buffalo Bills,False,38.0,24.0,boxscore
+268,2020-SuperBowl,2021-02-07,Tampa Bay Buccaneers,Kansas City Chiefs,False,31.0,9.0,boxscore
+269,2021-1,2021-09-09,Tampa Bay Buccaneers,Dallas Cowboys,False,31.0,29.0,boxscore
+270,2021-1,2021-09-12,Philadelphia Eagles,Atlanta Falcons,False,32.0,6.0,boxscore
+271,2021-1,2021-09-12,Pittsburgh Steelers,Buffalo Bills,False,23.0,16.0,boxscore
+272,2021-1,2021-09-12,Carolina Panthers,New York Jets,False,19.0,14.0,boxscore
+273,2021-1,2021-09-12,Cincinnati Bengals,Minnesota Vikings,False,27.0,24.0,boxscore
+274,2021-1,2021-09-12,Seattle Seahawks,Indianapolis Colts,False,28.0,16.0,boxscore
+275,2021-1,2021-09-12,Arizona Cardinals,Tennessee Titans,False,38.0,13.0,boxscore
+276,2021-1,2021-09-12,San Francisco 49ers,Detroit Lions,False,41.0,33.0,boxscore
+277,2021-1,2021-09-12,Houston Texans,Jacksonville Jaguars,False,37.0,21.0,boxscore
+278,2021-1,2021-09-12,Los Angeles Chargers,Washington Commanders,False,20.0,16.0,boxscore
+279,2021-1,2021-09-12,Kansas City Chiefs,Cleveland Browns,False,33.0,29.0,boxscore
+280,2021-1,2021-09-12,Denver Broncos,New York Giants,False,27.0,13.0,boxscore
+281,2021-1,2021-09-12,New Orleans Saints,Green Bay Packers,False,38.0,3.0,boxscore
+282,2021-1,2021-09-12,Miami Dolphins,New England Patriots,False,17.0,16.0,boxscore
+283,2021-1,2021-09-12,Los Angeles Rams,Chicago Bears,False,34.0,14.0,boxscore
+284,2021-1,2021-09-13,Las Vegas Raiders,Baltimore Ravens,False,33.0,27.0,boxscore
+285,2021-2,2021-09-16,Washington Commanders,New York Giants,False,30.0,29.0,boxscore
+286,2021-2,2021-09-19,Buffalo Bills,Miami Dolphins,False,35.0,0.0,boxscore
+287,2021-2,2021-09-19,Carolina Panthers,New Orleans Saints,False,26.0,7.0,boxscore
+288,2021-2,2021-09-19,Chicago Bears,Cincinnati Bengals,False,20.0,17.0,boxscore
+289,2021-2,2021-09-19,Cleveland Browns,Houston Texans,False,31.0,21.0,boxscore
+290,2021-2,2021-09-19,Los Angeles Rams,Indianapolis Colts,False,27.0,24.0,boxscore
+291,2021-2,2021-09-19,Denver Broncos,Jacksonville Jaguars,False,23.0,13.0,boxscore
+292,2021-2,2021-09-19,New England Patriots,New York Jets,False,25.0,6.0,boxscore
+293,2021-2,2021-09-19,San Francisco 49ers,Philadelphia Eagles,False,17.0,11.0,boxscore
+294,2021-2,2021-09-19,Las Vegas Raiders,Pittsburgh Steelers,False,26.0,17.0,boxscore
+295,2021-2,2021-09-19,Tampa Bay Buccaneers,Atlanta Falcons,False,48.0,25.0,boxscore
+296,2021-2,2021-09-19,Arizona Cardinals,Minnesota Vikings,False,34.0,33.0,boxscore
+297,2021-2,2021-09-19,Dallas Cowboys,Los Angeles Chargers,False,20.0,17.0,boxscore
+298,2021-2,2021-09-19,Tennessee Titans,Seattle Seahawks,False,33.0,30.0,boxscore
+299,2021-2,2021-09-19,Baltimore Ravens,Kansas City Chiefs,False,36.0,35.0,boxscore
+300,2021-2,2021-09-20,Green Bay Packers,Detroit Lions,False,35.0,17.0,boxscore
+301,2021-3,2021-09-23,Carolina Panthers,Houston Texans,False,24.0,9.0,boxscore
+302,2021-3,2021-09-26,Atlanta Falcons,New York Giants,False,17.0,14.0,boxscore
+303,2021-3,2021-09-26,Buffalo Bills,Washington Commanders,False,43.0,21.0,boxscore
+304,2021-3,2021-09-26,Cleveland Browns,Chicago Bears,False,26.0,6.0,boxscore
+305,2021-3,2021-09-26,Cincinnati Bengals,Pittsburgh Steelers,False,24.0,10.0,boxscore
+306,2021-3,2021-09-26,Tennessee Titans,Indianapolis Colts,False,25.0,16.0,boxscore
+307,2021-3,2021-09-26,Arizona Cardinals,Jacksonville Jaguars,False,31.0,19.0,boxscore
+308,2021-3,2021-09-26,Baltimore Ravens,Detroit Lions,False,19.0,17.0,boxscore
+309,2021-3,2021-09-26,Los Angeles Chargers,Kansas City Chiefs,False,30.0,24.0,boxscore
+310,2021-3,2021-09-26,New Orleans Saints,New England Patriots,False,28.0,13.0,boxscore
+311,2021-3,2021-09-26,Denver Broncos,New York Jets,False,26.0,0.0,boxscore
+312,2021-3,2021-09-26,Las Vegas Raiders,Miami Dolphins,False,31.0,28.0,boxscore
+313,2021-3,2021-09-26,Minnesota Vikings,Seattle Seahawks,False,30.0,17.0,boxscore
+314,2021-3,2021-09-26,Los Angeles Rams,Tampa Bay Buccaneers,False,34.0,24.0,boxscore
+315,2021-3,2021-09-26,Green Bay Packers,San Francisco 49ers,False,30.0,28.0,boxscore
+316,2021-3,2021-09-27,Dallas Cowboys,Philadelphia Eagles,False,41.0,21.0,boxscore
+317,2021-4,2021-09-30,Cincinnati Bengals,Jacksonville Jaguars,False,24.0,21.0,boxscore
+318,2021-4,2021-10-03,Washington Commanders,Atlanta Falcons,False,34.0,30.0,boxscore
+319,2021-4,2021-10-03,Buffalo Bills,Houston Texans,False,40.0,0.0,boxscore
+320,2021-4,2021-10-03,Dallas Cowboys,Carolina Panthers,False,36.0,28.0,boxscore
+321,2021-4,2021-10-03,Chicago Bears,Detroit Lions,False,24.0,14.0,boxscore
+322,2021-4,2021-10-03,Cleveland Browns,Minnesota Vikings,False,14.0,7.0,boxscore
+323,2021-4,2021-10-03,Indianapolis Colts,Miami Dolphins,False,27.0,17.0,boxscore
+324,2021-4,2021-10-03,Kansas City Chiefs,Philadelphia Eagles,False,42.0,30.0,boxscore
+325,2021-4,2021-10-03,New York Giants,New Orleans Saints,False,27.0,21.0,boxscore
+326,2021-4,2021-10-03,New York Jets,Tennessee Titans,False,27.0,24.0,boxscore
+327,2021-4,2021-10-03,Arizona Cardinals,Los Angeles Rams,False,37.0,20.0,boxscore
+328,2021-4,2021-10-03,Seattle Seahawks,San Francisco 49ers,False,28.0,21.0,boxscore
+329,2021-4,2021-10-03,Baltimore Ravens,Denver Broncos,False,23.0,7.0,boxscore
+330,2021-4,2021-10-03,Green Bay Packers,Pittsburgh Steelers,False,27.0,17.0,boxscore
+331,2021-4,2021-10-03,Tampa Bay Buccaneers,New England Patriots,False,19.0,17.0,boxscore
+332,2021-4,2021-10-04,Los Angeles Chargers,Las Vegas Raiders,False,28.0,14.0,boxscore
+333,2021-5,2021-10-07,Los Angeles Rams,Seattle Seahawks,False,26.0,17.0,boxscore
+334,2021-5,2021-10-10,Atlanta Falcons,New York Jets,False,27.0,20.0,boxscore
+335,2021-5,2021-10-10,Philadelphia Eagles,Carolina Panthers,False,21.0,18.0,boxscore
+336,2021-5,2021-10-10,Green Bay Packers,Cincinnati Bengals,False,25.0,22.0,boxscore
+337,2021-5,2021-10-10,Pittsburgh Steelers,Denver Broncos,False,27.0,19.0,boxscore
+338,2021-5,2021-10-10,Minnesota Vikings,Detroit Lions,False,19.0,17.0,boxscore
+339,2021-5,2021-10-10,New England Patriots,Houston Texans,False,25.0,22.0,boxscore
+340,2021-5,2021-10-10,Tennessee Titans,Jacksonville Jaguars,False,37.0,19.0,boxscore
+341,2021-5,2021-10-10,Tampa Bay Buccaneers,Miami Dolphins,False,45.0,17.0,boxscore
+342,2021-5,2021-10-10,New Orleans Saints,Washington Commanders,False,33.0,22.0,boxscore
+343,2021-5,2021-10-10,Chicago Bears,Las Vegas Raiders,False,20.0,9.0,boxscore
+344,2021-5,2021-10-10,Los Angeles Chargers,Cleveland Browns,False,47.0,42.0,boxscore
+345,2021-5,2021-10-10,Arizona Cardinals,San Francisco 49ers,False,17.0,10.0,boxscore
+346,2021-5,2021-10-10,Dallas Cowboys,New York Giants,False,44.0,20.0,boxscore
+347,2021-5,2021-10-10,Buffalo Bills,Kansas City Chiefs,False,38.0,20.0,boxscore
+348,2021-5,2021-10-11,Baltimore Ravens,Indianapolis Colts,False,31.0,25.0,boxscore
+349,2021-6,2021-10-14,Tampa Bay Buccaneers,Philadelphia Eagles,False,28.0,22.0,boxscore
+350,2021-6,2021-10-17,Jacksonville Jaguars,Miami Dolphins,False,23.0,20.0,boxscore
+351,2021-6,2021-10-17,Minnesota Vikings,Carolina Panthers,False,34.0,28.0,boxscore
+352,2021-6,2021-10-17,Green Bay Packers,Chicago Bears,False,24.0,14.0,boxscore
+353,2021-6,2021-10-17,Cincinnati Bengals,Detroit Lions,False,34.0,11.0,boxscore
+354,2021-6,2021-10-17,Indianapolis Colts,Houston Texans,False,31.0,3.0,boxscore
+355,2021-6,2021-10-17,Kansas City Chiefs,Washington Commanders,False,31.0,13.0,boxscore
+356,2021-6,2021-10-17,Los Angeles Rams,New York Giants,False,38.0,11.0,boxscore
+357,2021-6,2021-10-17,Baltimore Ravens,Los Angeles Chargers,False,34.0,6.0,boxscore
+358,2021-6,2021-10-17,Arizona Cardinals,Cleveland Browns,False,37.0,14.0,boxscore
+359,2021-6,2021-10-17,Dallas Cowboys,New England Patriots,False,35.0,29.0,boxscore
+360,2021-6,2021-10-17,Las Vegas Raiders,Denver Broncos,False,34.0,24.0,boxscore
+361,2021-6,2021-10-17,Pittsburgh Steelers,Seattle Seahawks,False,23.0,20.0,boxscore
+362,2021-6,2021-10-18,Tennessee Titans,Buffalo Bills,False,34.0,31.0,boxscore
+363,2021-7,2021-10-21,Cleveland Browns,Denver Broncos,False,17.0,14.0,boxscore
+364,2021-7,2021-10-24,Atlanta Falcons,Miami Dolphins,False,30.0,28.0,boxscore
+365,2021-7,2021-10-24,New York Giants,Carolina Panthers,False,25.0,3.0,boxscore
+366,2021-7,2021-10-24,Cincinnati Bengals,Baltimore Ravens,False,41.0,17.0,boxscore
+367,2021-7,2021-10-24,Green Bay Packers,Washington Commanders,False,24.0,10.0,boxscore
+368,2021-7,2021-10-24,Tennessee Titans,Kansas City Chiefs,False,27.0,3.0,boxscore
+369,2021-7,2021-10-24,New England Patriots,New York Jets,False,54.0,13.0,boxscore
+370,2021-7,2021-10-24,Los Angeles Rams,Detroit Lions,False,28.0,19.0,boxscore
+371,2021-7,2021-10-24,Las Vegas Raiders,Philadelphia Eagles,False,33.0,22.0,boxscore
+372,2021-7,2021-10-24,Tampa Bay Buccaneers,Chicago Bears,False,38.0,3.0,boxscore
+373,2021-7,2021-10-24,Arizona Cardinals,Houston Texans,False,31.0,5.0,boxscore
+374,2021-7,2021-10-24,Indianapolis Colts,San Francisco 49ers,False,30.0,18.0,boxscore
+375,2021-7,2021-10-25,New Orleans Saints,Seattle Seahawks,False,13.0,10.0,boxscore
+376,2021-8,2021-10-28,Green Bay Packers,Arizona Cardinals,False,24.0,21.0,boxscore
+377,2021-8,2021-10-31,Carolina Panthers,Atlanta Falcons,False,19.0,13.0,boxscore
+378,2021-8,2021-10-31,Buffalo Bills,Miami Dolphins,False,26.0,11.0,boxscore
+379,2021-8,2021-10-31,San Francisco 49ers,Chicago Bears,False,33.0,22.0,boxscore
+380,2021-8,2021-10-31,New York Jets,Cincinnati Bengals,False,34.0,31.0,boxscore
+381,2021-8,2021-10-31,Pittsburgh Steelers,Cleveland Browns,False,15.0,10.0,boxscore
+382,2021-8,2021-10-31,Tennessee Titans,Indianapolis Colts,False,34.0,31.0,boxscore
+383,2021-8,2021-10-31,Philadelphia Eagles,Detroit Lions,False,44.0,6.0,boxscore
+384,2021-8,2021-10-31,Los Angeles Rams,Houston Texans,False,38.0,22.0,boxscore
+385,2021-8,2021-10-31,Seattle Seahawks,Jacksonville Jaguars,False,31.0,7.0,boxscore
+386,2021-8,2021-10-31,New England Patriots,Los Angeles Chargers,False,27.0,24.0,boxscore
+387,2021-8,2021-10-31,New Orleans Saints,Tampa Bay Buccaneers,False,36.0,27.0,boxscore
+388,2021-8,2021-10-31,Denver Broncos,Washington Commanders,False,17.0,10.0,boxscore
+389,2021-8,2021-10-31,Dallas Cowboys,Minnesota Vikings,False,20.0,16.0,boxscore
+390,2021-8,2021-11-01,Kansas City Chiefs,New York Giants,False,20.0,17.0,boxscore
+391,2021-9,2021-11-04,Indianapolis Colts,New York Jets,False,45.0,30.0,boxscore
+392,2021-9,2021-11-07,Atlanta Falcons,New Orleans Saints,False,27.0,25.0,boxscore
+393,2021-9,2021-11-07,Jacksonville Jaguars,Buffalo Bills,False,9.0,6.0,boxscore
+394,2021-9,2021-11-07,Denver Broncos,Dallas Cowboys,False,30.0,16.0,boxscore
+395,2021-9,2021-11-07,Baltimore Ravens,Minnesota Vikings,False,34.0,31.0,boxscore
+396,2021-9,2021-11-07,New England Patriots,Carolina Panthers,False,24.0,6.0,boxscore
+397,2021-9,2021-11-07,Cleveland Browns,Cincinnati Bengals,False,41.0,16.0,boxscore
+398,2021-9,2021-11-07,Miami Dolphins,Houston Texans,False,17.0,9.0,boxscore
+399,2021-9,2021-11-07,New York Giants,Las Vegas Raiders,False,23.0,16.0,boxscore
+400,2021-9,2021-11-07,Los Angeles Chargers,Philadelphia Eagles,False,27.0,24.0,boxscore
+401,2021-9,2021-11-07,Arizona Cardinals,San Francisco 49ers,False,31.0,17.0,boxscore
+402,2021-9,2021-11-07,Kansas City Chiefs,Green Bay Packers,False,13.0,7.0,boxscore
+403,2021-9,2021-11-07,Tennessee Titans,Los Angeles Rams,False,28.0,16.0,boxscore
+404,2021-9,2021-11-08,Pittsburgh Steelers,Chicago Bears,False,29.0,27.0,boxscore
+405,2021-10,2021-11-11,Miami Dolphins,Baltimore Ravens,False,22.0,10.0,boxscore
+406,2021-10,2021-11-14,Dallas Cowboys,Atlanta Falcons,False,43.0,3.0,boxscore
+407,2021-10,2021-11-14,Buffalo Bills,New York Jets,False,45.0,17.0,boxscore
+408,2021-10,2021-11-14,Pittsburgh Steelers,Detroit Lions,True,16.0,16.0,boxscore
+409,2021-10,2021-11-14,Tennessee Titans,New Orleans Saints,False,23.0,21.0,boxscore
+410,2021-10,2021-11-14,Washington Commanders,Tampa Bay Buccaneers,False,29.0,19.0,boxscore
+411,2021-10,2021-11-14,New England Patriots,Cleveland Browns,False,45.0,7.0,boxscore
+412,2021-10,2021-11-14,Indianapolis Colts,Jacksonville Jaguars,False,23.0,17.0,boxscore
+413,2021-10,2021-11-14,Minnesota Vikings,Los Angeles Chargers,False,27.0,20.0,boxscore
+414,2021-10,2021-11-14,Carolina Panthers,Arizona Cardinals,False,34.0,10.0,boxscore
+415,2021-10,2021-11-14,Philadelphia Eagles,Denver Broncos,False,30.0,13.0,boxscore
+416,2021-10,2021-11-14,Green Bay Packers,Seattle Seahawks,False,17.0,0.0,boxscore
+417,2021-10,2021-11-14,Kansas City Chiefs,Las Vegas Raiders,False,41.0,14.0,boxscore
+418,2021-10,2021-11-15,San Francisco 49ers,Los Angeles Rams,False,31.0,10.0,boxscore
+419,2021-11,2021-11-18,New England Patriots,Atlanta Falcons,False,25.0,0.0,boxscore
+420,2021-11,2021-11-21,Indianapolis Colts,Buffalo Bills,False,41.0,15.0,boxscore
+421,2021-11,2021-11-21,Baltimore Ravens,Chicago Bears,False,16.0,13.0,boxscore
+422,2021-11,2021-11-21,Houston Texans,Tennessee Titans,False,22.0,13.0,boxscore
+423,2021-11,2021-11-21,San Francisco 49ers,Jacksonville Jaguars,False,30.0,10.0,boxscore
+424,2021-11,2021-11-21,Philadelphia Eagles,New Orleans Saints,False,40.0,29.0,boxscore
+425,2021-11,2021-11-21,Washington Commanders,Carolina Panthers,False,27.0,21.0,boxscore
+426,2021-11,2021-11-21,Cleveland Browns,Detroit Lions,False,13.0,10.0,boxscore
+427,2021-11,2021-11-21,Minnesota Vikings,Green Bay Packers,False,34.0,31.0,boxscore
+428,2021-11,2021-11-21,Miami Dolphins,New York Jets,False,24.0,17.0,boxscore
+429,2021-11,2021-11-21,Cincinnati Bengals,Las Vegas Raiders,False,32.0,13.0,boxscore
+430,2021-11,2021-11-21,Kansas City Chiefs,Dallas Cowboys,False,19.0,9.0,boxscore
+431,2021-11,2021-11-21,Arizona Cardinals,Seattle Seahawks,False,23.0,13.0,boxscore
+432,2021-11,2021-11-21,Los Angeles Chargers,Pittsburgh Steelers,False,41.0,37.0,boxscore
+433,2021-11,2021-11-22,Tampa Bay Buccaneers,New York Giants,False,30.0,10.0,boxscore
+434,2021-12,2021-11-25,Chicago Bears,Detroit Lions,False,16.0,14.0,boxscore
+435,2021-12,2021-11-25,Las Vegas Raiders,Dallas Cowboys,False,36.0,33.0,boxscore
+436,2021-12,2021-11-25,Buffalo Bills,New Orleans Saints,False,31.0,6.0,boxscore
+437,2021-12,2021-11-28,Atlanta Falcons,Jacksonville Jaguars,False,21.0,14.0,boxscore
+438,2021-12,2021-11-28,Cincinnati Bengals,Pittsburgh Steelers,False,41.0,10.0,boxscore
+439,2021-12,2021-11-28,New York Jets,Houston Texans,False,21.0,14.0,boxscore
+440,2021-12,2021-11-28,New York Giants,Philadelphia Eagles,False,13.0,7.0,boxscore
+441,2021-12,2021-11-28,Miami Dolphins,Carolina Panthers,False,33.0,10.0,boxscore
+442,2021-12,2021-11-28,Tampa Bay Buccaneers,Indianapolis Colts,False,38.0,31.0,boxscore
+443,2021-12,2021-11-28,New England Patriots,Tennessee Titans,False,36.0,13.0,boxscore
+444,2021-12,2021-11-28,Denver Broncos,Los Angeles Chargers,False,28.0,13.0,boxscore
+445,2021-12,2021-11-28,San Francisco 49ers,Minnesota Vikings,False,34.0,26.0,boxscore
+446,2021-12,2021-11-28,Green Bay Packers,Los Angeles Rams,False,36.0,28.0,boxscore
+447,2021-12,2021-11-28,Baltimore Ravens,Cleveland Browns,False,16.0,10.0,boxscore
+448,2021-12,2021-11-29,Washington Commanders,Seattle Seahawks,False,17.0,15.0,boxscore
+449,2021-13,2021-12-02,Dallas Cowboys,New Orleans Saints,False,27.0,17.0,boxscore
+450,2021-13,2021-12-05,Tampa Bay Buccaneers,Atlanta Falcons,False,30.0,17.0,boxscore
+451,2021-13,2021-12-05,Arizona Cardinals,Chicago Bears,False,33.0,22.0,boxscore
+452,2021-13,2021-12-05,Los Angeles Chargers,Cincinnati Bengals,False,41.0,22.0,boxscore
+453,2021-13,2021-12-05,Detroit Lions,Minnesota Vikings,False,29.0,27.0,boxscore
+454,2021-13,2021-12-05,Philadelphia Eagles,New York Jets,False,33.0,18.0,boxscore
+455,2021-13,2021-12-05,Indianapolis Colts,Houston Texans,False,31.0,0.0,boxscore
+456,2021-13,2021-12-05,Miami Dolphins,New York Giants,False,20.0,9.0,boxscore
+457,2021-13,2021-12-05,Seattle Seahawks,San Francisco 49ers,False,30.0,23.0,boxscore
+458,2021-13,2021-12-05,Washington Commanders,Las Vegas Raiders,False,17.0,15.0,boxscore
+459,2021-13,2021-12-05,Los Angeles Rams,Jacksonville Jaguars,False,37.0,7.0,boxscore
+460,2021-13,2021-12-05,Pittsburgh Steelers,Baltimore Ravens,False,20.0,19.0,boxscore
+461,2021-13,2021-12-05,Kansas City Chiefs,Denver Broncos,False,22.0,9.0,boxscore
+462,2021-13,2021-12-06,New England Patriots,Buffalo Bills,False,14.0,10.0,boxscore
+463,2021-14,2021-12-09,Minnesota Vikings,Pittsburgh Steelers,False,36.0,28.0,boxscore
+464,2021-14,2021-12-12,Atlanta Falcons,Carolina Panthers,False,29.0,21.0,boxscore
+465,2021-14,2021-12-12,San Francisco 49ers,Cincinnati Bengals,False,26.0,23.0,boxscore
+466,2021-14,2021-12-12,Cleveland Browns,Baltimore Ravens,False,24.0,22.0,boxscore
+467,2021-14,2021-12-12,Dallas Cowboys,Washington Commanders,False,27.0,20.0,boxscore
+468,2021-14,2021-12-12,Seattle Seahawks,Houston Texans,False,33.0,13.0,boxscore
+469,2021-14,2021-12-12,Tennessee Titans,Jacksonville Jaguars,False,20.0,0.0,boxscore
+470,2021-14,2021-12-12,Kansas City Chiefs,Las Vegas Raiders,False,48.0,9.0,boxscore
+471,2021-14,2021-12-12,New Orleans Saints,New York Jets,False,30.0,9.0,boxscore
+472,2021-14,2021-12-12,Denver Broncos,Detroit Lions,False,38.0,10.0,boxscore
+473,2021-14,2021-12-12,Los Angeles Chargers,New York Giants,False,37.0,21.0,boxscore
+474,2021-14,2021-12-12,Tampa Bay Buccaneers,Buffalo Bills,False,33.0,27.0,boxscore
+475,2021-14,2021-12-12,Green Bay Packers,Chicago Bears,False,45.0,30.0,boxscore
+476,2021-14,2021-12-13,Los Angeles Rams,Arizona Cardinals,False,30.0,23.0,boxscore
+477,2021-15,2021-12-16,Kansas City Chiefs,Los Angeles Chargers,False,34.0,28.0,boxscore
+478,2021-15,2021-12-18,Indianapolis Colts,New England Patriots,False,27.0,17.0,boxscore
+479,2021-15,2021-12-19,Buffalo Bills,Carolina Panthers,False,31.0,14.0,boxscore
+480,2021-15,2021-12-19,Detroit Lions,Arizona Cardinals,False,30.0,12.0,boxscore
+481,2021-15,2021-12-19,Dallas Cowboys,New York Giants,False,21.0,6.0,boxscore
+482,2021-15,2021-12-19,Green Bay Packers,Baltimore Ravens,False,31.0,30.0,boxscore
+483,2021-15,2021-12-19,Houston Texans,Jacksonville Jaguars,False,30.0,16.0,boxscore
+484,2021-15,2021-12-19,Miami Dolphins,New York Jets,False,31.0,24.0,boxscore
+485,2021-15,2021-12-19,Pittsburgh Steelers,Tennessee Titans,False,19.0,13.0,boxscore
+486,2021-15,2021-12-19,San Francisco 49ers,Atlanta Falcons,False,31.0,13.0,boxscore
+487,2021-15,2021-12-19,Cincinnati Bengals,Denver Broncos,False,15.0,10.0,boxscore
+488,2021-15,2021-12-19,New Orleans Saints,Tampa Bay Buccaneers,False,9.0,0.0,boxscore
+489,2021-15,2021-12-20,Las Vegas Raiders,Cleveland Browns,False,16.0,14.0,boxscore
+490,2021-15,2021-12-20,Minnesota Vikings,Chicago Bears,False,17.0,9.0,boxscore
+491,2021-15,2021-12-21,Philadelphia Eagles,Washington Commanders,False,27.0,17.0,boxscore
+492,2021-15,2021-12-21,Los Angeles Rams,Seattle Seahawks,False,20.0,10.0,boxscore
+493,2021-16,2021-12-23,Tennessee Titans,San Francisco 49ers,False,20.0,17.0,boxscore
+494,2021-16,2021-12-25,Green Bay Packers,Cleveland Browns,False,24.0,22.0,boxscore
+495,2021-16,2021-12-25,Indianapolis Colts,Arizona Cardinals,False,22.0,16.0,boxscore
+496,2021-16,2021-12-26,Atlanta Falcons,Detroit Lions,False,20.0,16.0,boxscore
+497,2021-16,2021-12-26,Buffalo Bills,New England Patriots,False,33.0,21.0,boxscore
+498,2021-16,2021-12-26,Tampa Bay Buccaneers,Carolina Panthers,False,32.0,6.0,boxscore
+499,2021-16,2021-12-26,Cincinnati Bengals,Baltimore Ravens,False,41.0,21.0,boxscore
+500,2021-16,2021-12-26,Houston Texans,Los Angeles Chargers,False,41.0,29.0,boxscore
+501,2021-16,2021-12-26,New York Jets,Jacksonville Jaguars,False,26.0,21.0,boxscore
+502,2021-16,2021-12-26,Los Angeles Rams,Minnesota Vikings,False,30.0,23.0,boxscore
+503,2021-16,2021-12-26,Philadelphia Eagles,New York Giants,False,34.0,10.0,boxscore
+504,2021-16,2021-12-26,Chicago Bears,Seattle Seahawks,False,25.0,24.0,boxscore
+505,2021-16,2021-12-26,Las Vegas Raiders,Denver Broncos,False,17.0,13.0,boxscore
+506,2021-16,2021-12-26,Kansas City Chiefs,Pittsburgh Steelers,False,36.0,10.0,boxscore
+507,2021-16,2021-12-26,Dallas Cowboys,Washington Commanders,False,56.0,14.0,boxscore
+508,2021-16,2021-12-27,Miami Dolphins,New Orleans Saints,False,20.0,3.0,boxscore
+509,2021-17,2022-01-02,Buffalo Bills,Atlanta Falcons,False,29.0,15.0,boxscore
+510,2021-17,2022-01-02,New Orleans Saints,Carolina Panthers,False,18.0,10.0,boxscore
+511,2021-17,2022-01-02,Chicago Bears,New York Giants,False,29.0,3.0,boxscore
+512,2021-17,2022-01-02,Cincinnati Bengals,Kansas City Chiefs,False,34.0,31.0,boxscore
+513,2021-17,2022-01-02,Las Vegas Raiders,Indianapolis Colts,False,23.0,20.0,boxscore
+514,2021-17,2022-01-02,Arizona Cardinals,Dallas Cowboys,False,25.0,22.0,boxscore
+515,2021-17,2022-01-02,New England Patriots,Jacksonville Jaguars,False,50.0,10.0,boxscore
+516,2021-17,2022-01-02,Tennessee Titans,Miami Dolphins,False,34.0,3.0,boxscore
+517,2021-17,2022-01-02,Tampa Bay Buccaneers,New York Jets,False,28.0,24.0,boxscore
+518,2021-17,2022-01-02,Philadelphia Eagles,Washington Commanders,False,20.0,16.0,boxscore
+519,2021-17,2022-01-02,Los Angeles Chargers,Denver Broncos,False,34.0,13.0,boxscore
+520,2021-17,2022-01-02,San Francisco 49ers,Houston Texans,False,23.0,7.0,boxscore
+521,2021-17,2022-01-02,Seattle Seahawks,Detroit Lions,False,51.0,29.0,boxscore
+522,2021-17,2022-01-02,Los Angeles Rams,Baltimore Ravens,False,20.0,19.0,boxscore
+523,2021-17,2022-01-02,Green Bay Packers,Minnesota Vikings,False,37.0,10.0,boxscore
+524,2021-17,2022-01-03,Pittsburgh Steelers,Cleveland Browns,False,26.0,14.0,boxscore
+525,2021-18,2022-01-08,Kansas City Chiefs,Denver Broncos,False,28.0,24.0,boxscore
+526,2021-18,2022-01-08,Dallas Cowboys,Philadelphia Eagles,False,51.0,26.0,boxscore
+527,2021-18,2022-01-09,New Orleans Saints,Atlanta Falcons,False,30.0,20.0,boxscore
+528,2021-18,2022-01-09,Buffalo Bills,New York Jets,False,27.0,10.0,boxscore
+529,2021-18,2022-01-09,Tampa Bay Buccaneers,Carolina Panthers,False,41.0,17.0,boxscore
+530,2021-18,2022-01-09,Minnesota Vikings,Chicago Bears,False,31.0,17.0,boxscore
+531,2021-18,2022-01-09,Cleveland Browns,Cincinnati Bengals,False,21.0,16.0,boxscore
+532,2021-18,2022-01-09,Jacksonville Jaguars,Indianapolis Colts,False,26.0,11.0,boxscore
+533,2021-18,2022-01-09,Detroit Lions,Green Bay Packers,False,37.0,30.0,boxscore
+534,2021-18,2022-01-09,Tennessee Titans,Houston Texans,False,28.0,25.0,boxscore
+535,2021-18,2022-01-09,Miami Dolphins,New England Patriots,False,33.0,24.0,boxscore
+536,2021-18,2022-01-09,Washington Commanders,New York Giants,False,22.0,7.0,boxscore
+537,2021-18,2022-01-09,Pittsburgh Steelers,Baltimore Ravens,False,16.0,13.0,boxscore
+538,2021-18,2022-01-09,Seattle Seahawks,Arizona Cardinals,False,38.0,30.0,boxscore
+539,2021-18,2022-01-09,San Francisco 49ers,Los Angeles Rams,False,27.0,24.0,boxscore
+540,2021-18,2022-01-09,Las Vegas Raiders,Los Angeles Chargers,False,35.0,32.0,boxscore
+541,2021-WildCard,2022-01-15,Cincinnati Bengals,Las Vegas Raiders,False,26.0,19.0,boxscore
+542,2021-WildCard,2022-01-15,Buffalo Bills,New England Patriots,False,47.0,17.0,boxscore
+543,2021-WildCard,2022-01-16,Tampa Bay Buccaneers,Philadelphia Eagles,False,31.0,15.0,boxscore
+544,2021-WildCard,2022-01-16,San Francisco 49ers,Dallas Cowboys,False,23.0,17.0,boxscore
+545,2021-WildCard,2022-01-16,Kansas City Chiefs,Pittsburgh Steelers,False,42.0,21.0,boxscore
+546,2021-WildCard,2022-01-17,Los Angeles Rams,Arizona Cardinals,False,34.0,11.0,boxscore
+547,2021-Division,2022-01-22,Cincinnati Bengals,Tennessee Titans,False,19.0,16.0,boxscore
+548,2021-Division,2022-01-22,San Francisco 49ers,Green Bay Packers,False,13.0,10.0,boxscore
+549,2021-Division,2022-01-23,Los Angeles Rams,Tampa Bay Buccaneers,False,30.0,27.0,boxscore
+550,2021-Division,2022-01-23,Kansas City Chiefs,Buffalo Bills,False,42.0,36.0,boxscore
+551,2021-ConfChamp,2022-01-30,Cincinnati Bengals,Kansas City Chiefs,False,27.0,24.0,boxscore
+552,2021-ConfChamp,2022-01-30,Los Angeles Rams,San Francisco 49ers,False,20.0,17.0,boxscore
+553,2021-SuperBowl,2022-02-13,Los Angeles Rams,Cincinnati Bengals,False,23.0,20.0,boxscore
+554,2022-1,2022-09-08,Buffalo Bills,Los Angeles Rams,False,31.0,10.0,boxscore
+555,2022-1,2022-09-11,New Orleans Saints,Atlanta Falcons,False,27.0,26.0,boxscore
+556,2022-1,2022-09-11,Cleveland Browns,Carolina Panthers,False,26.0,24.0,boxscore
+557,2022-1,2022-09-11,Chicago Bears,San Francisco 49ers,False,19.0,10.0,boxscore
+558,2022-1,2022-09-11,Pittsburgh Steelers,Cincinnati Bengals,False,23.0,20.0,boxscore
+559,2022-1,2022-09-11,Houston Texans,Indianapolis Colts,True,20.0,20.0,boxscore
+560,2022-1,2022-09-11,Philadelphia Eagles,Detroit Lions,False,38.0,35.0,boxscore
+561,2022-1,2022-09-11,Washington Commanders,Jacksonville Jaguars,False,28.0,22.0,boxscore
+562,2022-1,2022-09-11,Miami Dolphins,New England Patriots,False,20.0,7.0,boxscore
+563,2022-1,2022-09-11,Baltimore Ravens,New York Jets,False,24.0,9.0,boxscore
+564,2022-1,2022-09-11,Kansas City Chiefs,Arizona Cardinals,False,44.0,21.0,boxscore
+565,2022-1,2022-09-11,Minnesota Vikings,Green Bay Packers,False,23.0,7.0,boxscore
+566,2022-1,2022-09-11,New York Giants,Tennessee Titans,False,21.0,20.0,boxscore
+567,2022-1,2022-09-11,Los Angeles Chargers,Las Vegas Raiders,False,24.0,19.0,boxscore
+568,2022-1,2022-09-11,Tampa Bay Buccaneers,Dallas Cowboys,False,19.0,3.0,boxscore
+569,2022-1,2022-09-12,Seattle Seahawks,Denver Broncos,False,17.0,16.0,boxscore

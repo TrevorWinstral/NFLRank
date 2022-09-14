@@ -1,4 +1,4 @@
-Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
+Week,Day,Date,Time,Winner/tie,,Loser/tie,type,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 1,Thu,2020-09-10,8:20PM,Kansas City Chiefs,,Houston Texans,boxscore,34,20,369,0,360,1
 1,Sun,2020-09-13,1:00PM,Seattle Seahawks,@,Atlanta Falcons,boxscore,38,25,383,0,506,2
 1,Sun,2020-09-13,1:00PM,Buffalo Bills,,New York Jets,boxscore,27,17,404,2,254,2
@@ -8,7 +8,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 1,Sun,2020-09-13,1:00PM,Jacksonville Jaguars,,Indianapolis Colts,boxscore,27,20,241,0,445,2
 1,Sun,2020-09-13,1:00PM,Green Bay Packers,@,Minnesota Vikings,boxscore,43,34,522,0,382,1
 1,Sun,2020-09-13,1:00PM,New England Patriots,,Miami Dolphins,boxscore,21,11,357,1,269,3
-1,Sun,2020-09-13,1:00PM,Washington Football Team,,Philadelphia Eagles,boxscore,27,17,239,0,265,3
+1,Sun,2020-09-13,1:00PM,Washington Commanders,,Philadelphia Eagles,boxscore,27,17,239,0,265,3
 1,Sun,2020-09-13,4:05PM,Los Angeles Chargers,@,Cincinnati Bengals,boxscore,16,13,362,0,295,2
 1,Sun,2020-09-13,4:25PM,Arizona Cardinals,@,San Francisco 49ers,boxscore,24,20,404,1,366,0
 1,Sun,2020-09-13,4:25PM,New Orleans Saints,,Tampa Bay Buccaneers,boxscore,34,23,271,0,310,3
@@ -26,7 +26,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 2,Sun,2020-09-20,1:00PM,Tennessee Titans,,Jacksonville Jaguars,boxscore,33,30,354,0,480,2
 2,Sun,2020-09-20,1:00PM,San Francisco 49ers,@,New York Jets,boxscore,31,13,359,1,277,0
 2,Sun,2020-09-20,1:00PM,Los Angeles Rams,@,Philadelphia Eagles,boxscore,37,19,449,1,363,3
-2,Sun,2020-09-20,4:05PM,Arizona Cardinals,,Washington Football Team,boxscore,30,15,438,1,316,2
+2,Sun,2020-09-20,4:05PM,Arizona Cardinals,,Washington Commanders,boxscore,30,15,438,1,316,2
 2,Sun,2020-09-20,4:25PM,Baltimore Ravens,@,Houston Texans,boxscore,33,16,407,0,304,2
 2,Sun,2020-09-20,4:25PM,Kansas City Chiefs,@,Los Angeles Chargers,boxscore,23,20,414,0,479,1
 2,Sun,2020-09-20,8:20PM,Seattle Seahawks,,New England Patriots,boxscore,35,30,429,1,464,1
@@ -35,7 +35,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 3,Sun,2020-09-27,1:00PM,Chicago Bears,@,Atlanta Falcons,boxscore,30,26,437,2,371,1
 3,Sun,2020-09-27,1:00PM,Buffalo Bills,,Los Angeles Rams,boxscore,35,32,375,2,478,2
 3,Sun,2020-09-27,1:00PM,Philadelphia Eagles,,Cincinnati Bengals,boxscore,23,23,378,2,304,0
-3,Sun,2020-09-27,1:00PM,Cleveland Browns,,Washington Football Team,boxscore,34,20,300,0,309,5
+3,Sun,2020-09-27,1:00PM,Cleveland Browns,,Washington Commanders,boxscore,34,20,300,0,309,5
 3,Sun,2020-09-27,1:00PM,Pittsburgh Steelers,,Houston Texans,boxscore,28,21,387,0,260,1
 3,Sun,2020-09-27,1:00PM,Tennessee Titans,@,Minnesota Vikings,boxscore,31,30,444,1,464,3
 3,Sun,2020-09-27,1:00PM,New England Patriots,,Las Vegas Raiders,boxscore,36,20,406,1,375,3
@@ -55,7 +55,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 4,Sun,2020-10-04,1:00PM,New Orleans Saints,@,Detroit Lions,boxscore,35,29,392,1,281,1
 4,Sun,2020-10-04,1:00PM,Minnesota Vikings,@,Houston Texans,boxscore,31,23,410,0,386,1
 4,Sun,2020-10-04,1:00PM,Seattle Seahawks,@,Miami Dolphins,boxscore,31,23,441,1,415,2
-4,Sun,2020-10-04,1:00PM,Baltimore Ravens,@,Washington Football Team,boxscore,31,17,350,2,343,1
+4,Sun,2020-10-04,1:00PM,Baltimore Ravens,@,Washington Commanders,boxscore,31,17,350,2,343,1
 4,Sun,2020-10-04,1:00PM,Tampa Bay Buccaneers,,Los Angeles Chargers,boxscore,38,31,484,1,324,2
 4,Sun,2020-10-04,4:05PM,Los Angeles Rams,,New York Giants,boxscore,17,9,240,1,295,1
 4,Sun,2020-10-04,4:25PM,Buffalo Bills,@,Las Vegas Raiders,boxscore,30,23,337,0,383,2
@@ -69,7 +69,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 5,Sun,2020-10-11,1:00PM,Houston Texans,,Jacksonville Jaguars,boxscore,30,14,486,2,364,2
 5,Sun,2020-10-11,1:00PM,Las Vegas Raiders,@,Kansas City Chiefs,boxscore,40,32,490,1,413,1
 5,Sun,2020-10-11,1:00PM,Pittsburgh Steelers,,Philadelphia Eagles,boxscore,38,29,367,1,336,2
-5,Sun,2020-10-11,1:00PM,Los Angeles Rams,@,Washington Football Team,boxscore,30,10,429,1,108,0
+5,Sun,2020-10-11,1:00PM,Los Angeles Rams,@,Washington Commanders,boxscore,30,10,429,1,108,0
 5,Sun,2020-10-11,4:05PM,Miami Dolphins,@,San Francisco 49ers,boxscore,43,17,436,0,259,3
 5,Sun,2020-10-11,4:25PM,Cleveland Browns,,Indianapolis Colts,boxscore,32,23,385,2,308,2
 5,Sun,2020-10-11,4:25PM,Dallas Cowboys,,New York Giants,boxscore,37,34,402,2,300,1
@@ -83,7 +83,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 6,Sun,2020-10-18,1:00PM,Indianapolis Colts,,Cincinnati Bengals,boxscore,31,27,430,2,398,1
 6,Sun,2020-10-18,1:00PM,Pittsburgh Steelers,,Cleveland Browns,boxscore,38,7,277,0,220,2
 6,Sun,2020-10-18,1:00PM,Tennessee Titans,,Houston Texans,boxscore,42,36,607,2,412,0
-6,Sun,2020-10-18,1:00PM,New York Giants,,Washington Football Team,boxscore,20,19,240,1,337,2
+6,Sun,2020-10-18,1:00PM,New York Giants,,Washington Commanders,boxscore,20,19,240,1,337,2
 6,Sun,2020-10-18,1:00PM,Baltimore Ravens,@,Philadelphia Eagles,boxscore,30,28,355,0,364,1
 6,Sun,2020-10-18,4:05PM,Miami Dolphins,,New York Jets,boxscore,24,0,302,2,263,1
 6,Sun,2020-10-18,4:25PM,Tampa Bay Buccaneers,,Green Bay Packers,boxscore,38,10,324,0,201,2
@@ -97,7 +97,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 7,Sun,2020-10-25,1:00PM,Buffalo Bills,@,New York Jets,boxscore,18,10,422,1,191,2
 7,Sun,2020-10-25,1:00PM,New Orleans Saints,,Carolina Panthers,boxscore,27,24,415,1,283,0
 7,Sun,2020-10-25,1:00PM,Cleveland Browns,@,Cincinnati Bengals,boxscore,37,34,398,1,468,2
-7,Sun,2020-10-25,1:00PM,Washington Football Team,,Dallas Cowboys,boxscore,25,3,397,0,142,1
+7,Sun,2020-10-25,1:00PM,Washington Commanders,,Dallas Cowboys,boxscore,25,3,397,0,142,1
 7,Sun,2020-10-25,4:05PM,Tampa Bay Buccaneers,@,Las Vegas Raiders,boxscore,45,20,454,0,347,1
 7,Sun,2020-10-25,4:25PM,Kansas City Chiefs,@,Denver Broncos,boxscore,43,16,286,1,411,4
 7,Sun,2020-10-25,4:25PM,San Francisco 49ers,@,New England Patriots,boxscore,33,6,467,2,241,4
@@ -126,7 +126,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 9,Sun,2020-11-08,1:00PM,Buffalo Bills,,Seattle Seahawks,boxscore,44,34,420,0,419,4
 9,Sun,2020-11-08,1:00PM,Kansas City Chiefs,,Carolina Panthers,boxscore,33,31,397,1,435,0
 9,Sun,2020-11-08,1:00PM,Tennessee Titans,,Chicago Bears,boxscore,24,17,228,0,375,2
-9,Sun,2020-11-08,1:00PM,New York Giants,@,Washington Football Team,boxscore,23,20,350,0,402,5
+9,Sun,2020-11-08,1:00PM,New York Giants,@,Washington Commanders,boxscore,23,20,350,0,402,5
 9,Sun,2020-11-08,4:05PM,Las Vegas Raiders,@,Los Angeles Chargers,boxscore,31,26,320,1,440,1
 9,Sun,2020-11-08,4:25PM,Miami Dolphins,@,Arizona Cardinals,boxscore,34,31,312,0,442,1
 9,Sun,2020-11-08,4:25PM,Pittsburgh Steelers,@,Dallas Cowboys,boxscore,24,19,355,0,364,2
@@ -134,7 +134,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 9,Mon,2020-11-09,8:15PM,New England Patriots,@,New York Jets,boxscore,30,27,433,0,322,1
 10,Thu,2020-11-12,8:20PM,Indianapolis Colts,@,Tennessee Titans,boxscore,34,17,430,0,294,0
 10,Sun,2020-11-15,1:00PM,Cleveland Browns,,Houston Texans,boxscore,10,7,356,0,243,0
-10,Sun,2020-11-15,1:00PM,Detroit Lions,,Washington Football Team,boxscore,30,27,372,0,464,1
+10,Sun,2020-11-15,1:00PM,Detroit Lions,,Washington Commanders,boxscore,30,27,372,0,464,1
 10,Sun,2020-11-15,1:00PM,Green Bay Packers,,Jacksonville Jaguars,boxscore,24,20,395,2,260,1
 10,Sun,2020-11-15,1:00PM,Tampa Bay Buccaneers,@,Carolina Panthers,boxscore,46,23,544,1,187,1
 10,Sun,2020-11-15,1:00PM,New York Giants,,Philadelphia Eagles,boxscore,27,17,382,0,346,0
@@ -148,7 +148,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 10,Mon,2020-11-16,8:15PM,Minnesota Vikings,@,Chicago Bears,boxscore,19,13,385,2,149,2
 11,Thu,2020-11-19,8:20PM,Seattle Seahawks,,Arizona Cardinals,boxscore,28,21,347,0,314,0
 11,Sun,2020-11-22,1:00PM,New Orleans Saints,,Atlanta Falcons,boxscore,24,9,376,1,248,2
-11,Sun,2020-11-22,1:00PM,Washington Football Team,,Cincinnati Bengals,boxscore,20,9,325,1,272,2
+11,Sun,2020-11-22,1:00PM,Washington Commanders,,Cincinnati Bengals,boxscore,20,9,325,1,272,2
 11,Sun,2020-11-22,1:00PM,Cleveland Browns,,Philadelphia Eagles,boxscore,22,17,324,1,315,3
 11,Sun,2020-11-22,1:00PM,Houston Texans,,New England Patriots,boxscore,27,20,399,0,435,0
 11,Sun,2020-11-22,1:00PM,Pittsburgh Steelers,@,Jacksonville Jaguars,boxscore,27,3,373,1,206,4
@@ -161,7 +161,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 11,Sun,2020-11-22,8:20PM,Kansas City Chiefs,@,Las Vegas Raiders,boxscore,35,31,460,1,364,1
 11,Mon,2020-11-23,8:15PM,Los Angeles Rams,@,Tampa Bay Buccaneers,boxscore,27,24,413,2,251,2
 12,Thu,2020-11-26,12:30PM,Houston Texans,@,Detroit Lions,boxscore,41,25,384,1,388,3
-12,Thu,2020-11-26,4:30PM,Washington Football Team,@,Dallas Cowboys,boxscore,41,16,338,1,247,2
+12,Thu,2020-11-26,4:30PM,Washington Commanders,@,Dallas Cowboys,boxscore,41,16,338,1,247,2
 12,Sun,2020-11-29,1:00PM,Atlanta Falcons,,Las Vegas Raiders,boxscore,43,6,304,1,243,5
 12,Sun,2020-11-29,1:00PM,Buffalo Bills,,Los Angeles Chargers,boxscore,27,17,332,3,367,1
 12,Sun,2020-11-29,1:00PM,New York Giants,@,Cincinnati Bengals,boxscore,19,17,386,1,155,3
@@ -188,7 +188,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 13,Sun,2020-12-06,4:25PM,Green Bay Packers,,Philadelphia Eagles,boxscore,30,16,437,0,278,1
 13,Sun,2020-12-06,4:25PM,New England Patriots,@,Los Angeles Chargers,boxscore,45,0,291,0,258,2
 13,Sun,2020-12-06,8:20PM,Kansas City Chiefs,,Denver Broncos,boxscore,22,16,447,0,330,2
-13,Mon,2020-12-07,5:00PM,Washington Football Team,@,Pittsburgh Steelers,boxscore,23,17,318,0,326,1
+13,Mon,2020-12-07,5:00PM,Washington Commanders,@,Pittsburgh Steelers,boxscore,23,17,318,0,326,1
 13,Mon,2020-12-07,8:15PM,Buffalo Bills,@,San Francisco 49ers,boxscore,34,24,449,1,402,2
 13,Tue,2020-12-08,8:05PM,Baltimore Ravens,,Dallas Cowboys,boxscore,34,17,401,1,388,1
 14,Thu,2020-12-10,8:20PM,Los Angeles Rams,,New England Patriots,boxscore,24,3,318,1,220,1
@@ -204,7 +204,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 14,Sun,2020-12-13,4:25PM,Los Angeles Chargers,,Atlanta Falcons,boxscore,20,17,345,1,319,3
 14,Sun,2020-12-13,4:25PM,Green Bay Packers,@,Detroit Lions,boxscore,31,24,410,0,293,0
 14,Sun,2020-12-13,4:25PM,Philadelphia Eagles,,New Orleans Saints,boxscore,24,21,413,1,358,2
-14,Sun,2020-12-13,4:25PM,Washington Football Team,@,San Francisco 49ers,boxscore,23,15,193,1,344,3
+14,Sun,2020-12-13,4:25PM,Washington Commanders,@,San Francisco 49ers,boxscore,23,15,193,1,344,3
 14,Sun,2020-12-13,8:20PM,Buffalo Bills,,Pittsburgh Steelers,boxscore,26,15,334,2,224,2
 14,Mon,2020-12-14,8:15PM,Baltimore Ravens,@,Cleveland Browns,boxscore,47,42,385,0,493,1
 15,Thu,2020-12-17,8:20PM,Los Angeles Chargers,@,Las Vegas Raiders,boxscore,30,27,402,0,449,1
@@ -217,7 +217,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 15,Sun,2020-12-20,1:00PM,Tennessee Titans,,Detroit Lions,boxscore,46,25,463,0,430,3
 15,Sun,2020-12-20,1:00PM,Baltimore Ravens,,Jacksonville Jaguars,boxscore,40,14,409,1,267,1
 15,Sun,2020-12-20,1:00PM,Miami Dolphins,,New England Patriots,boxscore,22,12,383,1,303,1
-15,Sun,2020-12-20,1:00PM,Seattle Seahawks,@,Washington Football Team,boxscore,20,15,302,1,353,2
+15,Sun,2020-12-20,1:00PM,Seattle Seahawks,@,Washington Commanders,boxscore,20,15,302,1,353,2
 15,Sun,2020-12-20,4:05PM,Arizona Cardinals,,Philadelphia Eagles,boxscore,33,26,526,3,422,0
 15,Sun,2020-12-20,4:05PM,New York Jets,@,Los Angeles Rams,boxscore,23,20,289,0,303,1
 15,Sun,2020-12-20,4:25PM,Kansas City Chiefs,@,New Orleans Saints,boxscore,32,29,411,1,285,1
@@ -233,7 +233,7 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 16,Sun,2020-12-27,1:00PM,New York Jets,,Cleveland Browns,boxscore,23,16,333,0,299,2
 16,Sun,2020-12-27,1:00PM,Pittsburgh Steelers,,Indianapolis Colts,boxscore,28,24,354,0,365,2
 16,Sun,2020-12-27,1:00PM,Baltimore Ravens,,New York Giants,boxscore,27,13,432,1,269,0
-16,Sun,2020-12-27,4:05PM,Carolina Panthers,@,Washington Football Team,boxscore,20,13,280,2,386,4
+16,Sun,2020-12-27,4:05PM,Carolina Panthers,@,Washington Commanders,boxscore,20,13,280,2,386,4
 16,Sun,2020-12-27,4:05PM,Los Angeles Chargers,,Denver Broncos,boxscore,19,16,316,0,396,2
 16,Sun,2020-12-27,4:25PM,Dallas Cowboys,,Philadelphia Eagles,boxscore,37,17,513,1,477,3
 16,Sun,2020-12-27,4:25PM,Seattle Seahawks,,Los Angeles Rams,boxscore,20,9,292,0,334,1
@@ -254,10 +254,10 @@ Week,Day,Date,Time,Winner/tie,,Loser/tie,,PtsW,PtsL,YdsW,TOW,YdsL,TOL
 17,Sun,2021-01-03,4:25PM,Tennessee Titans,@,Houston Texans,boxscore,41,38,492,1,457,1
 17,Sun,2021-01-03,4:25PM,Los Angeles Chargers,@,Kansas City Chiefs,boxscore,38,21,416,0,268,1
 17,Sun,2021-01-03,4:25PM,Seattle Seahawks,@,San Francisco 49ers,boxscore,26,23,280,0,328,1
-17,Sun,2021-01-03,8:20PM,Washington Football Team,@,Philadelphia Eagles,boxscore,20,14,248,2,216,3
+17,Sun,2021-01-03,8:20PM,Washington Commanders,@,Philadelphia Eagles,boxscore,20,14,248,2,216,3
 WildCard,Sat,2021-01-09,1:05PM,Buffalo Bills,,Indianapolis Colts,boxscore,27,24,397,0,472,0
 WildCard,Sat,2021-01-09,4:40PM,Los Angeles Rams,@,Seattle Seahawks,boxscore,30,20,333,0,278,2
-WildCard,Sat,2021-01-09,8:15PM,Tampa Bay Buccaneers,@,Washington Football Team,boxscore,31,23,507,1,375,1
+WildCard,Sat,2021-01-09,8:15PM,Tampa Bay Buccaneers,@,Washington Commanders,boxscore,31,23,507,1,375,1
 WildCard,Sun,2021-01-10,1:05PM,Baltimore Ravens,@,Tennessee Titans,boxscore,20,13,401,1,209,1
 WildCard,Sun,2021-01-10,4:40PM,New Orleans Saints,,Chicago Bears,boxscore,21,9,385,1,239,0
 WildCard,Sun,2021-01-10,8:15PM,Cleveland Browns,@,Pittsburgh Steelers,boxscore,48,37,390,0,553,5
