@@ -76,7 +76,7 @@ def apply_scores(row):
         actual_score_matrix[t1i, t2i] = 1
         actual_score_matrix[t2i, t1i] = 0
 
-def elo_MSE(elo, results):
+def elo_MSE(elo, results, logistic_factor):
     global actual_score_matrix
     SSE = 0
 
@@ -85,6 +85,7 @@ def elo_MSE(elo, results):
         w = weeks[w_ind] # current week
         last_w = weeks[w_ind-1] # last week
         g = results[results['Week']==w] # games for week w
+        #g = df[df['Week']==w] # games for week w
         #calculate expected score for winner
         ones = np.array([1]*32)
         if w[:4] != last_w[:4] and last_w[0] == '2':
@@ -96,7 +97,7 @@ def elo_MSE(elo, results):
         scores_half = np.triu(actual_score_matrix - expected_score_matrix, 1)**2 # we don't need to count games twice
         SSE += np.sum(scores_half)
 
-    return SSE/(len(weeks)-1)
+    return SSE/len(results)
 
 KN, LN, RN =  31, 16, 21 #31, 16, 21
 K_range = np.linspace(10,40,KN)
@@ -109,7 +110,7 @@ for k in tqdm(range(len(K_range))):
     for l in tqdm(range(len(logistic_range))):
         for r in range(len(reset_range)):
             e = elo_sim(K_range[k],logistic_range[l],reset_range[r])
-            results[k,l,r] = elo_MSE(e, df)
+            results[k,l,r] = elo_MSE(e, df, l)
 
 flat_ind=np.argmin(results)
 unflat_ind = np.unravel_index(flat_ind, results.shape)
@@ -122,30 +123,8 @@ print(k_opt, l_opt, r_opt) # 11.0, 200.0, 0.7000000000000001
 plt.hist(results.flatten())
 plt.show()
 
-elo = elo_sim(k_opt, l_opt, r_opt)
-f = plt.figure()
-for i in range(16):
-    _=elo.loc[teams[i]].plot(label=teams[i])
+# elo = elo_sim(k_opt, l_opt, r_opt)
+# f = plt.figure()
+# for i in range(16):
+#     _=elo.loc[teams[i]].plot(label=teams[i])
 
-f.set_figwidth(5)
-f.legend(loc='upper left')
-f.show()
-f = plt.figure()
-for i in range(16,32):
-    _=elo.loc[teams[i]].plot(label=teams[i])
-
-f.set_figwidth(5)
-f.legend(loc='upper left')
-f.show()
-
-w = weeks[-1]
-best_teams=elo[w].sort_values(ascending=False)
-top12 = list(best_teams.index[:12])
-f = plt.figure()
-for i in top12:
-    _=elo.loc[i,weeks].plot(label=i)
-
-f.set_figwidth(5)
-plt.axvline(x=21, color='black', linestyle='--')
-f.legend(loc='upper left')
-f.show()

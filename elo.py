@@ -110,10 +110,14 @@ gs['Prediction'] = gs.apply(predict, args=(elos,), axis=1)
 gs.rename(columns={'Winner/tie':'Team 1', 'Loser/tie':'Team 2'}, inplace=True)
 gs
 print(gs.to_html(index=False))
+gs.to_html('predictions.html', index=False)
 
 
 # create current power rankings
-print(pd.DataFrame(np.array(best_teams.index).reshape((8,4))).to_html(index=False, header=False))
+power_rankings=pd.DataFrame(np.array(best_teams.index).reshape((8,4)))
+print(power_rankings.to_html(index=False, header=False))
+power_rankings.to_html('power_rankings.html', index=False, header=False)
+
 
 # power rankings for this season
 current_season = [w for w in elo.columns if w[:4]==CURRENT_SEASON or w==f'Reset Week {CURRENT_SEASON}']
