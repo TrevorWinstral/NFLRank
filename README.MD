@@ -20,82 +20,156 @@ Each team will start out with a ranking of 1000, and each week their ranking wil
 
 Note that we do not take much into account here, things such as home field advantage are not looked after at all. At week 1, each team will have a equal probability to win or lose, so it may take a few weeks for the ranks to establish themselves. To address this, I will start the simulation from the 2020/21 season. We will reset the ranks using the rank reset factor chosen by optimization.
 
-In implementing the model a range a values were tested across the 2020/21 and 2021/22 season to minimize the mean square error between the expected and realized scores. The values which were minimized over were the logistic rate, the maximal rank change $K$, and a 'reset factor' $r$ which shrinks the ranks after each season. So a reset factor of $0.1$ means that after each season, a team only keep 10% of their previous rank. Testing a range of values for these 3 variables yielded a minimal mean square error for a logistic rate of 200, $K=11$, and $r=0.7$. This yields the following power ranking for week 1 of 2022/23:
+In implementing the model a range a values were tested across the 2020/21 and 2021/22 season to minimize the mean square error between the expected and realized scores. The values which were minimized over were the logistic rate, the maximal rank change $K$, and a 'reset factor' $r$ which shrinks the ranks after each season. So a reset factor of $0.1$ means that after each season, a team only keep 10% of their previous rank. Testing a range of values for these 3 variables yielded a minimal mean square error for a logistic rate of 200, $K=11$, and $r=0.7$. This yields the following power ranking for week 1 of 2022/23 (read left to right, top to bottom):
 
-<table>
- <tr>
-<td>Kansas City Chiefs</td>
-<td>Los Angeles Rams</td>
-</tr><tr>
-<td>Tampa Bay Buccaneers</td>
-<td>Green Bay Packers</td>
-</tr><tr>
-<td>Buffalo Bills</td>
-<td>Tennessee Titans</td>
-</tr><tr>
-<td>Pittsburgh Steelers</td>
-<td>New Orleans Saints</td>
-</tr><tr>
-<td>Cincinnati Bengals</td>
-<td>San Francisco 49ers</td>
-</tr><tr>
-<td>Miami Dolphins</td>
-<td>Dallas Cowboys</td>
-</tr><tr>
-<td>Indianapolis Colts</td>
-<td>Las Vegas Raiders</td>
-</tr><tr>
-<td>Cleveland Browns</td>
-<td>Arizona Cardinals</td>
-</tr><tr>
-<td>New England Patriots</td>
-<td>Baltimore Ravens</td>
-</tr><tr>
-<td>Seattle Seahawks</td>
-<td>Los Angeles Chargers</td>
-</tr><tr>
-<td>Minnesota Vikings</td>
-<td>Philadelphia Eagles</td>
-</tr><tr>
-<td>Washington Football Team</td>
-<td>Chicago Bears</td>
-</tr><tr>
-<td>Denver Broncos</td>
-<td>Atlanta Falcons</td>
-</tr><tr>
-<td>New York Giants</td>
-<td>Carolina Panthers</td>
-</tr><tr>
-<td>Detroit Lions</td>
-<td>Houston Texans</td>
-</tr><tr>
-<td>New York Jets</td>
-<td>Jacksonville Jaguars</td>
- </tr>
+<table border="1" class="dataframe">
+  <tbody>
+    <tr>
+      <td>Kansas City Chiefs</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Buffalo Bills</td>
+      <td>Los Angeles Rams</td>
+    </tr>
+    <tr>
+      <td>Green Bay Packers</td>
+      <td>Pittsburgh Steelers</td>
+      <td>New Orleans Saints</td>
+      <td>Miami Dolphins</td>
+    </tr>
+    <tr>
+      <td>Tennessee Titans</td>
+      <td>Cleveland Browns</td>
+      <td>Indianapolis Colts</td>
+      <td>Baltimore Ravens</td>
+    </tr>
+    <tr>
+      <td>Cincinnati Bengals</td>
+      <td>Dallas Cowboys</td>
+      <td>Los Angeles Chargers</td>
+      <td>San Francisco 49ers</td>
+    </tr>
+    <tr>
+      <td>Seattle Seahawks</td>
+      <td>Minnesota Vikings</td>
+      <td>Arizona Cardinals</td>
+      <td>Las Vegas Raiders</td>
+    </tr>
+    <tr>
+      <td>New England Patriots</td>
+      <td>Philadelphia Eagles</td>
+      <td>Washington Commanders</td>
+      <td>Chicago Bears</td>
+    </tr>
+    <tr>
+      <td>Atlanta Falcons</td>
+      <td>Denver Broncos</td>
+      <td>New York Giants</td>
+      <td>Houston Texans</td>
+    </tr>
+    <tr>
+      <td>Carolina Panthers</td>
+      <td>Detroit Lions</td>
+      <td>New York Jets</td>
+      <td>Jacksonville Jaguars</td>
+    </tr>
+  </tbody>
 </table>
+
 And gave the Rams a 52% chance to win in the season opener against the Bills (not a great start, but much better than the experts on the pregame show who went around 70% for the Rams). I will continue to update the Elo power rankings each week, hopefully get that automated here soon, as well as some graphics to display the evolution over time.
 
 
 ### Matchup Predictions
-The following table lists the matchups, and the predicted chance for team 1 to win (0.46 corresponds to 46%). This is for week 1 of 2022/23.
-<table>
-<tr><th>             Team 1</th> <th>                Team 2</th><th>          Prediction</th></tr>
-<tr><td>   Buffalo Bills          </td><td> Los Angeles Rams    </td><td> 0.464895 </td></tr> 
-<tr><td>   Cleveland Browns         </td><td> Carolina Panthers    </td><td> 0.639854 </td></tr> 
-<tr><td>   Indianapolis Colts            </td><td> Houston Texans    </td><td> 0.668545 </td></tr> 
-<tr><td>   Jacksonville Jaguars  </td><td> Washington Football Team    </td><td> 0.351849 </td></tr> 
-<tr><td>   New Orleans Saints           </td><td> Atlanta Falcons    </td><td> 0.623988 </td></tr> 
-<tr><td>   New England Patriots            </td><td> Miami Dolphins    </td><td> 0.470959 </td></tr> 
-<tr><td>   Philadelphia Eagles             </td><td> Detroit Lions    </td><td> 0.597542 </td></tr> 
-<tr><td>   Pittsburgh Steelers        </td><td> Cincinnati Bengals    </td><td> 0.506445 </td></tr> 
-<tr><td>   Baltimore Ravens             </td><td> New York Jets    </td><td> 0.664253 </td></tr> 
-<tr><td>   San Francisco 49ers             </td><td> Chicago Bears    </td><td> 0.603389 </td></tr> 
-<tr><td>   Green Bay Packers         </td><td> Minnesota Vikings    </td><td> 0.636090 </td></tr> 
-<tr><td>   Kansas City Chiefs         </td><td> Arizona Cardinals    </td><td> 0.639320 </td></tr> 
-<tr><td>   New York Giants          </td><td> Tennessee Titans    </td><td> 0.307737 </td></tr> 
-<tr><td>   Las Vegas Raiders      </td><td> Los Angeles Chargers    </td><td> 0.525354 </td></tr> 
-<tr><td>   Tampa Bay Buccaneers            </td><td> Dallas Cowboys    </td><td> 0.600302 </td></tr> 
-<tr><td>   Denver Broncos          </td><td> Seattle Seahawks    </td><td> 0.423541 </td></tr> 
+The following table lists the matchups, and the predicted chance for team 1 to win (0.46 corresponds to 46%). This is for week 2 of 2022/23.
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Team 1</th>
+      <th>Team 2</th>
+      <th>Prediction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Los Angeles Chargers</td>
+      <td>Kansas City Chiefs</td>
+      <td>0.383616</td>
+    </tr>
+    <tr>
+      <td>Carolina Panthers</td>
+      <td>New York Giants</td>
+      <td>0.467714</td>
+    </tr>
+    <tr>
+      <td>Indianapolis Colts</td>
+      <td>Jacksonville Jaguars</td>
+      <td>0.677913</td>
+    </tr>
+    <tr>
+      <td>Miami Dolphins</td>
+      <td>Baltimore Ravens</td>
+      <td>0.527334</td>
+    </tr>
+    <tr>
+      <td>New England Patriots</td>
+      <td>Pittsburgh Steelers</td>
+      <td>0.442345</td>
+    </tr>
+    <tr>
+      <td>New York Jets</td>
+      <td>Cleveland Browns</td>
+      <td>0.343740</td>
+    </tr>
+    <tr>
+      <td>Tampa Bay Buccaneers</td>
+      <td>New Orleans Saints</td>
+      <td>0.570160</td>
+    </tr>
+    <tr>
+      <td>Washington Commanders</td>
+      <td>Detroit Lions</td>
+      <td>0.591765</td>
+    </tr>
+    <tr>
+      <td>Atlanta Falcons</td>
+      <td>Los Angeles Rams</td>
+      <td>0.338970</td>
+    </tr>
+    <tr>
+      <td>Seattle Seahawks</td>
+      <td>San Francisco 49ers</td>
+      <td>0.497604</td>
+    </tr>
+    <tr>
+      <td>Cincinnati Bengals</td>
+      <td>Dallas Cowboys</td>
+      <td>0.500182</td>
+    </tr>
+    <tr>
+      <td>Arizona Cardinals</td>
+      <td>Las Vegas Raiders</td>
+      <td>0.501415</td>
+    </tr>
+    <tr>
+      <td>Houston Texans</td>
+      <td>Denver Broncos</td>
+      <td>0.469356</td>
+    </tr>
+    <tr>
+      <td>Chicago Bears</td>
+      <td>Green Bay Packers</td>
+      <td>0.393400</td>
+    </tr>
+    <tr>
+      <td>Tennessee Titans</td>
+      <td>Buffalo Bills</td>
+      <td>0.442393</td>
+    </tr>
+    <tr>
+      <td>Minnesota Vikings</td>
+      <td>Philadelphia Eagles</td>
+      <td>0.520072</td>
+    </tr>
+  </tbody>
 </table>
 
 ## Bayes
@@ -134,3 +208,178 @@ $$\mathbb{P}\left[Z > - \frac{\mu_i - \mu_j}{\sigma_i + \sigma_j} \right].$$
 This is not looking like it is going to have a nice conjugate prior. But that is an effort for later. So for now this will have to be done numerically.
 
 To do this numerically each team will start out with a standard normally distributed random variable, this is our original prior. After observing a result, we shall be able to update this, with the observation (say team $i$ wins) conditional on the skill difference being normally distributed about the difference. The probability to observe $i$ winning will the be the area under the distribution to the right of 0 (if the difference is $S_i - S_j$, otherwise to the left). The parameters used for the numerical simulation are that each distribution will be represented by 1000 points between $[-5,5]$ (step size 0.01). 
+
+
+# Historical ratings
+## Elo
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Week 0</th>
+      <th>Week 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Kansas City Chiefs</td>
+      <td>Kansas City Chiefs</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Los Angeles Rams</td>
+      <td>Tampa Bay Buccaneers</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Buffalo Bills</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Green Bay Packers</td>
+      <td>Los Angeles Rams</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Buffalo Bills</td>
+      <td>Green Bay Packers</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Tennessee Titans</td>
+      <td>Pittsburgh Steelers</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Pittsburgh Steelers</td>
+      <td>New Orleans Saints</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>New Orleans Saints</td>
+      <td>Miami Dolphins</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>San Francisco 49ers</td>
+      <td>Tennessee Titans</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Cincinnati Bengals</td>
+      <td>Cleveland Browns</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Miami Dolphins</td>
+      <td>Indianapolis Colts</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Dallas Cowboys</td>
+      <td>Baltimore Ravens</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Indianapolis Colts</td>
+      <td>Cincinnati Bengals</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Las Vegas Raiders</td>
+      <td>Dallas Cowboys</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Arizona Cardinals</td>
+      <td>Los Angeles Chargers</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Cleveland Browns</td>
+      <td>San Francisco 49ers</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>New England Patriots</td>
+      <td>Seattle Seahawks</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Baltimore Ravens</td>
+      <td>Minnesota Vikings</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Los Angeles Chargers</td>
+      <td>Arizona Cardinals</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Seattle Seahawks</td>
+      <td>Las Vegas Raiders</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Minnesota Vikings</td>
+      <td>New England Patriots</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Philadelphia Eagles</td>
+      <td>Philadelphia Eagles</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Washington Commanders</td>
+      <td>Washington Commanders</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Chicago Bears</td>
+      <td>Chicago Bears</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Denver Broncos</td>
+      <td>Atlanta Falcons</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Atlanta Falcons</td>
+      <td>Denver Broncos</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Carolina Panthers</td>
+      <td>New York Giants</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>New York Giants</td>
+      <td>Houston Texans</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Detroit Lions</td>
+      <td>Carolina Panthers</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Houston Texans</td>
+      <td>Detroit Lions</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>New York Jets</td>
+      <td>New York Jets</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Jacksonville Jaguars</td>
+      <td>Jacksonville Jaguars</td>
+    </tr>
+  </tbody>
+</table>
