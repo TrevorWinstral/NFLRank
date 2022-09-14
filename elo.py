@@ -124,3 +124,4 @@ new_colnames.extend([f'Week {w[5:]}' for w in elo.columns if w[:4]==CURRENT_SEAS
 new_colnames.reverse()
 rankings.columns= new_colnames
 print(rankings.to_html())
+rankings.to_html('historical_rankings.html')
