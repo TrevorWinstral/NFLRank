@@ -20,7 +20,7 @@ Each team will start out with a ranking of 1000, and each week their ranking wil
 
 Note that we do not take much into account here, things such as home field advantage are not looked after at all. At week 1, each team will have a equal probability to win or lose, so it may take a few weeks for the ranks to establish themselves. To address this, I will start the simulation from the 2020/21 season. We will reset the ranks using the rank reset factor chosen by optimization.
 
-In implementing the model a range a values were tested across the 2020/21 and 2021/22 season to minimize the mean square error between the expected and realized scores. The values which were minimized over were the logistic rate, the maximal rank change $K$, and a 'reset factor' $r$ which shrinks the ranks after each season. So a reset factor of $0.1$ means that after each season, a team only keep 10% of their previous rank. Testing a range of values for these 3 variables yielded a minimal mean square error for a logistic rate of 200, $K=11$, and $r=0.7$. This yields the following power ranking for week 1 of 2022/23 (read left to right, top to bottom):
+In implementing the model a range a values were tested from the 2017/18 to the 2021/22 season to minimize the mean square error between the expected and realized scores. The values which were minimized over were the logistic rate, the maximal rank change $K$, and a 'reset factor' $r$ which shrinks the ranks after each season. So a reset factor of $0.1$ means that after each season, a team only keep 10% of their previous rank. Testing a range of values for these 3 variables yielded a minimal mean square error for a logistic rate of 350, $K=38$, and $r=0.675$. This yields the following power ranking after week 1 of 2022/23 (read left to right, top to bottom):
 
 <table border="1" class="dataframe">
   <tbody>
@@ -33,42 +33,42 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     <tr>
       <td>Green Bay Packers</td>
       <td>Pittsburgh Steelers</td>
-      <td>New Orleans Saints</td>
       <td>Miami Dolphins</td>
+      <td>New Orleans Saints</td>
     </tr>
     <tr>
       <td>Tennessee Titans</td>
-      <td>Cleveland Browns</td>
-      <td>Indianapolis Colts</td>
-      <td>Baltimore Ravens</td>
+      <td>San Francisco 49ers</td>
+      <td>Minnesota Vikings</td>
+      <td>Cincinnati Bengals</td>
     </tr>
     <tr>
-      <td>Cincinnati Bengals</td>
-      <td>Dallas Cowboys</td>
+      <td>Cleveland Browns</td>
       <td>Los Angeles Chargers</td>
-      <td>San Francisco 49ers</td>
+      <td>Dallas Cowboys</td>
+      <td>Indianapolis Colts</td>
     </tr>
     <tr>
       <td>Seattle Seahawks</td>
-      <td>Minnesota Vikings</td>
-      <td>Arizona Cardinals</td>
+      <td>Baltimore Ravens</td>
+      <td>Philadelphia Eagles</td>
       <td>Las Vegas Raiders</td>
     </tr>
     <tr>
       <td>New England Patriots</td>
-      <td>Philadelphia Eagles</td>
-      <td>Washington Commanders</td>
+      <td>Arizona Cardinals</td>
       <td>Chicago Bears</td>
+      <td>Washington Commanders</td>
     </tr>
     <tr>
       <td>Atlanta Falcons</td>
-      <td>Denver Broncos</td>
       <td>New York Giants</td>
+      <td>Denver Broncos</td>
       <td>Houston Texans</td>
     </tr>
     <tr>
-      <td>Carolina Panthers</td>
       <td>Detroit Lions</td>
+      <td>Carolina Panthers</td>
       <td>New York Jets</td>
       <td>Jacksonville Jaguars</td>
     </tr>
@@ -92,82 +92,82 @@ The following table lists the matchups, and the predicted chance for team 1 to w
     <tr>
       <td>Los Angeles Chargers</td>
       <td>Kansas City Chiefs</td>
-      <td>0.383616</td>
+      <td>0.334743</td>
     </tr>
     <tr>
       <td>Carolina Panthers</td>
       <td>New York Giants</td>
-      <td>0.467714</td>
+      <td>0.433302</td>
     </tr>
     <tr>
       <td>Indianapolis Colts</td>
       <td>Jacksonville Jaguars</td>
-      <td>0.677913</td>
+      <td>0.736851</td>
     </tr>
     <tr>
       <td>Miami Dolphins</td>
       <td>Baltimore Ravens</td>
-      <td>0.527334</td>
+      <td>0.564786</td>
     </tr>
     <tr>
       <td>New England Patriots</td>
       <td>Pittsburgh Steelers</td>
-      <td>0.442345</td>
+      <td>0.413500</td>
     </tr>
     <tr>
       <td>New York Jets</td>
       <td>Cleveland Browns</td>
-      <td>0.343740</td>
+      <td>0.291726</td>
     </tr>
     <tr>
       <td>Tampa Bay Buccaneers</td>
       <td>New Orleans Saints</td>
-      <td>0.570160</td>
+      <td>0.589598</td>
     </tr>
     <tr>
       <td>Washington Commanders</td>
       <td>Detroit Lions</td>
-      <td>0.591765</td>
+      <td>0.628810</td>
     </tr>
     <tr>
       <td>Atlanta Falcons</td>
       <td>Los Angeles Rams</td>
-      <td>0.338970</td>
+      <td>0.271834</td>
     </tr>
     <tr>
       <td>Seattle Seahawks</td>
       <td>San Francisco 49ers</td>
-      <td>0.497604</td>
+      <td>0.473238</td>
     </tr>
     <tr>
       <td>Cincinnati Bengals</td>
       <td>Dallas Cowboys</td>
-      <td>0.500182</td>
+      <td>0.515673</td>
     </tr>
     <tr>
       <td>Arizona Cardinals</td>
       <td>Las Vegas Raiders</td>
-      <td>0.501415</td>
+      <td>0.485320</td>
     </tr>
     <tr>
       <td>Houston Texans</td>
       <td>Denver Broncos</td>
-      <td>0.469356</td>
+      <td>0.486447</td>
     </tr>
     <tr>
       <td>Chicago Bears</td>
       <td>Green Bay Packers</td>
-      <td>0.393400</td>
+      <td>0.381318</td>
     </tr>
     <tr>
       <td>Tennessee Titans</td>
       <td>Buffalo Bills</td>
-      <td>0.442393</td>
+      <td>0.398812</td>
     </tr>
     <tr>
       <td>Minnesota Vikings</td>
       <td>Philadelphia Eagles</td>
-      <td>0.520072</td>
+      <td>0.535032</td>
     </tr>
   </tbody>
 </table>
@@ -225,12 +225,12 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     <tr>
       <th>0</th>
       <td>Kansas City Chiefs</td>
-      <td>Kansas City Chiefs</td>
+      <td>Los Angeles Rams</td>
     </tr>
     <tr>
       <th>1</th>
       <td>Tampa Bay Buccaneers</td>
-      <td>Los Angeles Rams</td>
+      <td>Kansas City Chiefs</td>
     </tr>
     <tr>
       <th>2</th>
@@ -254,67 +254,67 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>6</th>
-      <td>New Orleans Saints</td>
-      <td>Pittsburgh Steelers</td>
+      <td>Miami Dolphins</td>
+      <td>San Francisco 49ers</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>Miami Dolphins</td>
       <td>New Orleans Saints</td>
+      <td>Cincinnati Bengals</td>
     </tr>
     <tr>
       <th>8</th>
       <td>Tennessee Titans</td>
-      <td>San Francisco 49ers</td>
+      <td>Pittsburgh Steelers</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>Cleveland Browns</td>
-      <td>Cincinnati Bengals</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>Indianapolis Colts</td>
-      <td>Miami Dolphins</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>Baltimore Ravens</td>
+      <td>San Francisco 49ers</td>
       <td>Dallas Cowboys</td>
     </tr>
     <tr>
-      <th>12</th>
+      <th>10</th>
+      <td>Minnesota Vikings</td>
+      <td>New Orleans Saints</td>
+    </tr>
+    <tr>
+      <th>11</th>
       <td>Cincinnati Bengals</td>
+      <td>Miami Dolphins</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Cleveland Browns</td>
       <td>Indianapolis Colts</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>Dallas Cowboys</td>
+      <td>Los Angeles Chargers</td>
       <td>Las Vegas Raiders</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>Los Angeles Chargers</td>
-      <td>Arizona Cardinals</td>
+      <td>Dallas Cowboys</td>
+      <td>New England Patriots</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>San Francisco 49ers</td>
+      <td>Indianapolis Colts</td>
       <td>Cleveland Browns</td>
     </tr>
     <tr>
       <th>16</th>
       <td>Seattle Seahawks</td>
-      <td>New England Patriots</td>
+      <td>Arizona Cardinals</td>
     </tr>
     <tr>
       <th>17</th>
-      <td>Minnesota Vikings</td>
       <td>Baltimore Ravens</td>
+      <td>Minnesota Vikings</td>
     </tr>
     <tr>
       <th>18</th>
-      <td>Arizona Cardinals</td>
+      <td>Philadelphia Eagles</td>
       <td>Los Angeles Chargers</td>
     </tr>
     <tr>
@@ -325,52 +325,52 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     <tr>
       <th>20</th>
       <td>New England Patriots</td>
-      <td>Minnesota Vikings</td>
+      <td>Baltimore Ravens</td>
     </tr>
     <tr>
       <th>21</th>
-      <td>Philadelphia Eagles</td>
+      <td>Arizona Cardinals</td>
       <td>Philadelphia Eagles</td>
     </tr>
     <tr>
       <th>22</th>
-      <td>Washington Commanders</td>
+      <td>Chicago Bears</td>
       <td>Washington Commanders</td>
     </tr>
     <tr>
       <th>23</th>
-      <td>Chicago Bears</td>
+      <td>Washington Commanders</td>
       <td>Chicago Bears</td>
     </tr>
     <tr>
       <th>24</th>
       <td>Atlanta Falcons</td>
-      <td>Denver Broncos</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>Denver Broncos</td>
       <td>Atlanta Falcons</td>
     </tr>
     <tr>
-      <th>26</th>
+      <th>25</th>
       <td>New York Giants</td>
-      <td>Carolina Panthers</td>
+      <td>Denver Broncos</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Denver Broncos</td>
+      <td>Houston Texans</td>
     </tr>
     <tr>
       <th>27</th>
       <td>Houston Texans</td>
-      <td>New York Giants</td>
+      <td>Detroit Lions</td>
     </tr>
     <tr>
       <th>28</th>
-      <td>Carolina Panthers</td>
       <td>Detroit Lions</td>
+      <td>New York Giants</td>
     </tr>
     <tr>
       <th>29</th>
-      <td>Detroit Lions</td>
-      <td>Houston Texans</td>
+      <td>Carolina Panthers</td>
+      <td>Carolina Panthers</td>
     </tr>
     <tr>
       <th>30</th>
