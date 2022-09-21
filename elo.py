@@ -12,9 +12,9 @@ base_elo = 0
 realization_delta = pd.DataFrame(index=teams)
 reset = lambda factor, level: factor*(level- base_elo) + base_elo # for bracket reset, see more below
 
-#k_opt, l_opt, r_opt=11.0, 200.0, 0.70
-logistic_factor = 200 # 400 for chess, the larger the more likely upsets are, so upsetters are rewarded less
-reset_factor = 0.7 #after season do factor * (elo-base_elo) + base_elo, 0 is hard reset, 1 is no reset
+#k_opt, l_opt, r_opt= 38.0, 350.0, 0.675  
+logistic_factor = 100 # 400 for chess, the larger the more likely upsets are, so upsetters are rewarded less
+reset_factor = 0.68 #after season do factor * (elo-base_elo) + base_elo, 0 is hard reset, 1 is no reset
 baseK = 11 #maximal change of elo per game (this maybe should adjust throughout the season, probably declining)
 
 def score_realization_diff(row, expected_score_matrix=None):
@@ -49,6 +49,7 @@ def elo_sim(baseK, logistic_factor, reset_factor):
             #print('resetting')
             elo['Reset Week ' + w[:4]] = reset(reset_factor, elo[last_w])
             last_w = 'Reset Week ' + w[:4] # last week set to reset week
+            elo = elo.copy() # defragment frame for performance
             K = baseK
         elo_diffs = np.outer(elo[last_w],ones) - np.outer(elo[last_w],ones).T
         expected_score_matrix = 1/(1 + 10**(-1*elo_diffs/logistic_factor))# expected score for i playing against j given by [i,j]'th entry
