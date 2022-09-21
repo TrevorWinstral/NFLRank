@@ -173,15 +173,26 @@ df['Qualitative Error'] = (df['Prediction']>=0.5) # Did I guess the right winner
 df[['Week', 'Winner/tie', 'Loser/tie', 'Game Score', 'Prediction', 'Normalized Score', 'Qualitative Error']].tail(20)
 
 def correctness(row):
-    color= '255,0,0' if row['Qualitative Error'] == False else '0,255,0' # Red if predicted winner was wrong, green if it was right
-    strength = abs(row['Error']) if row['Qualitative Error'] else 1-abs(row['Error']) # very transparent if the error was small
-    return [f'background_color: rgba({color},{strength})']*len(row)
+    bad=':-1:' # thumbs down on github
+    good=':+1:' # thumbs up on github
+    # 1 thumbs up if correct, 2 if within 7 points, 3 if within 3 points
+    # 1 thumbs down if within 3, 2 if within 7, else 3
+    # first transform predicted score back into actual point differential
+    predicted_diff = np.log10((1/row['Prediction'])-1)/(-0.1)
+    realized_diff = np.log10((1/row['Normalized Score'])-1)/(-0.1)
+    diff_diff = abs(realized_diff - predicted_diff)
+    if row['Qualitative Error']:
+        output = good + (diff_diff<=7)*good + (diff_diff<=3)*good
+    else:
+        output = (3 - (diff_diff<=7) - (diff_diff<= 3))*bad
+    return output
+
 
 s = df.loc[df['Week'].str[:4] == CURRENT_SEASON][['Date', 'Winner/tie', 'Loser/tie', 'Game Score', 'Normalized Score', 'Prediction', 'Qualitative Error', 'Error']]
 s = s.reset_index(drop=True).iloc[::-1]
+s['Accuracy'] = s.apply(correctness, axis=1)
 s['Normalized Score'] = s['Normalized Score'].round(decimals=3)
 s['Prediction'] = s['Prediction'].round(decimals=3)
 s['Error'] = s['Error'].round(decimals=3)
-output = s.style.apply(correctness, axis=1)
-output.to_html('historical_performance.html', index=False, columns=['Date', 'Winner/tie', 'Loser/tie', 'Game Score', 'Normalized Score', 'Prediction'])
+s.to_html('historical_performance.html', index=False, columns=['Date', 'Winner/tie', 'Loser/tie', 'Game Score', 'Accuracy', 'Normalized Score', 'Prediction'])
     
