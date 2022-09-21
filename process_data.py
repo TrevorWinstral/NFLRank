@@ -30,4 +30,4 @@ df[df['type']=='boxscore'].to_csv('results.csv')
 
 #get next weeks games
 next_week=df[df['type']=='preview'].iloc[0]['Week']
-df[df['Week'] == next_week].reset_index().to_csv('next_games')
+df[df['Week'] == next_week].reset_index().to_csv('next_games.csv')

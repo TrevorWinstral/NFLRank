@@ -95,7 +95,6 @@ f.legend(loc='upper left')
 f.show()
 
 
-gs = pd.read_csv('next_games.csv')[['Winner/tie', 'Loser/tie']]
 def predict(row, elos):
     t1 = row['Winner/tie']
     t2 = row['Loser/tie']
@@ -106,6 +105,7 @@ def predict(row, elos):
     return expected_score
     
 
+gs = pd.read_csv('next_games.csv')[['Winner/tie', 'Loser/tie']]
 elos = elo.iloc[:,-1]
 gs['Prediction'] = gs.apply(predict, args=(elos,), axis=1)
 gs.rename(columns={'Winner/tie':'Team 1', 'Loser/tie':'Team 2'}, inplace=True)

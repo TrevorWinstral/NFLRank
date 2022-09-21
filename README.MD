@@ -79,7 +79,7 @@ And gave the Rams a 52% chance to win in the season opener against the Bills (no
 
 
 ### Matchup Predictions
-The following table lists the matchups, and the predicted chance for team 1 to win (0.46 corresponds to 46%). This is for week 2 of 2022/23.
+The following table lists the matchups, and the predicted chance for team 1 to win (0.46 corresponds to 46%). This is for week 3 of 2022/23.
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -90,84 +90,84 @@ The following table lists the matchups, and the predicted chance for team 1 to w
   </thead>
   <tbody>
     <tr>
-      <td>Los Angeles Chargers</td>
-      <td>Kansas City Chiefs</td>
-      <td>0.296266</td>
-    </tr>
-    <tr>
-      <td>Carolina Panthers</td>
-      <td>New York Giants</td>
-      <td>0.379420</td>
-    </tr>
-    <tr>
-      <td>Indianapolis Colts</td>
-      <td>Jacksonville Jaguars</td>
-      <td>0.661425</td>
-    </tr>
-    <tr>
-      <td>Miami Dolphins</td>
-      <td>Baltimore Ravens</td>
-      <td>0.619596</td>
-    </tr>
-    <tr>
-      <td>New England Patriots</td>
       <td>Pittsburgh Steelers</td>
-      <td>0.485700</td>
-    </tr>
-    <tr>
-      <td>New York Jets</td>
       <td>Cleveland Browns</td>
-      <td>0.368426</td>
+      <td>0.563489</td>
     </tr>
     <tr>
-      <td>Tampa Bay Buccaneers</td>
-      <td>New Orleans Saints</td>
-      <td>0.639943</td>
-    </tr>
-    <tr>
-      <td>Washington Commanders</td>
-      <td>Detroit Lions</td>
-      <td>0.553253</td>
-    </tr>
-    <tr>
-      <td>Atlanta Falcons</td>
-      <td>Los Angeles Rams</td>
-      <td>0.242857</td>
-    </tr>
-    <tr>
-      <td>Seattle Seahawks</td>
-      <td>San Francisco 49ers</td>
-      <td>0.413292</td>
+      <td>Buffalo Bills</td>
+      <td>Miami Dolphins</td>
+      <td>0.567731</td>
     </tr>
     <tr>
       <td>Cincinnati Bengals</td>
-      <td>Dallas Cowboys</td>
-      <td>0.451311</td>
+      <td>New York Jets</td>
+      <td>0.654492</td>
     </tr>
     <tr>
-      <td>Arizona Cardinals</td>
-      <td>Las Vegas Raiders</td>
-      <td>0.549724</td>
+      <td>Detroit Lions</td>
+      <td>Minnesota Vikings</td>
+      <td>0.366806</td>
     </tr>
     <tr>
       <td>Houston Texans</td>
-      <td>Denver Broncos</td>
-      <td>0.425416</td>
-    </tr>
-    <tr>
       <td>Chicago Bears</td>
-      <td>Green Bay Packers</td>
-      <td>0.335793</td>
+      <td>0.390765</td>
     </tr>
     <tr>
-      <td>Tennessee Titans</td>
-      <td>Buffalo Bills</td>
-      <td>0.350059</td>
+      <td>Kansas City Chiefs</td>
+      <td>Indianapolis Colts</td>
+      <td>0.729253</td>
     </tr>
     <tr>
-      <td>Minnesota Vikings</td>
+      <td>New Orleans Saints</td>
+      <td>Carolina Panthers</td>
+      <td>0.732336</td>
+    </tr>
+    <tr>
       <td>Philadelphia Eagles</td>
-      <td>0.467990</td>
+      <td>Washington Commanders</td>
+      <td>0.613094</td>
+    </tr>
+    <tr>
+      <td>Las Vegas Raiders</td>
+      <td>Tennessee Titans</td>
+      <td>0.443129</td>
+    </tr>
+    <tr>
+      <td>Baltimore Ravens</td>
+      <td>New England Patriots</td>
+      <td>0.452316</td>
+    </tr>
+    <tr>
+      <td>Jacksonville Jaguars</td>
+      <td>Los Angeles Chargers</td>
+      <td>0.311022</td>
+    </tr>
+    <tr>
+      <td>Atlanta Falcons</td>
+      <td>Seattle Seahawks</td>
+      <td>0.393221</td>
+    </tr>
+    <tr>
+      <td>Green Bay Packers</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>0.428180</td>
+    </tr>
+    <tr>
+      <td>Los Angeles Rams</td>
+      <td>Arizona Cardinals</td>
+      <td>0.646301</td>
+    </tr>
+    <tr>
+      <td>San Francisco 49ers</td>
+      <td>Denver Broncos</td>
+      <td>0.658135</td>
+    </tr>
+    <tr>
+      <td>Dallas Cowboys</td>
+      <td>New York Giants</td>
+      <td>0.635412</td>
     </tr>
   </tbody>
 </table>
