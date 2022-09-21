@@ -1,3 +1,4 @@
+from cmath import log
 import pandas as pd
 import numpy as np
 df = pd.read_csv('results.csv', index_col=0)
@@ -10,6 +11,8 @@ base_elo = 0
 realization_delta = pd.DataFrame(index=teams)
 reset = lambda factor, level: factor*(level- base_elo) + base_elo # for bracket reset, see more below
 
+
+# I should import these, but for now I just have to copy them
 def score_realization_diff(row, expected_score_matrix=None):
     #assert expected_score_matrix != None
     global realization_delta
@@ -17,12 +20,19 @@ def score_realization_diff(row, expected_score_matrix=None):
     t1i, t2i = team_ind[t1], team_ind[t2]
     expected_scores = [expected_score_matrix[t1i, t2i], expected_score_matrix[t2i, t1i]] #elo diff between winner and loser
     #realized score for winner t1 = 1, vs 0 for loser t2
-    if row['isTie']:
-        realization_delta.loc[t1, 'delta'] += 0.5-expected_scores[0]
-        realization_delta.loc[t2, 'delta'] += 0.5-expected_scores[1]
-    else:
-        realization_delta.loc[t1, 'delta'] += 1-expected_scores[0]
-        realization_delta.loc[t2, 'delta'] += 0-expected_scores[1]
+    ## Old way without logistic score curve
+    # if row['isTie']:
+    #     realization_delta.loc[t1, 'delta'] += 0.5-expected_scores[0]
+    #     realization_delta.loc[t2, 'delta'] += 0.5-expected_scores[1]
+    # else:
+    #     realization_delta.loc[t1, 'delta'] += 1-expected_scores[0]
+    #     realization_delta.loc[t2, 'delta'] += 0-expected_scores[1]
+
+    ## New way with logistic curve
+    realized_point_diff = row['PtsW'] - row['PtsL']
+    logistic_point_diff = 1/(1+10**(realized_point_diff*-0.1))
+    realization_delta.loc[t1, 'delta'] += logistic_point_diff-expected_scores[0]
+    realization_delta.loc[t2, 'delta'] += (1-logistic_point_diff)-expected_scores[1]
 
 def elo_sim(baseK, logistic_factor, reset_factor):
     global realization_delta
@@ -42,7 +52,7 @@ def elo_sim(baseK, logistic_factor, reset_factor):
             #print('resetting')
             elo['Reset Week ' + w[:4]] = reset(reset_factor, elo[last_w])
             last_w = 'Reset Week ' + w[:4] # last week set to reset week
-            elo = elo.copy() # this defragments the frame for performance
+            elo = elo.copy() # defragment frame for performance
             K = baseK
         elo_diffs = np.outer(elo[last_w],ones) - np.outer(elo[last_w],ones).T
         expected_score_matrix = 1/(1 + 10**(-1*elo_diffs/logistic_factor))# expected score for i playing against j given by [i,j]'th entry
@@ -50,14 +60,9 @@ def elo_sim(baseK, logistic_factor, reset_factor):
         # adjust for realized score
         _=games.apply(score_realization_diff, args=(expected_score_matrix,), axis=1)
         realization_delta['delta'] *= K
-        elo[w] = elo[last_w] + realization_delta['delta'] # getting fragmented warning with this, instead trying next line
+        elo[w] = elo[last_w] + realization_delta['delta']
         K -= 0 #1/3
     return elo
-
-# logistic_factor = 100 # 400 for chess, the larger the more likely upsets are, so upsetters are rewarded less
-# reset_factor = 0.65 #after season do factor * (elo-base_elo) + base_elo, 0 is hard reset, 1 is no reset
-# baseK = 40 #maximal change of elo per game (this maybe should adjust throughout the season, probably declining)
-# elo = elo_sim(baseK, logistic_factor, reset_factor)
 
 
 import matplotlib
@@ -68,14 +73,21 @@ import matplotlib.pyplot as plt
 # we want to minimize MSE between between expected score and realized score. We could just find min over all combinations of these
 actual_score_matrix = np.zeros((32,32))
 def apply_scores(row):
+    global actual_score_matrix
     t1, t2 = row[['Winner/tie', 'Loser/tie']]
     t1i, t2i = team_ind[t1], team_ind[t2]
-    if row['isTie']:
-        actual_score_matrix[t1i, t2i] = 0.5
-        actual_score_matrix[t2i, t1i] = 0.5
-    else:
-        actual_score_matrix[t1i, t2i] = 1
-        actual_score_matrix[t2i, t1i] = 0
+    ## Old way without logistic score diff
+    # if row['isTie']:
+    #     actual_score_matrix[t1i, t2i] = 0.5
+    #     actual_score_matrix[t2i, t1i] = 0.5
+    # else:
+    #     actual_score_matrix[t1i, t2i] = 1
+    #     actual_score_matrix[t2i, t1i] = 0
+    ## Logistic score diff
+    realized_point_diff = row['PtsW'] - row['PtsL']
+    logistic_point_diff = 1/(1+10**(-0.1*realized_point_diff))
+    actual_score_matrix[t1i, t2i] = logistic_point_diff
+    actual_score_matrix[t2i, t1i] = 1-logistic_point_diff
 
 def elo_MSE(elo, results, logistic_factor):
     global actual_score_matrix
@@ -107,16 +119,27 @@ def elo_MSE(elo, results, logistic_factor):
 # logistic_range = np.linspace(50, 800, LN)
 # reset_range = np.linspace(0.5, 1, RN) 
 # Now we refine around these values
-KN, LN, RN =  3, 6, 26 #31, 16, 21
-K_range = np.linspace(10, 12,KN)
-logistic_range = np.linspace(100, 300, LN)
-reset_range = np.linspace(0.5, 0.75, RN)
+# KN, LN, RN =  3, 6, 26
+# K_range = np.linspace(10, 12,KN)
+# logistic_range = np.linspace(100, 300, LN)
+# reset_range = np.linspace(0.5, 0.75, RN)
+
+# ## I want to try one singlular optimization.
+# KN, LN, RN =  10, 17, 13
+# K_range = np.linspace(5,50, KN) # 5-50 stepsize 5
+# logistic_range = np.linspace(100, 500, LN) # 100-500 stepsize 25
+# reset_range = np.linspace(0.25, 0.85, RN) # 0.25-0.85 stepsize 0.05
+KN, LN, RN =  9, 17, 13
+K_range = np.linspace(10,50, KN) # 10-50 stepsize 5
+logistic_range = np.linspace(100, 500, LN) # 100-500 stepsize 25
+reset_range = np.linspace(0.25, 0.85, RN) # 0.25-0.85 stepsize 0.05
 
 from tqdm.auto import tqdm
 results = np.zeros((KN, LN, RN))
 for k in tqdm(range(len(K_range))):
     for l in tqdm(range(len(logistic_range)), leave=False):
-        for r in tqdm(range(len(reset_range)), leave=False):
+        for r in tqdm(range(len(reset_range)), leave=False, desc=f'k={K_range[k]}, l={logistic_range[l]}'):
+            print(' ', K_range[k],logistic_range[l],reset_range[r])
             e = elo_sim(K_range[k],logistic_range[l],reset_range[r])
             results[k,l,r] = elo_MSE(e, df, logistic_range[l])
 
@@ -125,7 +148,7 @@ unflat_ind = np.unravel_index(flat_ind, results.shape)
 k_opt = K_range[unflat_ind[0]]
 l_opt = logistic_range[unflat_ind[1]]
 r_opt = reset_range[unflat_ind[2]]
-print(k_opt, l_opt, r_opt) # 11.0, 200.0, 0.7000000000000001
+print(k_opt, l_opt, r_opt) # 15.0 125.0 0.7  
 #k_opt, l_opt, r_opt=11.0, 200.0, 0.70 # SPARSE 
 #k_opt, l_opt, r_opt=11.0, 100.0, 0.68, # REFINED
 

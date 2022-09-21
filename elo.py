@@ -12,10 +12,10 @@ base_elo = 0
 realization_delta = pd.DataFrame(index=teams)
 reset = lambda factor, level: factor*(level- base_elo) + base_elo # for bracket reset, see more below
 
-#k_opt, l_opt, r_opt= 38.0, 350.0, 0.675  
-logistic_factor = 100 # 400 for chess, the larger the more likely upsets are, so upsetters are rewarded less
-reset_factor = 0.68 #after season do factor * (elo-base_elo) + base_elo, 0 is hard reset, 1 is no reset
-baseK = 11 #maximal change of elo per game (this maybe should adjust throughout the season, probably declining)
+#k_opt, l_opt, r_opt= 15.0 125.0 0.7  
+logistic_factor = 125 # 400 for chess, the larger the more likely upsets are, so upsetters are rewarded less
+reset_factor = 0.7 #after season do factor * (elo-base_elo) + base_elo, 0 is hard reset, 1 is no reset
+baseK = 15 #maximal change of elo per game (this maybe should adjust throughout the season, probably declining)
 
 def score_realization_diff(row, expected_score_matrix=None):
     #assert expected_score_matrix != None
@@ -24,12 +24,19 @@ def score_realization_diff(row, expected_score_matrix=None):
     t1i, t2i = team_ind[t1], team_ind[t2]
     expected_scores = [expected_score_matrix[t1i, t2i], expected_score_matrix[t2i, t1i]] #elo diff between winner and loser
     #realized score for winner t1 = 1, vs 0 for loser t2
-    if row['isTie']:
-        realization_delta.loc[t1, 'delta'] += 0.5-expected_scores[0]
-        realization_delta.loc[t2, 'delta'] += 0.5-expected_scores[1]
-    else:
-        realization_delta.loc[t1, 'delta'] += 1-expected_scores[0]
-        realization_delta.loc[t2, 'delta'] += 0-expected_scores[1]
+    ## Old way without logistic score curve
+    # if row['isTie']:
+    #     realization_delta.loc[t1, 'delta'] += 0.5-expected_scores[0]
+    #     realization_delta.loc[t2, 'delta'] += 0.5-expected_scores[1]
+    # else:
+    #     realization_delta.loc[t1, 'delta'] += 1-expected_scores[0]
+    #     realization_delta.loc[t2, 'delta'] += 0-expected_scores[1]
+
+    ## New way with logistic curve
+    realized_point_diff = row['PtsW'] - row['PtsL']
+    logistic_point_diff = 1/(1+10**(realized_point_diff*-0.1))
+    realization_delta.loc[t1, 'delta'] += logistic_point_diff-expected_scores[0]
+    realization_delta.loc[t2, 'delta'] += (1-logistic_point_diff)-expected_scores[1]
 
 def elo_sim(baseK, logistic_factor, reset_factor):
     global realization_delta
@@ -89,8 +96,9 @@ for i in top12:
     _=elo.loc[i,weeks].plot(label=i)
 
 f.set_figwidth(5)
-plt.axvline(x=21, color='black', linestyle='--')
-plt.axvline(x=42, color='black', linestyle='--')
+step=21
+for s in range(1,5):
+    plt.axvline(x=s*step, color='black', linestyle='--')
 f.legend(loc='upper left')
 f.show()
 
