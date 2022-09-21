@@ -1,3 +1,5 @@
+from cmath import log
+from tkinter import CURRENT
 import pandas as pd
 import numpy as np
 CURRENT_SEASON='2022'
@@ -97,7 +99,7 @@ for i in top12:
 
 f.set_figwidth(5)
 step=21
-for s in range(1,5):
+for s in range(1,6):
     plt.axvline(x=s*step, color='black', linestyle='--')
 f.legend(loc='upper left')
 f.show()
@@ -138,3 +140,48 @@ new_colnames.reverse()
 rankings.columns= new_colnames
 print(rankings.to_html())
 rankings.to_html('historical_rankings.html')
+
+# Historical Prediction Accuracy
+def logistical_scores(row):
+    pts1 = row['PtsW']
+    pts2 = row['PtsL']
+    score = 1/(1 + 10**(-0.1*(pts1-pts2)))
+    return score
+
+def predict_total(row, elo):
+    week = row['Week']
+    if week == '0':
+        return 0.5
+    last_week_ind = week_to_ind[week]-1
+    t1 = row['Winner/tie']
+    t2 = row['Loser/tie']
+    t1i, t2i = team_ind[t1], team_ind[t2]
+    elo_diff = elo.iloc[t1i, last_week_ind] - elo.iloc[t2i, last_week_ind]
+    prediction = 1/(1 + 10**(-1*elo_diff/logistic_factor))
+    return prediction
+
+all_weeks = list(df['Week'].unique())
+week_to_ind = {all_weeks[i]:i for i in range(len(all_weeks))}
+df['Normalized Score'] = df.apply(logistical_scores, axis=1)
+df.apply(predict_total, axis=1, args=(elo,))
+df['Prediction'] = df.apply(predict_total, axis=1, args=(elo,))
+df['Game Score'] = df['PtsW'].astype(int).astype(str) + '-' + df['PtsL'].astype(int).astype(str)
+df[['Week', 'Winner/tie', 'Loser/tie', 'Game Score', 'Prediction', 'Normalized Score']]
+
+df['Error'] = df['Normalized Score'] - df['Prediction'] # How wrong was I
+df['Qualitative Error'] = (df['Prediction']>=0.5) # Did I guess the right winner
+df[['Week', 'Winner/tie', 'Loser/tie', 'Game Score', 'Prediction', 'Normalized Score', 'Qualitative Error']].tail(20)
+
+def correctness(row):
+    color= '255,0,0' if row['Qualitative Error'] == False else '0,255,0' # Red if predicted winner was wrong, green if it was right
+    strength = abs(row['Error']) if row['Qualitative Error'] else 1-abs(row['Error']) # very transparent if the error was small
+    return [f'background_color: rgba({color},{strength})']*len(row)
+
+s = df.loc[df['Week'].str[:4] == CURRENT_SEASON][['Date', 'Winner/tie', 'Loser/tie', 'Game Score', 'Normalized Score', 'Prediction', 'Qualitative Error', 'Error']]
+s = s.reset_index(drop=True).iloc[::-1]
+s['Normalized Score'] = s['Normalized Score'].round(decimals=3)
+s['Prediction'] = s['Prediction'].round(decimals=3)
+s['Error'] = s['Error'].round(decimals=3)
+output = s.style.apply(correctness, axis=1)
+output.to_html('historical_performance.html', index=False, columns=['Date', 'Winner/tie', 'Loser/tie', 'Game Score', 'Normalized Score', 'Prediction'])
+    
