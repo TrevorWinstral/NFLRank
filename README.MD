@@ -33,42 +33,42 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     <tr>
       <td>Green Bay Packers</td>
       <td>Pittsburgh Steelers</td>
-      <td>New Orleans Saints</td>
       <td>Miami Dolphins</td>
+      <td>New Orleans Saints</td>
     </tr>
     <tr>
       <td>Tennessee Titans</td>
-      <td>Cleveland Browns</td>
-      <td>Indianapolis Colts</td>
-      <td>Baltimore Ravens</td>
+      <td>San Francisco 49ers</td>
+      <td>Minnesota Vikings</td>
+      <td>Cincinnati Bengals</td>
     </tr>
     <tr>
-      <td>Cincinnati Bengals</td>
-      <td>Dallas Cowboys</td>
+      <td>Cleveland Browns</td>
       <td>Los Angeles Chargers</td>
-      <td>San Francisco 49ers</td>
+      <td>Dallas Cowboys</td>
+      <td>Indianapolis Colts</td>
     </tr>
     <tr>
       <td>Seattle Seahawks</td>
-      <td>Minnesota Vikings</td>
-      <td>Arizona Cardinals</td>
+      <td>Baltimore Ravens</td>
+      <td>Philadelphia Eagles</td>
       <td>Las Vegas Raiders</td>
     </tr>
     <tr>
       <td>New England Patriots</td>
-      <td>Philadelphia Eagles</td>
-      <td>Washington Commanders</td>
+      <td>Arizona Cardinals</td>
       <td>Chicago Bears</td>
+      <td>Washington Commanders</td>
     </tr>
     <tr>
       <td>Atlanta Falcons</td>
-      <td>Denver Broncos</td>
       <td>New York Giants</td>
+      <td>Denver Broncos</td>
       <td>Houston Texans</td>
     </tr>
     <tr>
-      <td>Carolina Panthers</td>
       <td>Detroit Lions</td>
+      <td>Carolina Panthers</td>
       <td>New York Jets</td>
       <td>Jacksonville Jaguars</td>
     </tr>
