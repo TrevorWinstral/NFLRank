@@ -1,17 +1,17 @@
 ,index,Week,Date,Winner/tie,Loser/tie,isTie,PtsW,PtsL,type
-0,1387,2022-3,2022-09-22,Pittsburgh Steelers,Cleveland Browns,False,,,preview
-1,1388,2022-3,2022-09-25,Buffalo Bills,Miami Dolphins,False,,,preview
-2,1389,2022-3,2022-09-25,Cincinnati Bengals,New York Jets,False,,,preview
-3,1390,2022-3,2022-09-25,Detroit Lions,Minnesota Vikings,False,,,preview
-4,1391,2022-3,2022-09-25,Houston Texans,Chicago Bears,False,,,preview
-5,1392,2022-3,2022-09-25,Kansas City Chiefs,Indianapolis Colts,False,,,preview
-6,1393,2022-3,2022-09-25,New Orleans Saints,Carolina Panthers,False,,,preview
-7,1394,2022-3,2022-09-25,Philadelphia Eagles,Washington Commanders,False,,,preview
-8,1395,2022-3,2022-09-25,Las Vegas Raiders,Tennessee Titans,False,,,preview
-9,1396,2022-3,2022-09-25,Baltimore Ravens,New England Patriots,False,,,preview
-10,1397,2022-3,2022-09-25,Jacksonville Jaguars,Los Angeles Chargers,False,,,preview
-11,1398,2022-3,2022-09-25,Atlanta Falcons,Seattle Seahawks,False,,,preview
-12,1399,2022-3,2022-09-25,Green Bay Packers,Tampa Bay Buccaneers,False,,,preview
-13,1400,2022-3,2022-09-25,Los Angeles Rams,Arizona Cardinals,False,,,preview
-14,1401,2022-3,2022-09-25,San Francisco 49ers,Denver Broncos,False,,,preview
-15,1402,2022-3,2022-09-26,Dallas Cowboys,New York Giants,False,,,preview
+0,1403,2022-4,2022-09-29,Miami Dolphins,Cincinnati Bengals,False,,,preview
+1,1404,2022-4,2022-10-02,Minnesota Vikings,New Orleans Saints,False,,,preview
+2,1405,2022-4,2022-10-02,Buffalo Bills,Baltimore Ravens,False,,,preview
+3,1406,2022-4,2022-10-02,Chicago Bears,New York Giants,False,,,preview
+4,1407,2022-4,2022-10-02,Cleveland Browns,Atlanta Falcons,False,,,preview
+5,1408,2022-4,2022-10-02,Jacksonville Jaguars,Philadelphia Eagles,False,,,preview
+6,1409,2022-4,2022-10-02,New York Jets,Pittsburgh Steelers,False,,,preview
+7,1410,2022-4,2022-10-02,Tennessee Titans,Indianapolis Colts,False,,,preview
+8,1411,2022-4,2022-10-02,Los Angeles Chargers,Houston Texans,False,,,preview
+9,1412,2022-4,2022-10-02,Seattle Seahawks,Detroit Lions,False,,,preview
+10,1413,2022-4,2022-10-02,Washington Commanders,Dallas Cowboys,False,,,preview
+11,1414,2022-4,2022-10-02,Arizona Cardinals,Carolina Panthers,False,,,preview
+12,1415,2022-4,2022-10-02,Denver Broncos,Las Vegas Raiders,False,,,preview
+13,1416,2022-4,2022-10-02,New England Patriots,Green Bay Packers,False,,,preview
+14,1417,2022-4,2022-10-02,Kansas City Chiefs,Tampa Bay Buccaneers,False,,,preview
+15,1418,2022-4,2022-10-03,Los Angeles Rams,San Francisco 49ers,False,,,preview

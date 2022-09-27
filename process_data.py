@@ -1,5 +1,5 @@
 import pandas as pd
-# data from https://www.pro-football-reference.com/years/2021/games.htm
+# data from https://www.pro-football-reference.com/years/2022/games.htm
 df17 = pd.read_csv('2017.csv')
 df17['isTie'] = df17['PtsW']==df17['PtsL']
 df17['Week'] = '2017-'+df17['Week']
