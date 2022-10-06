@@ -171,7 +171,6 @@ df[['Week', 'Winner/tie', 'Loser/tie', 'Game Score', 'Prediction', 'Normalized S
 df['Error'] = df['Normalized Score'] - df['Prediction'] # How wrong was I
 df['Qualitative Error'] = (df['Prediction']>=0.5) # Did I guess the right winner
 df[['Week', 'Winner/tie', 'Loser/tie', 'Game Score', 'Prediction', 'Normalized Score', 'Qualitative Error']].tail(20)
-
 def correctness(row):
     bad=':-1:' # thumbs down on github
     good=':+1:' # thumbs up on github
