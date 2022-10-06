@@ -194,4 +194,6 @@ s['Normalized Score'] = s['Normalized Score'].round(decimals=3)
 s['Prediction'] = s['Prediction'].round(decimals=3)
 s['Error'] = s['Error'].round(decimals=3)
 s.to_html('historical_performance.html', index=False, columns=['Date', 'Winner/tie', 'Loser/tie', 'Game Score', 'Accuracy', 'Normalized Score', 'Prediction'])
-    
+num_games = s.shape[0]
+num_correct = s['Qualitative Error'].sum()
+print(f'Prediction Record {num_correct}-{num_games-num_correct} ({(num_correct/num_games)*100:0.1f}%)')
