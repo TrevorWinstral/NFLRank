@@ -31,49 +31,49 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     <tr>
       <td>Buffalo Bills</td>
       <td>Kansas City Chiefs</td>
-      <td>Tampa Bay Buccaneers</td>
-      <td>San Francisco 49ers</td>
-    </tr>
-    <tr>
-      <td>Dallas Cowboys</td>
-      <td>Green Bay Packers</td>
       <td>Cincinnati Bengals</td>
-      <td>Philadelphia Eagles</td>
+      <td>Dallas Cowboys</td>
     </tr>
     <tr>
-      <td>Baltimore Ravens</td>
+      <td>Philadelphia Eagles</td>
+      <td>Tampa Bay Buccaneers</td>
       <td>Los Angeles Rams</td>
-      <td>Minnesota Vikings</td>
       <td>Tennessee Titans</td>
     </tr>
     <tr>
-      <td>Miami Dolphins</td>
-      <td>New England Patriots</td>
-      <td>New Orleans Saints</td>
-      <td>Los Angeles Chargers</td>
-    </tr>
-    <tr>
-      <td>Indianapolis Colts</td>
-      <td>Arizona Cardinals</td>
-      <td>Cleveland Browns</td>
-      <td>Las Vegas Raiders</td>
-    </tr>
-    <tr>
+      <td>Minnesota Vikings</td>
+      <td>San Francisco 49ers</td>
+      <td>Baltimore Ravens</td>
       <td>Seattle Seahawks</td>
-      <td>Denver Broncos</td>
-      <td>Atlanta Falcons</td>
+    </tr>
+    <tr>
+      <td>Miami Dolphins</td>
+      <td>Green Bay Packers</td>
+      <td>Las Vegas Raiders</td>
+      <td>New England Patriots</td>
+    </tr>
+    <tr>
+      <td>Arizona Cardinals</td>
+      <td>Indianapolis Colts</td>
+      <td>Los Angeles Chargers</td>
+      <td>New Orleans Saints</td>
+    </tr>
+    <tr>
       <td>New York Giants</td>
+      <td>Atlanta Falcons</td>
+      <td>New York Jets</td>
+      <td>Cleveland Browns</td>
     </tr>
     <tr>
       <td>Pittsburgh Steelers</td>
       <td>Chicago Bears</td>
-      <td>New York Jets</td>
-      <td>Houston Texans</td>
+      <td>Denver Broncos</td>
+      <td>Washington Commanders</td>
     </tr>
     <tr>
-      <td>Detroit Lions</td>
-      <td>Washington Commanders</td>
       <td>Carolina Panthers</td>
+      <td>Detroit Lions</td>
+      <td>Houston Texans</td>
       <td>Jacksonville Jaguars</td>
     </tr>
   </tbody>
@@ -83,7 +83,7 @@ And gave the Rams a 52% chance to win in the season opener against the Bills (no
 
 
 ### Matchup Predictions
-The following table lists the matchups, and the predicted chance for team 1 to win (0.46 corresponds to 46%). This is for week 7 of 2022/23.
+The following table lists the matchups, and the predicted chance for team 1 to win (0.46 corresponds to 46%). This is for week 8 of 2022/23.
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -94,74 +94,79 @@ The following table lists the matchups, and the predicted chance for team 1 to w
   </thead>
   <tbody>
     <tr>
-      <td>New Orleans Saints</td>
-      <td>Arizona Cardinals</td>
-      <td>0.529354</td>
-    </tr>
-    <tr>
-      <td>Atlanta Falcons</td>
-      <td>Cincinnati Bengals</td>
-      <td>0.398795</td>
-    </tr>
-    <tr>
-      <td>Cleveland Browns</td>
       <td>Baltimore Ravens</td>
-      <td>0.416678</td>
-    </tr>
-    <tr>
-      <td>Indianapolis Colts</td>
-      <td>Tennessee Titans</td>
-      <td>0.470156</td>
-    </tr>
-    <tr>
-      <td>Detroit Lions</td>
-      <td>Dallas Cowboys</td>
-      <td>0.298509</td>
-    </tr>
-    <tr>
-      <td>Green Bay Packers</td>
-      <td>Washington Commanders</td>
-      <td>0.639819</td>
-    </tr>
-    <tr>
-      <td>New York Giants</td>
-      <td>Jacksonville Jaguars</td>
-      <td>0.611721</td>
-    </tr>
-    <tr>
       <td>Tampa Bay Buccaneers</td>
-      <td>Carolina Panthers</td>
-      <td>0.758988</td>
+      <td>0.469604</td>
     </tr>
     <tr>
-      <td>Houston Texans</td>
-      <td>Las Vegas Raiders</td>
-      <td>0.395729</td>
-    </tr>
-    <tr>
-      <td>New York Jets</td>
       <td>Denver Broncos</td>
-      <td>0.496991</td>
+      <td>Jacksonville Jaguars</td>
+      <td>0.583202</td>
     </tr>
     <tr>
-      <td>Kansas City Chiefs</td>
-      <td>San Francisco 49ers</td>
-      <td>0.586124</td>
-    </tr>
-    <tr>
-      <td>Seattle Seahawks</td>
-      <td>Los Angeles Chargers</td>
-      <td>0.479890</td>
-    </tr>
-    <tr>
-      <td>Pittsburgh Steelers</td>
-      <td>Miami Dolphins</td>
-      <td>0.445446</td>
+      <td>Carolina Panthers</td>
+      <td>Atlanta Falcons</td>
+      <td>0.431055</td>
     </tr>
     <tr>
       <td>Chicago Bears</td>
+      <td>Dallas Cowboys</td>
+      <td>0.321147</td>
+    </tr>
+    <tr>
+      <td>Arizona Cardinals</td>
+      <td>Minnesota Vikings</td>
+      <td>0.424836</td>
+    </tr>
+    <tr>
+      <td>Miami Dolphins</td>
+      <td>Detroit Lions</td>
+      <td>0.654395</td>
+    </tr>
+    <tr>
       <td>New England Patriots</td>
-      <td>0.336963</td>
+      <td>New York Jets</td>
+      <td>0.545399</td>
+    </tr>
+    <tr>
+      <td>Pittsburgh Steelers</td>
+      <td>Philadelphia Eagles</td>
+      <td>0.327015</td>
+    </tr>
+    <tr>
+      <td>Las Vegas Raiders</td>
+      <td>New Orleans Saints</td>
+      <td>0.539437</td>
+    </tr>
+    <tr>
+      <td>Tennessee Titans</td>
+      <td>Houston Texans</td>
+      <td>0.707165</td>
+    </tr>
+    <tr>
+      <td>New York Giants</td>
+      <td>Seattle Seahawks</td>
+      <td>0.443642</td>
+    </tr>
+    <tr>
+      <td>San Francisco 49ers</td>
+      <td>Los Angeles Rams</td>
+      <td>0.478586</td>
+    </tr>
+    <tr>
+      <td>Washington Commanders</td>
+      <td>Indianapolis Colts</td>
+      <td>0.416690</td>
+    </tr>
+    <tr>
+      <td>Green Bay Packers</td>
+      <td>Buffalo Bills</td>
+      <td>0.303832</td>
+    </tr>
+    <tr>
+      <td>Cincinnati Bengals</td>
+      <td>Cleveland Browns</td>
+      <td>0.660920</td>
     </tr>
   </tbody>
 </table>
@@ -212,6 +217,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
   <thead>
     <tr style="text-align: right;">
       <th></th>
+      <th>Week 7</th>
       <th>Week 6</th>
       <th>Week 5</th>
       <th>Week 4</th>
@@ -229,11 +235,13 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
       <td>Buffalo Bills</td>
       <td>Buffalo Bills</td>
       <td>Buffalo Bills</td>
+      <td>Buffalo Bills</td>
       <td>Kansas City Chiefs</td>
       <td>Kansas City Chiefs</td>
     </tr>
     <tr>
       <th>1</th>
+      <td>Kansas City Chiefs</td>
       <td>Kansas City Chiefs</td>
       <td>Kansas City Chiefs</td>
       <td>Kansas City Chiefs</td>
@@ -244,6 +252,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>2</th>
+      <td>Cincinnati Bengals</td>
       <td>Tampa Bay Buccaneers</td>
       <td>Tampa Bay Buccaneers</td>
       <td>Tampa Bay Buccaneers</td>
@@ -254,6 +263,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>3</th>
+      <td>Dallas Cowboys</td>
       <td>Philadelphia Eagles</td>
       <td>San Francisco 49ers</td>
       <td>Green Bay Packers</td>
@@ -264,6 +274,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>4</th>
+      <td>Philadelphia Eagles</td>
       <td>Dallas Cowboys</td>
       <td>Dallas Cowboys</td>
       <td>San Francisco 49ers</td>
@@ -274,6 +285,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>5</th>
+      <td>Tampa Bay Buccaneers</td>
       <td>Cincinnati Bengals</td>
       <td>Green Bay Packers</td>
       <td>Dallas Cowboys</td>
@@ -284,6 +296,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>6</th>
+      <td>Los Angeles Rams</td>
       <td>San Francisco 49ers</td>
       <td>Cincinnati Bengals</td>
       <td>Cincinnati Bengals</td>
@@ -294,6 +307,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>7</th>
+      <td>Tennessee Titans</td>
       <td>Los Angeles Rams</td>
       <td>Philadelphia Eagles</td>
       <td>Los Angeles Rams</td>
@@ -305,6 +319,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     <tr>
       <th>8</th>
       <td>Minnesota Vikings</td>
+      <td>Minnesota Vikings</td>
       <td>Baltimore Ravens</td>
       <td>Miami Dolphins</td>
       <td>Philadelphia Eagles</td>
@@ -314,6 +329,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>9</th>
+      <td>San Francisco 49ers</td>
       <td>New England Patriots</td>
       <td>Los Angeles Rams</td>
       <td>Philadelphia Eagles</td>
@@ -324,6 +340,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>10</th>
+      <td>Baltimore Ravens</td>
       <td>Tennessee Titans</td>
       <td>Minnesota Vikings</td>
       <td>Baltimore Ravens</td>
@@ -334,6 +351,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>11</th>
+      <td>Seattle Seahawks</td>
       <td>Baltimore Ravens</td>
       <td>Tennessee Titans</td>
       <td>Tennessee Titans</td>
@@ -344,6 +362,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>12</th>
+      <td>Miami Dolphins</td>
       <td>Green Bay Packers</td>
       <td>Miami Dolphins</td>
       <td>Minnesota Vikings</td>
@@ -354,6 +373,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>13</th>
+      <td>Green Bay Packers</td>
       <td>Indianapolis Colts</td>
       <td>New England Patriots</td>
       <td>Arizona Cardinals</td>
@@ -364,6 +384,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>14</th>
+      <td>Las Vegas Raiders</td>
       <td>Los Angeles Chargers</td>
       <td>New Orleans Saints</td>
       <td>Los Angeles Chargers</td>
@@ -374,6 +395,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>15</th>
+      <td>New England Patriots</td>
       <td>Miami Dolphins</td>
       <td>Los Angeles Chargers</td>
       <td>Indianapolis Colts</td>
@@ -384,6 +406,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>16</th>
+      <td>Arizona Cardinals</td>
       <td>New Orleans Saints</td>
       <td>Indianapolis Colts</td>
       <td>Cleveland Browns</td>
@@ -394,6 +417,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>17</th>
+      <td>Indianapolis Colts</td>
       <td>Seattle Seahawks</td>
       <td>Arizona Cardinals</td>
       <td>New England Patriots</td>
@@ -404,6 +428,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>18</th>
+      <td>Los Angeles Chargers</td>
       <td>Atlanta Falcons</td>
       <td>Cleveland Browns</td>
       <td>Seattle Seahawks</td>
@@ -414,6 +439,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>19</th>
+      <td>New Orleans Saints</td>
       <td>Las Vegas Raiders</td>
       <td>Las Vegas Raiders</td>
       <td>New Orleans Saints</td>
@@ -424,6 +450,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>20</th>
+      <td>New York Giants</td>
       <td>Arizona Cardinals</td>
       <td>Seattle Seahawks</td>
       <td>Las Vegas Raiders</td>
@@ -434,6 +461,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>21</th>
+      <td>Atlanta Falcons</td>
       <td>New York Giants</td>
       <td>Denver Broncos</td>
       <td>Denver Broncos</td>
@@ -444,6 +472,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>22</th>
+      <td>New York Jets</td>
       <td>Cleveland Browns</td>
       <td>Atlanta Falcons</td>
       <td>Atlanta Falcons</td>
@@ -454,6 +483,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>23</th>
+      <td>Cleveland Browns</td>
       <td>Pittsburgh Steelers</td>
       <td>New York Giants</td>
       <td>Pittsburgh Steelers</td>
@@ -464,6 +494,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>24</th>
+      <td>Pittsburgh Steelers</td>
       <td>Denver Broncos</td>
       <td>Pittsburgh Steelers</td>
       <td>Chicago Bears</td>
@@ -474,6 +505,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>25</th>
+      <td>Chicago Bears</td>
       <td>New York Jets</td>
       <td>Chicago Bears</td>
       <td>Detroit Lions</td>
@@ -484,6 +516,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>26</th>
+      <td>Denver Broncos</td>
       <td>Washington Commanders</td>
       <td>New York Jets</td>
       <td>New York Giants</td>
@@ -494,6 +527,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>27</th>
+      <td>Washington Commanders</td>
       <td>Chicago Bears</td>
       <td>Houston Texans</td>
       <td>Jacksonville Jaguars</td>
@@ -504,6 +538,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>28</th>
+      <td>Carolina Panthers</td>
       <td>Houston Texans</td>
       <td>Detroit Lions</td>
       <td>Carolina Panthers</td>
@@ -515,6 +550,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     <tr>
       <th>29</th>
       <td>Detroit Lions</td>
+      <td>Detroit Lions</td>
       <td>Washington Commanders</td>
       <td>Washington Commanders</td>
       <td>Houston Texans</td>
@@ -524,6 +560,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>30</th>
+      <td>Houston Texans</td>
       <td>Jacksonville Jaguars</td>
       <td>Carolina Panthers</td>
       <td>Houston Texans</td>
@@ -534,6 +571,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
     </tr>
     <tr>
       <th>31</th>
+      <td>Jacksonville Jaguars</td>
       <td>Carolina Panthers</td>
       <td>Jacksonville Jaguars</td>
       <td>New York Jets</td>
@@ -546,7 +584,7 @@ Here are the historical ratings generated by the Elo algorithm. The column name 
 </table>
 
 ## Elo Predictions
-Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winner was predicted, 2 if the winner was correct and the point differential was within 7, and 3 if the winner was correct and the differential was within 3. 1 Thumbs down means the incorrect winner was predicted and the point differential was more than 7, 2 if the winner was incorrect and the point differential was within 7, and 3 if the winner was incorrect and the differential was within 3. Note that the parameter optimization was done for the mean squared error of logistic scores, so another choice of parameters may perform better here. Trying to optimize the parameters to minimize the difference between predicted and realized score differential is something I still want to try. So far the prediction record is: 58-36 (61.7%).
+Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winner was predicted, 2 if the winner was correct and the point differential was within 7, and 3 if the winner was correct and the differential was within 3. 1 Thumbs down means the incorrect winner was predicted and the point differential was more than 7, 2 if the winner was incorrect and the point differential was within 7, and 3 if the winner was incorrect and the differential was within 3. Note that the parameter optimization was done for the mean squared error of logistic scores, so another choice of parameters may perform better here. Trying to optimize the parameters to minimize the difference between predicted and realized score differential is something I still want to try. So far the prediction record is: 67-41 (62.0%).
 
 <table border="1" class="dataframe">
   <thead>
@@ -561,6 +599,132 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2022-10-24</td>
+      <td>Chicago Bears</td>
+      <td>New England Patriots</td>
+      <td>33-14</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.988</td>
+      <td>0.388</td>
+    </tr>
+    <tr>
+      <td>2022-10-23</td>
+      <td>Miami Dolphins</td>
+      <td>Pittsburgh Steelers</td>
+      <td>16-10</td>
+      <td>:+1::+1:</td>
+      <td>0.799</td>
+      <td>0.555</td>
+    </tr>
+    <tr>
+      <td>2022-10-23</td>
+      <td>Seattle Seahawks</td>
+      <td>Los Angeles Chargers</td>
+      <td>37-23</td>
+      <td>:+1:</td>
+      <td>0.962</td>
+      <td>0.526</td>
+    </tr>
+    <tr>
+      <td>2022-10-23</td>
+      <td>Kansas City Chiefs</td>
+      <td>San Francisco 49ers</td>
+      <td>44-23</td>
+      <td>:+1:</td>
+      <td>0.992</td>
+      <td>0.575</td>
+    </tr>
+    <tr>
+      <td>2022-10-23</td>
+      <td>New York Jets</td>
+      <td>Denver Broncos</td>
+      <td>16-9</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.834</td>
+      <td>0.390</td>
+    </tr>
+    <tr>
+      <td>2022-10-23</td>
+      <td>Las Vegas Raiders</td>
+      <td>Houston Texans</td>
+      <td>38-20</td>
+      <td>:+1:</td>
+      <td>0.984</td>
+      <td>0.591</td>
+    </tr>
+    <tr>
+      <td>2022-10-23</td>
+      <td>New York Giants</td>
+      <td>Jacksonville Jaguars</td>
+      <td>23-17</td>
+      <td>:+1::+1:</td>
+      <td>0.799</td>
+      <td>0.542</td>
+    </tr>
+    <tr>
+      <td>2022-10-23</td>
+      <td>Washington Commanders</td>
+      <td>Green Bay Packers</td>
+      <td>23-21</td>
+      <td>:-1::-1:</td>
+      <td>0.613</td>
+      <td>0.338</td>
+    </tr>
+    <tr>
+      <td>2022-10-23</td>
+      <td>Dallas Cowboys</td>
+      <td>Detroit Lions</td>
+      <td>24-6</td>
+      <td>:+1:</td>
+      <td>0.984</td>
+      <td>0.672</td>
+    </tr>
+    <tr>
+      <td>2022-10-23</td>
+      <td>Tennessee Titans</td>
+      <td>Indianapolis Colts</td>
+      <td>19-10</td>
+      <td>:+1:</td>
+      <td>0.888</td>
+      <td>0.505</td>
+    </tr>
+    <tr>
+      <td>2022-10-23</td>
+      <td>Baltimore Ravens</td>
+      <td>Cleveland Browns</td>
+      <td>23-20</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.521</td>
+    </tr>
+    <tr>
+      <td>2022-10-23</td>
+      <td>Carolina Panthers</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>21-3</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.984</td>
+      <td>0.263</td>
+    </tr>
+    <tr>
+      <td>2022-10-23</td>
+      <td>Cincinnati Bengals</td>
+      <td>Atlanta Falcons</td>
+      <td>35-17</td>
+      <td>:+1:</td>
+      <td>0.984</td>
+      <td>0.649</td>
+    </tr>
+    <tr>
+      <td>2022-10-20</td>
+      <td>Arizona Cardinals</td>
+      <td>New Orleans Saints</td>
+      <td>42-34</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.863</td>
+      <td>0.450</td>
+    </tr>
     <tr>
       <td>2022-10-17</td>
       <td>Los Angeles Chargers</td>
@@ -617,12 +781,21 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-10-16</td>
-      <td>Cincinnati Bengals</td>
-      <td>New Orleans Saints</td>
-      <td>30-26</td>
-      <td>:+1::+1:</td>
+      <td>New York Giants</td>
+      <td>Baltimore Ravens</td>
+      <td>24-20</td>
+      <td>:-1::-1::-1:</td>
       <td>0.715</td>
-      <td>0.513</td>
+      <td>0.280</td>
+    </tr>
+    <tr>
+      <td>2022-10-16</td>
+      <td>Minnesota Vikings</td>
+      <td>Miami Dolphins</td>
+      <td>24-16</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.863</td>
+      <td>0.448</td>
     </tr>
     <tr>
       <td>2022-10-16</td>
@@ -644,24 +817,6 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-10-16</td>
-      <td>New York Giants</td>
-      <td>Baltimore Ravens</td>
-      <td>24-20</td>
-      <td>:-1::-1::-1:</td>
-      <td>0.715</td>
-      <td>0.280</td>
-    </tr>
-    <tr>
-      <td>2022-10-16</td>
-      <td>Atlanta Falcons</td>
-      <td>San Francisco 49ers</td>
-      <td>28-14</td>
-      <td>:-1::-1::-1:</td>
-      <td>0.962</td>
-      <td>0.273</td>
-    </tr>
-    <tr>
-      <td>2022-10-16</td>
       <td>New England Patriots</td>
       <td>Cleveland Browns</td>
       <td>38-15</td>
@@ -671,12 +826,21 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-10-16</td>
-      <td>Minnesota Vikings</td>
-      <td>Miami Dolphins</td>
-      <td>24-16</td>
+      <td>Cincinnati Bengals</td>
+      <td>New Orleans Saints</td>
+      <td>30-26</td>
+      <td>:+1::+1:</td>
+      <td>0.715</td>
+      <td>0.513</td>
+    </tr>
+    <tr>
+      <td>2022-10-16</td>
+      <td>Atlanta Falcons</td>
+      <td>San Francisco 49ers</td>
+      <td>28-14</td>
       <td>:-1::-1::-1:</td>
-      <td>0.863</td>
-      <td>0.448</td>
+      <td>0.962</td>
+      <td>0.273</td>
     </tr>
     <tr>
       <td>2022-10-13</td>
@@ -734,15 +898,6 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-10-09</td>
-      <td>New England Patriots</td>
-      <td>Detroit Lions</td>
-      <td>29-0</td>
-      <td>:+1:</td>
-      <td>0.999</td>
-      <td>0.692</td>
-    </tr>
-    <tr>
-      <td>2022-10-09</td>
       <td>Tennessee Titans</td>
       <td>Washington Commanders</td>
       <td>21-17</td>
@@ -752,48 +907,12 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-10-09</td>
-      <td>Houston Texans</td>
-      <td>Jacksonville Jaguars</td>
-      <td>13-6</td>
+      <td>New Orleans Saints</td>
+      <td>Seattle Seahawks</td>
+      <td>39-32</td>
       <td>:+1::+1:</td>
       <td>0.834</td>
-      <td>0.612</td>
-    </tr>
-    <tr>
-      <td>2022-10-09</td>
-      <td>Los Angeles Chargers</td>
-      <td>Cleveland Browns</td>
-      <td>30-28</td>
-      <td>:+1::+1::+1:</td>
-      <td>0.613</td>
-      <td>0.515</td>
-    </tr>
-    <tr>
-      <td>2022-10-09</td>
-      <td>Tampa Bay Buccaneers</td>
-      <td>Atlanta Falcons</td>
-      <td>21-15</td>
-      <td>:+1::+1::+1:</td>
-      <td>0.799</td>
-      <td>0.782</td>
-    </tr>
-    <tr>
-      <td>2022-10-09</td>
-      <td>Buffalo Bills</td>
-      <td>Pittsburgh Steelers</td>
-      <td>38-3</td>
-      <td>:+1:</td>
-      <td>1.000</td>
-      <td>0.708</td>
-    </tr>
-    <tr>
-      <td>2022-10-09</td>
-      <td>Minnesota Vikings</td>
-      <td>Chicago Bears</td>
-      <td>29-22</td>
-      <td>:+1::+1:</td>
-      <td>0.834</td>
-      <td>0.624</td>
+      <td>0.533</td>
     </tr>
     <tr>
       <td>2022-10-09</td>
@@ -806,12 +925,57 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-10-09</td>
-      <td>New Orleans Saints</td>
-      <td>Seattle Seahawks</td>
-      <td>39-32</td>
+      <td>Houston Texans</td>
+      <td>Jacksonville Jaguars</td>
+      <td>13-6</td>
       <td>:+1::+1:</td>
       <td>0.834</td>
-      <td>0.533</td>
+      <td>0.612</td>
+    </tr>
+    <tr>
+      <td>2022-10-09</td>
+      <td>New England Patriots</td>
+      <td>Detroit Lions</td>
+      <td>29-0</td>
+      <td>:+1:</td>
+      <td>0.999</td>
+      <td>0.692</td>
+    </tr>
+    <tr>
+      <td>2022-10-09</td>
+      <td>Los Angeles Chargers</td>
+      <td>Cleveland Browns</td>
+      <td>30-28</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.613</td>
+      <td>0.515</td>
+    </tr>
+    <tr>
+      <td>2022-10-09</td>
+      <td>Minnesota Vikings</td>
+      <td>Chicago Bears</td>
+      <td>29-22</td>
+      <td>:+1::+1:</td>
+      <td>0.834</td>
+      <td>0.624</td>
+    </tr>
+    <tr>
+      <td>2022-10-09</td>
+      <td>Buffalo Bills</td>
+      <td>Pittsburgh Steelers</td>
+      <td>38-3</td>
+      <td>:+1:</td>
+      <td>1.000</td>
+      <td>0.708</td>
+    </tr>
+    <tr>
+      <td>2022-10-09</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Atlanta Falcons</td>
+      <td>21-15</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.799</td>
+      <td>0.782</td>
     </tr>
     <tr>
       <td>2022-10-09</td>
@@ -851,21 +1015,21 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-10-02</td>
-      <td>Las Vegas Raiders</td>
-      <td>Denver Broncos</td>
-      <td>32-23</td>
-      <td>:+1:</td>
-      <td>0.888</td>
-      <td>0.548</td>
-    </tr>
-    <tr>
-      <td>2022-10-02</td>
       <td>Green Bay Packers</td>
       <td>New England Patriots</td>
       <td>27-24</td>
       <td>:+1::+1::+1:</td>
       <td>0.666</td>
       <td>0.601</td>
+    </tr>
+    <tr>
+      <td>2022-10-02</td>
+      <td>Las Vegas Raiders</td>
+      <td>Denver Broncos</td>
+      <td>32-23</td>
+      <td>:+1:</td>
+      <td>0.888</td>
+      <td>0.548</td>
     </tr>
     <tr>
       <td>2022-10-02</td>
@@ -878,57 +1042,12 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-10-02</td>
-      <td>Dallas Cowboys</td>
-      <td>Washington Commanders</td>
-      <td>25-10</td>
-      <td>:+1:</td>
-      <td>0.969</td>
-      <td>0.684</td>
-    </tr>
-    <tr>
-      <td>2022-10-02</td>
-      <td>Atlanta Falcons</td>
-      <td>Cleveland Browns</td>
-      <td>23-20</td>
-      <td>:-1::-1:</td>
-      <td>0.666</td>
-      <td>0.381</td>
-    </tr>
-    <tr>
-      <td>2022-10-02</td>
-      <td>Tennessee Titans</td>
-      <td>Indianapolis Colts</td>
-      <td>24-17</td>
-      <td>:+1::+1:</td>
-      <td>0.834</td>
-      <td>0.507</td>
-    </tr>
-    <tr>
-      <td>2022-10-02</td>
-      <td>Seattle Seahawks</td>
-      <td>Detroit Lions</td>
-      <td>48-45</td>
-      <td>:+1::+1::+1:</td>
-      <td>0.666</td>
-      <td>0.686</td>
-    </tr>
-    <tr>
-      <td>2022-10-02</td>
-      <td>Buffalo Bills</td>
-      <td>Baltimore Ravens</td>
-      <td>23-20</td>
-      <td>:+1::+1::+1:</td>
-      <td>0.666</td>
-      <td>0.679</td>
-    </tr>
-    <tr>
-      <td>2022-10-02</td>
-      <td>Los Angeles Chargers</td>
-      <td>Houston Texans</td>
-      <td>34-24</td>
-      <td>:+1:</td>
-      <td>0.909</td>
-      <td>0.660</td>
+      <td>New York Jets</td>
+      <td>Pittsburgh Steelers</td>
+      <td>24-20</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.715</td>
+      <td>0.290</td>
     </tr>
     <tr>
       <td>2022-10-02</td>
@@ -941,12 +1060,39 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-10-02</td>
-      <td>New York Jets</td>
-      <td>Pittsburgh Steelers</td>
-      <td>24-20</td>
-      <td>:-1::-1::-1:</td>
-      <td>0.715</td>
-      <td>0.290</td>
+      <td>Los Angeles Chargers</td>
+      <td>Houston Texans</td>
+      <td>34-24</td>
+      <td>:+1:</td>
+      <td>0.909</td>
+      <td>0.660</td>
+    </tr>
+    <tr>
+      <td>2022-10-02</td>
+      <td>Seattle Seahawks</td>
+      <td>Detroit Lions</td>
+      <td>48-45</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.686</td>
+    </tr>
+    <tr>
+      <td>2022-10-02</td>
+      <td>Dallas Cowboys</td>
+      <td>Washington Commanders</td>
+      <td>25-10</td>
+      <td>:+1:</td>
+      <td>0.969</td>
+      <td>0.684</td>
+    </tr>
+    <tr>
+      <td>2022-10-02</td>
+      <td>Tennessee Titans</td>
+      <td>Indianapolis Colts</td>
+      <td>24-17</td>
+      <td>:+1::+1:</td>
+      <td>0.834</td>
+      <td>0.507</td>
     </tr>
     <tr>
       <td>2022-10-02</td>
@@ -956,6 +1102,24 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
       <td>:-1::-1::-1:</td>
       <td>0.863</td>
       <td>0.400</td>
+    </tr>
+    <tr>
+      <td>2022-10-02</td>
+      <td>Buffalo Bills</td>
+      <td>Baltimore Ravens</td>
+      <td>23-20</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.679</td>
+    </tr>
+    <tr>
+      <td>2022-10-02</td>
+      <td>Atlanta Falcons</td>
+      <td>Cleveland Browns</td>
+      <td>23-20</td>
+      <td>:-1::-1:</td>
+      <td>0.666</td>
+      <td>0.381</td>
     </tr>
     <tr>
       <td>2022-10-02</td>
@@ -995,12 +1159,12 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-25</td>
-      <td>Atlanta Falcons</td>
-      <td>Seattle Seahawks</td>
-      <td>27-23</td>
-      <td>:-1::-1::-1:</td>
-      <td>0.715</td>
-      <td>0.333</td>
+      <td>Green Bay Packers</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>14-12</td>
+      <td>:-1:</td>
+      <td>0.613</td>
+      <td>0.463</td>
     </tr>
     <tr>
       <td>2022-09-25</td>
@@ -1013,12 +1177,12 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-25</td>
-      <td>Green Bay Packers</td>
-      <td>Tampa Bay Buccaneers</td>
-      <td>14-12</td>
-      <td>:-1:</td>
-      <td>0.613</td>
-      <td>0.463</td>
+      <td>Atlanta Falcons</td>
+      <td>Seattle Seahawks</td>
+      <td>27-23</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.715</td>
+      <td>0.333</td>
     </tr>
     <tr>
       <td>2022-09-25</td>
@@ -1031,6 +1195,15 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-25</td>
+      <td>Philadelphia Eagles</td>
+      <td>Washington Commanders</td>
+      <td>24-8</td>
+      <td>:+1:</td>
+      <td>0.975</td>
+      <td>0.572</td>
+    </tr>
+    <tr>
+      <td>2022-09-25</td>
       <td>Tennessee Titans</td>
       <td>Las Vegas Raiders</td>
       <td>24-22</td>
@@ -1040,39 +1213,12 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-25</td>
-      <td>Miami Dolphins</td>
-      <td>Buffalo Bills</td>
-      <td>21-19</td>
-      <td>:-1::-1:</td>
-      <td>0.613</td>
-      <td>0.342</td>
-    </tr>
-    <tr>
-      <td>2022-09-25</td>
-      <td>Indianapolis Colts</td>
-      <td>Kansas City Chiefs</td>
-      <td>20-17</td>
-      <td>:-1::-1:</td>
-      <td>0.666</td>
-      <td>0.355</td>
-    </tr>
-    <tr>
-      <td>2022-09-25</td>
-      <td>Carolina Panthers</td>
-      <td>New Orleans Saints</td>
-      <td>22-14</td>
+      <td>Baltimore Ravens</td>
+      <td>New England Patriots</td>
+      <td>37-26</td>
       <td>:-1::-1::-1:</td>
-      <td>0.863</td>
-      <td>0.264</td>
-    </tr>
-    <tr>
-      <td>2022-09-25</td>
-      <td>Philadelphia Eagles</td>
-      <td>Washington Commanders</td>
-      <td>24-8</td>
-      <td>:+1:</td>
-      <td>0.975</td>
-      <td>0.572</td>
+      <td>0.926</td>
+      <td>0.472</td>
     </tr>
     <tr>
       <td>2022-09-25</td>
@@ -1085,12 +1231,12 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-25</td>
-      <td>Chicago Bears</td>
-      <td>Houston Texans</td>
-      <td>23-20</td>
-      <td>:+1::+1::+1:</td>
+      <td>Indianapolis Colts</td>
+      <td>Kansas City Chiefs</td>
+      <td>20-17</td>
+      <td>:-1::-1:</td>
       <td>0.666</td>
-      <td>0.547</td>
+      <td>0.355</td>
     </tr>
     <tr>
       <td>2022-09-25</td>
@@ -1103,12 +1249,30 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-25</td>
-      <td>Baltimore Ravens</td>
-      <td>New England Patriots</td>
-      <td>37-26</td>
+      <td>Chicago Bears</td>
+      <td>Houston Texans</td>
+      <td>23-20</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.547</td>
+    </tr>
+    <tr>
+      <td>2022-09-25</td>
+      <td>Carolina Panthers</td>
+      <td>New Orleans Saints</td>
+      <td>22-14</td>
       <td>:-1::-1::-1:</td>
-      <td>0.926</td>
-      <td>0.472</td>
+      <td>0.863</td>
+      <td>0.264</td>
+    </tr>
+    <tr>
+      <td>2022-09-25</td>
+      <td>Miami Dolphins</td>
+      <td>Buffalo Bills</td>
+      <td>21-19</td>
+      <td>:-1::-1:</td>
+      <td>0.613</td>
+      <td>0.342</td>
     </tr>
     <tr>
       <td>2022-09-22</td>
@@ -1148,12 +1312,12 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-18</td>
-      <td>Dallas Cowboys</td>
-      <td>Cincinnati Bengals</td>
-      <td>20-17</td>
-      <td>:+1::+1::+1:</td>
-      <td>0.666</td>
-      <td>0.588</td>
+      <td>Denver Broncos</td>
+      <td>Houston Texans</td>
+      <td>16-9</td>
+      <td>:+1::+1:</td>
+      <td>0.834</td>
+      <td>0.583</td>
     </tr>
     <tr>
       <td>2022-09-18</td>
@@ -1166,21 +1330,12 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-18</td>
-      <td>Denver Broncos</td>
-      <td>Houston Texans</td>
-      <td>16-9</td>
-      <td>:+1::+1:</td>
-      <td>0.834</td>
-      <td>0.583</td>
-    </tr>
-    <tr>
-      <td>2022-09-18</td>
-      <td>Los Angeles Rams</td>
-      <td>Atlanta Falcons</td>
-      <td>31-27</td>
+      <td>Dallas Cowboys</td>
+      <td>Cincinnati Bengals</td>
+      <td>20-17</td>
       <td>:+1::+1::+1:</td>
-      <td>0.715</td>
-      <td>0.736</td>
+      <td>0.666</td>
+      <td>0.588</td>
     </tr>
     <tr>
       <td>2022-09-18</td>
@@ -1190,6 +1345,15 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
       <td>:+1:</td>
       <td>0.990</td>
       <td>0.541</td>
+    </tr>
+    <tr>
+      <td>2022-09-18</td>
+      <td>Los Angeles Rams</td>
+      <td>Atlanta Falcons</td>
+      <td>31-27</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.715</td>
+      <td>0.736</td>
     </tr>
     <tr>
       <td>2022-09-18</td>
@@ -1220,21 +1384,21 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-18</td>
-      <td>New York Giants</td>
-      <td>Carolina Panthers</td>
-      <td>19-16</td>
-      <td>:-1::-1:</td>
-      <td>0.666</td>
-      <td>0.465</td>
-    </tr>
-    <tr>
-      <td>2022-09-18</td>
       <td>Detroit Lions</td>
       <td>Washington Commanders</td>
       <td>36-27</td>
       <td>:-1::-1::-1:</td>
       <td>0.888</td>
       <td>0.437</td>
+    </tr>
+    <tr>
+      <td>2022-09-18</td>
+      <td>Jacksonville Jaguars</td>
+      <td>Indianapolis Colts</td>
+      <td>24-0</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.996</td>
+      <td>0.198</td>
     </tr>
     <tr>
       <td>2022-09-18</td>
@@ -1247,12 +1411,12 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-18</td>
-      <td>Jacksonville Jaguars</td>
-      <td>Indianapolis Colts</td>
-      <td>24-0</td>
-      <td>:-1::-1::-1:</td>
-      <td>0.996</td>
-      <td>0.198</td>
+      <td>New York Giants</td>
+      <td>Carolina Panthers</td>
+      <td>19-16</td>
+      <td>:-1::-1:</td>
+      <td>0.666</td>
+      <td>0.465</td>
     </tr>
     <tr>
       <td>2022-09-15</td>
@@ -1283,15 +1447,6 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-11</td>
-      <td>Minnesota Vikings</td>
-      <td>Green Bay Packers</td>
-      <td>23-7</td>
-      <td>:-1::-1::-1:</td>
-      <td>0.975</td>
-      <td>0.288</td>
-    </tr>
-    <tr>
-      <td>2022-09-11</td>
       <td>Los Angeles Chargers</td>
       <td>Las Vegas Raiders</td>
       <td>24-19</td>
@@ -1310,21 +1465,21 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-11</td>
+      <td>Minnesota Vikings</td>
+      <td>Green Bay Packers</td>
+      <td>23-7</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.975</td>
+      <td>0.288</td>
+    </tr>
+    <tr>
+      <td>2022-09-11</td>
       <td>Kansas City Chiefs</td>
       <td>Arizona Cardinals</td>
       <td>44-21</td>
       <td>:+1:</td>
       <td>0.995</td>
       <td>0.642</td>
-    </tr>
-    <tr>
-      <td>2022-09-11</td>
-      <td>Pittsburgh Steelers</td>
-      <td>Cincinnati Bengals</td>
-      <td>23-20</td>
-      <td>:-1::-1:</td>
-      <td>0.666</td>
-      <td>0.431</td>
     </tr>
     <tr>
       <td>2022-09-11</td>
@@ -1337,30 +1492,12 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-11</td>
-      <td>Houston Texans</td>
-      <td>Indianapolis Colts</td>
-      <td>20-20</td>
-      <td>:-1::-1:</td>
-      <td>0.500</td>
-      <td>0.232</td>
-    </tr>
-    <tr>
-      <td>2022-09-11</td>
       <td>Miami Dolphins</td>
       <td>New England Patriots</td>
       <td>20-7</td>
       <td>:-1::-1::-1:</td>
       <td>0.952</td>
       <td>0.428</td>
-    </tr>
-    <tr>
-      <td>2022-09-11</td>
-      <td>Cleveland Browns</td>
-      <td>Carolina Panthers</td>
-      <td>26-24</td>
-      <td>:+1::+1::+1:</td>
-      <td>0.613</td>
-      <td>0.629</td>
     </tr>
     <tr>
       <td>2022-09-11</td>
@@ -1382,12 +1519,39 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
     <tr>
       <td>2022-09-11</td>
+      <td>Houston Texans</td>
+      <td>Indianapolis Colts</td>
+      <td>20-20</td>
+      <td>:-1::-1:</td>
+      <td>0.500</td>
+      <td>0.232</td>
+    </tr>
+    <tr>
+      <td>2022-09-11</td>
+      <td>Pittsburgh Steelers</td>
+      <td>Cincinnati Bengals</td>
+      <td>23-20</td>
+      <td>:-1::-1:</td>
+      <td>0.666</td>
+      <td>0.431</td>
+    </tr>
+    <tr>
+      <td>2022-09-11</td>
       <td>Chicago Bears</td>
       <td>San Francisco 49ers</td>
       <td>19-10</td>
       <td>:-1::-1::-1:</td>
       <td>0.888</td>
       <td>0.351</td>
+    </tr>
+    <tr>
+      <td>2022-09-11</td>
+      <td>Cleveland Browns</td>
+      <td>Carolina Panthers</td>
+      <td>26-24</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.613</td>
+      <td>0.629</td>
     </tr>
     <tr>
       <td>2022-09-11</td>
