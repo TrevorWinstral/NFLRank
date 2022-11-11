@@ -24,56 +24,439 @@ Another factor I wanted to address was to account for was how much a team won by
 
 ![Score Curve](./score_curve.svg)
 
-In implementing the model a range a values were tested across the 2020/21 and 2021/22 season to minimize the mean square error between the expected and realized scores. The values which were minimized over were the logistic rate, the maximal rank change $K$, and a 'reset factor' $r$ which shrinks the ranks after each season. So a reset factor of $0.1$ means that after each season, a team only keep 10% of their previous rank. Testing a range of values for these 3 variables yielded a minimal mean square error for a logistic rate of 100, $K=11$, and $r=0.68$. This yields the following power ranking for week 5 of 2022/23 (read left to right, top to bottom):
+In implementing the model a range a values were tested across the 2020/21 and 2021/22 season to minimize the mean square error between the expected and realized scores. The values which were minimized over were the logistic rate, the maximal rank change $K$, and a 'reset factor' $r$ which shrinks the ranks after each season. So a reset factor of $0.1$ means that after each season, a team only keep 10% of their previous rank. Testing a range of values for these 3 variables yielded a minimal mean square error for a logistic rate of 100, $K=11$, and $r=0.68$. This has yielded the following rankings over the 2022/23 season:
 
 <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Week 9</th>
+      <th>Week 8</th>
+      <th>Week 7</th>
+      <th>Week 6</th>
+      <th>Week 5</th>
+      <th>Week 4</th>
+      <th>Week 3</th>
+      <th>Week 2</th>
+      <th>Week 1</th>
+      <th>Week 0</th>
+    </tr>
+  </thead>
   <tbody>
     <tr>
+      <th>0</th>
+      <td>Buffalo Bills</td>
+      <td>Buffalo Bills</td>
+      <td>Buffalo Bills</td>
+      <td>Buffalo Bills</td>
+      <td>Buffalo Bills</td>
+      <td>Buffalo Bills</td>
+      <td>Buffalo Bills</td>
       <td>Buffalo Bills</td>
       <td>Kansas City Chiefs</td>
+      <td>Kansas City Chiefs</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Kansas City Chiefs</td>
+      <td>Kansas City Chiefs</td>
+      <td>Kansas City Chiefs</td>
+      <td>Kansas City Chiefs</td>
+      <td>Kansas City Chiefs</td>
+      <td>Kansas City Chiefs</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Buffalo Bills</td>
+      <td>Buffalo Bills</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Philadelphia Eagles</td>
+      <td>Dallas Cowboys</td>
       <td>Cincinnati Bengals</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Kansas City Chiefs</td>
+      <td>Kansas City Chiefs</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Tampa Bay Buccaneers</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Dallas Cowboys</td>
+      <td>Philadelphia Eagles</td>
+      <td>Dallas Cowboys</td>
+      <td>Philadelphia Eagles</td>
+      <td>San Francisco 49ers</td>
+      <td>Green Bay Packers</td>
+      <td>Los Angeles Rams</td>
+      <td>Los Angeles Rams</td>
+      <td>Los Angeles Rams</td>
+      <td>Los Angeles Rams</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Cincinnati Bengals</td>
+      <td>Minnesota Vikings</td>
+      <td>Philadelphia Eagles</td>
+      <td>Dallas Cowboys</td>
+      <td>Dallas Cowboys</td>
+      <td>San Francisco 49ers</td>
+      <td>Green Bay Packers</td>
+      <td>Green Bay Packers</td>
+      <td>Miami Dolphins</td>
+      <td>Green Bay Packers</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Baltimore Ravens</td>
+      <td>San Francisco 49ers</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Cincinnati Bengals</td>
+      <td>Green Bay Packers</td>
+      <td>Dallas Cowboys</td>
+      <td>Miami Dolphins</td>
+      <td>Miami Dolphins</td>
+      <td>Green Bay Packers</td>
+      <td>San Francisco 49ers</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Minnesota Vikings</td>
+      <td>Tennessee Titans</td>
+      <td>Los Angeles Rams</td>
+      <td>San Francisco 49ers</td>
+      <td>Cincinnati Bengals</td>
+      <td>Cincinnati Bengals</td>
+      <td>Dallas Cowboys</td>
+      <td>San Francisco 49ers</td>
+      <td>Minnesota Vikings</td>
       <td>Dallas Cowboys</td>
     </tr>
     <tr>
-      <td>Philadelphia Eagles</td>
-      <td>Tampa Bay Buccaneers</td>
+      <th>7</th>
+      <td>San Francisco 49ers</td>
+      <td>Cincinnati Bengals</td>
+      <td>Tennessee Titans</td>
       <td>Los Angeles Rams</td>
+      <td>Philadelphia Eagles</td>
+      <td>Los Angeles Rams</td>
+      <td>San Francisco 49ers</td>
+      <td>Dallas Cowboys</td>
+      <td>New Orleans Saints</td>
+      <td>Cincinnati Bengals</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Tennessee Titans</td>
+      <td>Baltimore Ravens</td>
+      <td>Minnesota Vikings</td>
+      <td>Minnesota Vikings</td>
+      <td>Baltimore Ravens</td>
+      <td>Miami Dolphins</td>
+      <td>Philadelphia Eagles</td>
+      <td>Cincinnati Bengals</td>
+      <td>Cincinnati Bengals</td>
       <td>Tennessee Titans</td>
     </tr>
     <tr>
-      <td>Minnesota Vikings</td>
+      <th>9</th>
+      <td>Seattle Seahawks</td>
+      <td>Tampa Bay Buccaneers</td>
       <td>San Francisco 49ers</td>
+      <td>New England Patriots</td>
+      <td>Los Angeles Rams</td>
+      <td>Philadelphia Eagles</td>
+      <td>Cincinnati Bengals</td>
+      <td>Philadelphia Eagles</td>
+      <td>Dallas Cowboys</td>
+      <td>New Orleans Saints</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Seattle Seahawks</td>
+      <td>Baltimore Ravens</td>
+      <td>Tennessee Titans</td>
+      <td>Minnesota Vikings</td>
+      <td>Baltimore Ravens</td>
+      <td>Baltimore Ravens</td>
+      <td>New Orleans Saints</td>
+      <td>San Francisco 49ers</td>
+      <td>Indianapolis Colts</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>New England Patriots</td>
+      <td>Los Angeles Rams</td>
+      <td>Seattle Seahawks</td>
+      <td>Baltimore Ravens</td>
+      <td>Tennessee Titans</td>
+      <td>Tennessee Titans</td>
+      <td>Minnesota Vikings</td>
+      <td>Baltimore Ravens</td>
+      <td>Indianapolis Colts</td>
+      <td>Miami Dolphins</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Los Angeles Rams</td>
+      <td>Miami Dolphins</td>
+      <td>Miami Dolphins</td>
+      <td>Green Bay Packers</td>
+      <td>Miami Dolphins</td>
+      <td>Minnesota Vikings</td>
+      <td>Tennessee Titans</td>
+      <td>Los Angeles Chargers</td>
+      <td>Tennessee Titans</td>
+      <td>New England Patriots</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Miami Dolphins</td>
+      <td>New England Patriots</td>
+      <td>Green Bay Packers</td>
+      <td>Indianapolis Colts</td>
+      <td>New England Patriots</td>
+      <td>Arizona Cardinals</td>
+      <td>Indianapolis Colts</td>
+      <td>New England Patriots</td>
       <td>Baltimore Ravens</td>
       <td>Seattle Seahawks</td>
     </tr>
     <tr>
-      <td>Miami Dolphins</td>
-      <td>Green Bay Packers</td>
+      <th>14</th>
+      <td>Cleveland Browns</td>
+      <td>New Orleans Saints</td>
       <td>Las Vegas Raiders</td>
-      <td>New England Patriots</td>
-    </tr>
-    <tr>
-      <td>Arizona Cardinals</td>
-      <td>Indianapolis Colts</td>
       <td>Los Angeles Chargers</td>
       <td>New Orleans Saints</td>
+      <td>Los Angeles Chargers</td>
+      <td>Cleveland Browns</td>
+      <td>Tennessee Titans</td>
+      <td>Seattle Seahawks</td>
+      <td>Baltimore Ravens</td>
     </tr>
     <tr>
-      <td>New York Giants</td>
-      <td>Atlanta Falcons</td>
+      <th>15</th>
+      <td>Los Angeles Chargers</td>
+      <td>Green Bay Packers</td>
+      <td>New England Patriots</td>
+      <td>Miami Dolphins</td>
+      <td>Los Angeles Chargers</td>
+      <td>Indianapolis Colts</td>
+      <td>New Orleans Saints</td>
+      <td>Minnesota Vikings</td>
+      <td>Los Angeles Chargers</td>
+      <td>Minnesota Vikings</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>New Orleans Saints</td>
+      <td>Cleveland Browns</td>
+      <td>Arizona Cardinals</td>
+      <td>New Orleans Saints</td>
+      <td>Indianapolis Colts</td>
+      <td>Cleveland Browns</td>
+      <td>New England Patriots</td>
+      <td>Arizona Cardinals</td>
+      <td>Pittsburgh Steelers</td>
+      <td>Los Angeles Chargers</td>
+    </tr>
+    <tr>
+      <th>17</th>
       <td>New York Jets</td>
+      <td>Indianapolis Colts</td>
+      <td>Indianapolis Colts</td>
+      <td>Seattle Seahawks</td>
+      <td>Arizona Cardinals</td>
+      <td>New England Patriots</td>
+      <td>Arizona Cardinals</td>
+      <td>Pittsburgh Steelers</td>
+      <td>New England Patriots</td>
+      <td>Arizona Cardinals</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Green Bay Packers</td>
+      <td>Los Angeles Chargers</td>
+      <td>Los Angeles Chargers</td>
+      <td>Atlanta Falcons</td>
+      <td>Cleveland Browns</td>
+      <td>Seattle Seahawks</td>
+      <td>Denver Broncos</td>
+      <td>Seattle Seahawks</td>
+      <td>Philadelphia Eagles</td>
       <td>Cleveland Browns</td>
     </tr>
     <tr>
+      <th>19</th>
+      <td>Atlanta Falcons</td>
+      <td>Arizona Cardinals</td>
+      <td>New Orleans Saints</td>
+      <td>Las Vegas Raiders</td>
+      <td>Las Vegas Raiders</td>
+      <td>New Orleans Saints</td>
+      <td>Seattle Seahawks</td>
+      <td>Indianapolis Colts</td>
+      <td>Cleveland Browns</td>
       <td>Pittsburgh Steelers</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Arizona Cardinals</td>
+      <td>Las Vegas Raiders</td>
+      <td>New York Giants</td>
+      <td>Arizona Cardinals</td>
+      <td>Seattle Seahawks</td>
+      <td>Las Vegas Raiders</td>
+      <td>Los Angeles Chargers</td>
+      <td>Cleveland Browns</td>
+      <td>Arizona Cardinals</td>
+      <td>Philadelphia Eagles</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Indianapolis Colts</td>
+      <td>Atlanta Falcons</td>
+      <td>Atlanta Falcons</td>
+      <td>New York Giants</td>
+      <td>Denver Broncos</td>
+      <td>Denver Broncos</td>
+      <td>Pittsburgh Steelers</td>
+      <td>Denver Broncos</td>
+      <td>Las Vegas Raiders</td>
+      <td>Las Vegas Raiders</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>New York Giants</td>
+      <td>New York Jets</td>
+      <td>New York Jets</td>
+      <td>Cleveland Browns</td>
+      <td>Atlanta Falcons</td>
+      <td>Atlanta Falcons</td>
+      <td>Las Vegas Raiders</td>
+      <td>Las Vegas Raiders</td>
       <td>Chicago Bears</td>
       <td>Denver Broncos</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Las Vegas Raiders</td>
+      <td>New York Giants</td>
+      <td>Cleveland Browns</td>
+      <td>Pittsburgh Steelers</td>
+      <td>New York Giants</td>
+      <td>Pittsburgh Steelers</td>
+      <td>Chicago Bears</td>
+      <td>Chicago Bears</td>
+      <td>Washington Commanders</td>
       <td>Washington Commanders</td>
     </tr>
     <tr>
+      <th>24</th>
+      <td>Denver Broncos</td>
+      <td>Denver Broncos</td>
+      <td>Pittsburgh Steelers</td>
+      <td>Denver Broncos</td>
+      <td>Pittsburgh Steelers</td>
+      <td>Chicago Bears</td>
+      <td>Atlanta Falcons</td>
+      <td>Detroit Lions</td>
+      <td>Denver Broncos</td>
+      <td>Chicago Bears</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Washington Commanders</td>
+      <td>Washington Commanders</td>
+      <td>Chicago Bears</td>
+      <td>New York Jets</td>
+      <td>Chicago Bears</td>
+      <td>Detroit Lions</td>
+      <td>Detroit Lions</td>
+      <td>Washington Commanders</td>
+      <td>Atlanta Falcons</td>
+      <td>Atlanta Falcons</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Pittsburgh Steelers</td>
+      <td>Pittsburgh Steelers</td>
+      <td>Denver Broncos</td>
+      <td>Washington Commanders</td>
+      <td>New York Jets</td>
+      <td>New York Giants</td>
       <td>Carolina Panthers</td>
+      <td>Atlanta Falcons</td>
+      <td>Houston Texans</td>
+      <td>Detroit Lions</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Chicago Bears</td>
+      <td>Chicago Bears</td>
+      <td>Washington Commanders</td>
+      <td>Chicago Bears</td>
+      <td>Houston Texans</td>
+      <td>Jacksonville Jaguars</td>
+      <td>Washington Commanders</td>
+      <td>Houston Texans</td>
       <td>Detroit Lions</td>
       <td>Houston Texans</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Detroit Lions</td>
+      <td>Carolina Panthers</td>
+      <td>Carolina Panthers</td>
+      <td>Houston Texans</td>
+      <td>Detroit Lions</td>
+      <td>Carolina Panthers</td>
+      <td>Jacksonville Jaguars</td>
+      <td>New York Giants</td>
+      <td>Carolina Panthers</td>
+      <td>Carolina Panthers</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Carolina Panthers</td>
+      <td>Detroit Lions</td>
+      <td>Detroit Lions</td>
+      <td>Detroit Lions</td>
+      <td>Washington Commanders</td>
+      <td>Washington Commanders</td>
+      <td>Houston Texans</td>
+      <td>Carolina Panthers</td>
+      <td>New York Giants</td>
+      <td>New York Giants</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Jacksonville Jaguars</td>
+      <td>Houston Texans</td>
+      <td>Houston Texans</td>
+      <td>Jacksonville Jaguars</td>
+      <td>Carolina Panthers</td>
+      <td>Houston Texans</td>
+      <td>New York Giants</td>
+      <td>Jacksonville Jaguars</td>
+      <td>New York Jets</td>
+      <td>New York Jets</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Houston Texans</td>
+      <td>Jacksonville Jaguars</td>
+      <td>Jacksonville Jaguars</td>
+      <td>Carolina Panthers</td>
+      <td>Jacksonville Jaguars</td>
+      <td>New York Jets</td>
+      <td>New York Jets</td>
+      <td>New York Jets</td>
+      <td>Jacksonville Jaguars</td>
       <td>Jacksonville Jaguars</td>
     </tr>
   </tbody>
@@ -94,79 +477,74 @@ The following table lists the matchups, and the predicted chance for team 1 to w
   </thead>
   <tbody>
     <tr>
-      <td>Baltimore Ravens</td>
+      <td>Atlanta Falcons</td>
+      <td>Carolina Panthers</td>
+      <td>0.592713</td>
+    </tr>
+    <tr>
+      <td>Seattle Seahawks</td>
       <td>Tampa Bay Buccaneers</td>
-      <td>0.469604</td>
+      <td>0.510805</td>
+    </tr>
+    <tr>
+      <td>Cleveland Browns</td>
+      <td>Miami Dolphins</td>
+      <td>0.469595</td>
     </tr>
     <tr>
       <td>Denver Broncos</td>
-      <td>Jacksonville Jaguars</td>
-      <td>0.583202</td>
+      <td>Tennessee Titans</td>
+      <td>0.350382</td>
     </tr>
     <tr>
-      <td>Carolina Panthers</td>
-      <td>Atlanta Falcons</td>
-      <td>0.431055</td>
-    </tr>
-    <tr>
+      <td>Detroit Lions</td>
       <td>Chicago Bears</td>
-      <td>Dallas Cowboys</td>
-      <td>0.321147</td>
+      <td>0.485773</td>
+    </tr>
+    <tr>
+      <td>Houston Texans</td>
+      <td>New York Giants</td>
+      <td>0.391102</td>
+    </tr>
+    <tr>
+      <td>Jacksonville Jaguars</td>
+      <td>Kansas City Chiefs</td>
+      <td>0.201585</td>
+    </tr>
+    <tr>
+      <td>Minnesota Vikings</td>
+      <td>Buffalo Bills</td>
+      <td>0.383729</td>
+    </tr>
+    <tr>
+      <td>New Orleans Saints</td>
+      <td>Pittsburgh Steelers</td>
+      <td>0.572463</td>
+    </tr>
+    <tr>
+      <td>Indianapolis Colts</td>
+      <td>Las Vegas Raiders</td>
+      <td>0.511412</td>
     </tr>
     <tr>
       <td>Arizona Cardinals</td>
-      <td>Minnesota Vikings</td>
-      <td>0.424836</td>
-    </tr>
-    <tr>
-      <td>Miami Dolphins</td>
-      <td>Detroit Lions</td>
-      <td>0.654395</td>
-    </tr>
-    <tr>
-      <td>New England Patriots</td>
-      <td>New York Jets</td>
-      <td>0.545399</td>
-    </tr>
-    <tr>
-      <td>Pittsburgh Steelers</td>
-      <td>Philadelphia Eagles</td>
-      <td>0.327015</td>
-    </tr>
-    <tr>
-      <td>Las Vegas Raiders</td>
-      <td>New Orleans Saints</td>
-      <td>0.539437</td>
-    </tr>
-    <tr>
-      <td>Tennessee Titans</td>
-      <td>Houston Texans</td>
-      <td>0.707165</td>
-    </tr>
-    <tr>
-      <td>New York Giants</td>
-      <td>Seattle Seahawks</td>
-      <td>0.443642</td>
-    </tr>
-    <tr>
-      <td>San Francisco 49ers</td>
       <td>Los Angeles Rams</td>
-      <td>0.478586</td>
+      <td>0.425608</td>
+    </tr>
+    <tr>
+      <td>Dallas Cowboys</td>
+      <td>Green Bay Packers</td>
+      <td>0.654736</td>
+    </tr>
+    <tr>
+      <td>Los Angeles Chargers</td>
+      <td>San Francisco 49ers</td>
+      <td>0.405468</td>
     </tr>
     <tr>
       <td>Washington Commanders</td>
-      <td>Indianapolis Colts</td>
-      <td>0.416690</td>
-    </tr>
-    <tr>
-      <td>Green Bay Packers</td>
-      <td>Buffalo Bills</td>
-      <td>0.303832</td>
-    </tr>
-    <tr>
-      <td>Cincinnati Bengals</td>
-      <td>Cleveland Browns</td>
-      <td>0.660920</td>
+      <td>Philadelphia Eagles</td>
+      <td>0.288659</td>
     </tr>
   </tbody>
 </table>
@@ -209,382 +587,9 @@ This is not looking like it is going to have a nice conjugate prior. But that is
 To do this numerically each team will start out with a standard normally distributed random variable, this is our original prior. After observing a result, we shall be able to update this, with the observation (say team $i$ wins) conditional on the skill difference being normally distributed about the difference. The probability to observe $i$ winning will the be the area under the distribution to the right of 0 (if the difference is $S_i - S_j$, otherwise to the left). The parameters used for the numerical simulation are that each distribution will be represented by 1000 points between $[-5,5]$ (step size 0.01). 
 
 
-# Historical ratings
-## Elo Ratings
-Here are the historical ratings generated by the Elo algorithm. The column name corresponds to the rankings _after_ that week. The most recent ranking is on the far left, the oldest on the far right. Week 0 corresponds to the rankings after the last season which were used to initialize this year.
-
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Week 7</th>
-      <th>Week 6</th>
-      <th>Week 5</th>
-      <th>Week 4</th>
-      <th>Week 3</th>
-      <th>Week 2</th>
-      <th>Week 1</th>
-      <th>Week 0</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Buffalo Bills</td>
-      <td>Buffalo Bills</td>
-      <td>Buffalo Bills</td>
-      <td>Buffalo Bills</td>
-      <td>Buffalo Bills</td>
-      <td>Buffalo Bills</td>
-      <td>Kansas City Chiefs</td>
-      <td>Kansas City Chiefs</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Kansas City Chiefs</td>
-      <td>Kansas City Chiefs</td>
-      <td>Kansas City Chiefs</td>
-      <td>Kansas City Chiefs</td>
-      <td>Tampa Bay Buccaneers</td>
-      <td>Tampa Bay Buccaneers</td>
-      <td>Buffalo Bills</td>
-      <td>Buffalo Bills</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Cincinnati Bengals</td>
-      <td>Tampa Bay Buccaneers</td>
-      <td>Tampa Bay Buccaneers</td>
-      <td>Tampa Bay Buccaneers</td>
-      <td>Kansas City Chiefs</td>
-      <td>Kansas City Chiefs</td>
-      <td>Tampa Bay Buccaneers</td>
-      <td>Tampa Bay Buccaneers</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Dallas Cowboys</td>
-      <td>Philadelphia Eagles</td>
-      <td>San Francisco 49ers</td>
-      <td>Green Bay Packers</td>
-      <td>Los Angeles Rams</td>
-      <td>Los Angeles Rams</td>
-      <td>Los Angeles Rams</td>
-      <td>Los Angeles Rams</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Philadelphia Eagles</td>
-      <td>Dallas Cowboys</td>
-      <td>Dallas Cowboys</td>
-      <td>San Francisco 49ers</td>
-      <td>Green Bay Packers</td>
-      <td>Green Bay Packers</td>
-      <td>Miami Dolphins</td>
-      <td>Green Bay Packers</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>Tampa Bay Buccaneers</td>
-      <td>Cincinnati Bengals</td>
-      <td>Green Bay Packers</td>
-      <td>Dallas Cowboys</td>
-      <td>Miami Dolphins</td>
-      <td>Miami Dolphins</td>
-      <td>Green Bay Packers</td>
-      <td>San Francisco 49ers</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>Los Angeles Rams</td>
-      <td>San Francisco 49ers</td>
-      <td>Cincinnati Bengals</td>
-      <td>Cincinnati Bengals</td>
-      <td>Dallas Cowboys</td>
-      <td>San Francisco 49ers</td>
-      <td>Minnesota Vikings</td>
-      <td>Dallas Cowboys</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>Tennessee Titans</td>
-      <td>Los Angeles Rams</td>
-      <td>Philadelphia Eagles</td>
-      <td>Los Angeles Rams</td>
-      <td>San Francisco 49ers</td>
-      <td>Dallas Cowboys</td>
-      <td>New Orleans Saints</td>
-      <td>Cincinnati Bengals</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>Minnesota Vikings</td>
-      <td>Minnesota Vikings</td>
-      <td>Baltimore Ravens</td>
-      <td>Miami Dolphins</td>
-      <td>Philadelphia Eagles</td>
-      <td>Cincinnati Bengals</td>
-      <td>Cincinnati Bengals</td>
-      <td>Tennessee Titans</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>San Francisco 49ers</td>
-      <td>New England Patriots</td>
-      <td>Los Angeles Rams</td>
-      <td>Philadelphia Eagles</td>
-      <td>Cincinnati Bengals</td>
-      <td>Philadelphia Eagles</td>
-      <td>Dallas Cowboys</td>
-      <td>New Orleans Saints</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>Baltimore Ravens</td>
-      <td>Tennessee Titans</td>
-      <td>Minnesota Vikings</td>
-      <td>Baltimore Ravens</td>
-      <td>Baltimore Ravens</td>
-      <td>New Orleans Saints</td>
-      <td>San Francisco 49ers</td>
-      <td>Indianapolis Colts</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>Seattle Seahawks</td>
-      <td>Baltimore Ravens</td>
-      <td>Tennessee Titans</td>
-      <td>Tennessee Titans</td>
-      <td>Minnesota Vikings</td>
-      <td>Baltimore Ravens</td>
-      <td>Indianapolis Colts</td>
-      <td>Miami Dolphins</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>Miami Dolphins</td>
-      <td>Green Bay Packers</td>
-      <td>Miami Dolphins</td>
-      <td>Minnesota Vikings</td>
-      <td>Tennessee Titans</td>
-      <td>Los Angeles Chargers</td>
-      <td>Tennessee Titans</td>
-      <td>New England Patriots</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>Green Bay Packers</td>
-      <td>Indianapolis Colts</td>
-      <td>New England Patriots</td>
-      <td>Arizona Cardinals</td>
-      <td>Indianapolis Colts</td>
-      <td>New England Patriots</td>
-      <td>Baltimore Ravens</td>
-      <td>Seattle Seahawks</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>Las Vegas Raiders</td>
-      <td>Los Angeles Chargers</td>
-      <td>New Orleans Saints</td>
-      <td>Los Angeles Chargers</td>
-      <td>Cleveland Browns</td>
-      <td>Tennessee Titans</td>
-      <td>Seattle Seahawks</td>
-      <td>Baltimore Ravens</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>New England Patriots</td>
-      <td>Miami Dolphins</td>
-      <td>Los Angeles Chargers</td>
-      <td>Indianapolis Colts</td>
-      <td>New Orleans Saints</td>
-      <td>Minnesota Vikings</td>
-      <td>Los Angeles Chargers</td>
-      <td>Minnesota Vikings</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>Arizona Cardinals</td>
-      <td>New Orleans Saints</td>
-      <td>Indianapolis Colts</td>
-      <td>Cleveland Browns</td>
-      <td>New England Patriots</td>
-      <td>Arizona Cardinals</td>
-      <td>Pittsburgh Steelers</td>
-      <td>Los Angeles Chargers</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>Indianapolis Colts</td>
-      <td>Seattle Seahawks</td>
-      <td>Arizona Cardinals</td>
-      <td>New England Patriots</td>
-      <td>Arizona Cardinals</td>
-      <td>Pittsburgh Steelers</td>
-      <td>New England Patriots</td>
-      <td>Arizona Cardinals</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>Los Angeles Chargers</td>
-      <td>Atlanta Falcons</td>
-      <td>Cleveland Browns</td>
-      <td>Seattle Seahawks</td>
-      <td>Denver Broncos</td>
-      <td>Seattle Seahawks</td>
-      <td>Philadelphia Eagles</td>
-      <td>Cleveland Browns</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>New Orleans Saints</td>
-      <td>Las Vegas Raiders</td>
-      <td>Las Vegas Raiders</td>
-      <td>New Orleans Saints</td>
-      <td>Seattle Seahawks</td>
-      <td>Indianapolis Colts</td>
-      <td>Cleveland Browns</td>
-      <td>Pittsburgh Steelers</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>New York Giants</td>
-      <td>Arizona Cardinals</td>
-      <td>Seattle Seahawks</td>
-      <td>Las Vegas Raiders</td>
-      <td>Los Angeles Chargers</td>
-      <td>Cleveland Browns</td>
-      <td>Arizona Cardinals</td>
-      <td>Philadelphia Eagles</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>Atlanta Falcons</td>
-      <td>New York Giants</td>
-      <td>Denver Broncos</td>
-      <td>Denver Broncos</td>
-      <td>Pittsburgh Steelers</td>
-      <td>Denver Broncos</td>
-      <td>Las Vegas Raiders</td>
-      <td>Las Vegas Raiders</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>New York Jets</td>
-      <td>Cleveland Browns</td>
-      <td>Atlanta Falcons</td>
-      <td>Atlanta Falcons</td>
-      <td>Las Vegas Raiders</td>
-      <td>Las Vegas Raiders</td>
-      <td>Chicago Bears</td>
-      <td>Denver Broncos</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>Cleveland Browns</td>
-      <td>Pittsburgh Steelers</td>
-      <td>New York Giants</td>
-      <td>Pittsburgh Steelers</td>
-      <td>Chicago Bears</td>
-      <td>Chicago Bears</td>
-      <td>Washington Commanders</td>
-      <td>Washington Commanders</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>Pittsburgh Steelers</td>
-      <td>Denver Broncos</td>
-      <td>Pittsburgh Steelers</td>
-      <td>Chicago Bears</td>
-      <td>Atlanta Falcons</td>
-      <td>Detroit Lions</td>
-      <td>Denver Broncos</td>
-      <td>Chicago Bears</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>Chicago Bears</td>
-      <td>New York Jets</td>
-      <td>Chicago Bears</td>
-      <td>Detroit Lions</td>
-      <td>Detroit Lions</td>
-      <td>Washington Commanders</td>
-      <td>Atlanta Falcons</td>
-      <td>Atlanta Falcons</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>Denver Broncos</td>
-      <td>Washington Commanders</td>
-      <td>New York Jets</td>
-      <td>New York Giants</td>
-      <td>Carolina Panthers</td>
-      <td>Atlanta Falcons</td>
-      <td>Houston Texans</td>
-      <td>Detroit Lions</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>Washington Commanders</td>
-      <td>Chicago Bears</td>
-      <td>Houston Texans</td>
-      <td>Jacksonville Jaguars</td>
-      <td>Washington Commanders</td>
-      <td>Houston Texans</td>
-      <td>Detroit Lions</td>
-      <td>Houston Texans</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>Carolina Panthers</td>
-      <td>Houston Texans</td>
-      <td>Detroit Lions</td>
-      <td>Carolina Panthers</td>
-      <td>Jacksonville Jaguars</td>
-      <td>New York Giants</td>
-      <td>Carolina Panthers</td>
-      <td>Carolina Panthers</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>Detroit Lions</td>
-      <td>Detroit Lions</td>
-      <td>Washington Commanders</td>
-      <td>Washington Commanders</td>
-      <td>Houston Texans</td>
-      <td>Carolina Panthers</td>
-      <td>New York Giants</td>
-      <td>New York Giants</td>
-    </tr>
-    <tr>
-      <th>30</th>
-      <td>Houston Texans</td>
-      <td>Jacksonville Jaguars</td>
-      <td>Carolina Panthers</td>
-      <td>Houston Texans</td>
-      <td>New York Giants</td>
-      <td>Jacksonville Jaguars</td>
-      <td>New York Jets</td>
-      <td>New York Jets</td>
-    </tr>
-    <tr>
-      <th>31</th>
-      <td>Jacksonville Jaguars</td>
-      <td>Carolina Panthers</td>
-      <td>Jacksonville Jaguars</td>
-      <td>New York Jets</td>
-      <td>New York Jets</td>
-      <td>New York Jets</td>
-      <td>Jacksonville Jaguars</td>
-      <td>Jacksonville Jaguars</td>
-    </tr>
-  </tbody>
-</table>
-
+# Historical performance
 ## Elo Predictions
-Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winner was predicted, 2 if the winner was correct and the point differential was within 7, and 3 if the winner was correct and the differential was within 3. 1 Thumbs down means the incorrect winner was predicted and the point differential was more than 7, 2 if the winner was incorrect and the point differential was within 7, and 3 if the winner was incorrect and the differential was within 3. Note that the parameter optimization was done for the mean squared error of logistic scores, so another choice of parameters may perform better here. Trying to optimize the parameters to minimize the difference between predicted and realized score differential is something I still want to try. So far the prediction record is: 67-41 (62.0%).
+Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winner was predicted, 2 if the winner was correct and the point differential was within 7, and 3 if the winner was correct and the differential was within 3. 1 Thumbs down means the incorrect winner was predicted and the point differential was more than 7, 2 if the winner was incorrect and the point differential was within 7, and 3 if the winner was incorrect and the differential was within 3. Note that the parameter optimization was done for the mean squared error of logistic scores, so another choice of parameters may perform better here. Trying to optimize the parameters to minimize the difference between predicted and realized score differential is something I still want to try. So far the prediction record is: 85-51 (62.5%).
 
 <table border="1" class="dataframe">
   <thead>
@@ -599,6 +604,258 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2022-11-07</td>
+      <td>Baltimore Ravens</td>
+      <td>New Orleans Saints</td>
+      <td>27-13</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.962</td>
+      <td>0.496</td>
+    </tr>
+    <tr>
+      <td>2022-11-06</td>
+      <td>Kansas City Chiefs</td>
+      <td>Tennessee Titans</td>
+      <td>20-17</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.660</td>
+    </tr>
+    <tr>
+      <td>2022-11-06</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Los Angeles Rams</td>
+      <td>16-13</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.583</td>
+    </tr>
+    <tr>
+      <td>2022-11-06</td>
+      <td>Seattle Seahawks</td>
+      <td>Arizona Cardinals</td>
+      <td>31-21</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.909</td>
+      <td>0.497</td>
+    </tr>
+    <tr>
+      <td>2022-11-06</td>
+      <td>Jacksonville Jaguars</td>
+      <td>Las Vegas Raiders</td>
+      <td>27-20</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.834</td>
+      <td>0.403</td>
+    </tr>
+    <tr>
+      <td>2022-11-06</td>
+      <td>New England Patriots</td>
+      <td>Indianapolis Colts</td>
+      <td>26-3</td>
+      <td>:+1:</td>
+      <td>0.995</td>
+      <td>0.524</td>
+    </tr>
+    <tr>
+      <td>2022-11-06</td>
+      <td>Miami Dolphins</td>
+      <td>Chicago Bears</td>
+      <td>35-32</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.651</td>
+    </tr>
+    <tr>
+      <td>2022-11-06</td>
+      <td>Cincinnati Bengals</td>
+      <td>Carolina Panthers</td>
+      <td>42-21</td>
+      <td>:+1:</td>
+      <td>0.992</td>
+      <td>0.666</td>
+    </tr>
+    <tr>
+      <td>2022-11-06</td>
+      <td>Los Angeles Chargers</td>
+      <td>Atlanta Falcons</td>
+      <td>20-17</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.606</td>
+    </tr>
+    <tr>
+      <td>2022-11-06</td>
+      <td>Minnesota Vikings</td>
+      <td>Washington Commanders</td>
+      <td>20-17</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.593</td>
+    </tr>
+    <tr>
+      <td>2022-11-06</td>
+      <td>Detroit Lions</td>
+      <td>Green Bay Packers</td>
+      <td>15-9</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.799</td>
+      <td>0.333</td>
+    </tr>
+    <tr>
+      <td>2022-11-06</td>
+      <td>New York Jets</td>
+      <td>Buffalo Bills</td>
+      <td>20-17</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.666</td>
+      <td>0.183</td>
+    </tr>
+    <tr>
+      <td>2022-11-03</td>
+      <td>Philadelphia Eagles</td>
+      <td>Houston Texans</td>
+      <td>29-17</td>
+      <td>:+1:</td>
+      <td>0.941</td>
+      <td>0.647</td>
+    </tr>
+    <tr>
+      <td>2022-10-31</td>
+      <td>Cleveland Browns</td>
+      <td>Cincinnati Bengals</td>
+      <td>32-13</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.988</td>
+      <td>0.447</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>Buffalo Bills</td>
+      <td>Green Bay Packers</td>
+      <td>27-17</td>
+      <td>:+1:</td>
+      <td>0.909</td>
+      <td>0.611</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>Seattle Seahawks</td>
+      <td>New York Giants</td>
+      <td>27-13</td>
+      <td>:+1:</td>
+      <td>0.962</td>
+      <td>0.656</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>Washington Commanders</td>
+      <td>Indianapolis Colts</td>
+      <td>17-16</td>
+      <td>:-1:</td>
+      <td>0.557</td>
+      <td>0.408</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>San Francisco 49ers</td>
+      <td>Los Angeles Rams</td>
+      <td>31-14</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.980</td>
+      <td>0.448</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>Tennessee Titans</td>
+      <td>Houston Texans</td>
+      <td>17-10</td>
+      <td>:+1::+1:</td>
+      <td>0.834</td>
+      <td>0.638</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>New England Patriots</td>
+      <td>New York Jets</td>
+      <td>22-17</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.760</td>
+      <td>0.682</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>New Orleans Saints</td>
+      <td>Las Vegas Raiders</td>
+      <td>24-0</td>
+      <td>:+1:</td>
+      <td>0.996</td>
+      <td>0.583</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>Minnesota Vikings</td>
+      <td>Arizona Cardinals</td>
+      <td>34-26</td>
+      <td>:+1::+1:</td>
+      <td>0.863</td>
+      <td>0.569</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>Dallas Cowboys</td>
+      <td>Chicago Bears</td>
+      <td>49-29</td>
+      <td>:+1:</td>
+      <td>0.990</td>
+      <td>0.585</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>Atlanta Falcons</td>
+      <td>Carolina Panthers</td>
+      <td>37-34</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.540</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>Philadelphia Eagles</td>
+      <td>Pittsburgh Steelers</td>
+      <td>35-13</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.994</td>
+      <td>0.486</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>Miami Dolphins</td>
+      <td>Detroit Lions</td>
+      <td>31-27</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.715</td>
+      <td>0.680</td>
+    </tr>
+    <tr>
+      <td>2022-10-30</td>
+      <td>Denver Broncos</td>
+      <td>Jacksonville Jaguars</td>
+      <td>21-17</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.715</td>
+      <td>0.648</td>
+    </tr>
+    <tr>
+      <td>2022-10-27</td>
+      <td>Baltimore Ravens</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>27-22</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.760</td>
+      <td>0.377</td>
+    </tr>
     <tr>
       <td>2022-10-24</td>
       <td>Chicago Bears</td>
