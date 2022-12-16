@@ -1490,3 +1490,75 @@
 1488,2022-9,2022-11-06,Tampa Bay Buccaneers,Los Angeles Rams,False,16.0,13.0,boxscore
 1489,2022-9,2022-11-06,Kansas City Chiefs,Tennessee Titans,False,20.0,17.0,boxscore
 1490,2022-9,2022-11-07,Baltimore Ravens,New Orleans Saints,False,27.0,13.0,boxscore
+1491,2022-10,2022-11-10,Carolina Panthers,Atlanta Falcons,False,25.0,15.0,boxscore
+1492,2022-10,2022-11-13,Tampa Bay Buccaneers,Seattle Seahawks,False,21.0,16.0,boxscore
+1493,2022-10,2022-11-13,Minnesota Vikings,Buffalo Bills,False,33.0,30.0,boxscore
+1494,2022-10,2022-11-13,Miami Dolphins,Cleveland Browns,False,39.0,17.0,boxscore
+1495,2022-10,2022-11-13,Tennessee Titans,Denver Broncos,False,17.0,10.0,boxscore
+1496,2022-10,2022-11-13,New York Giants,Houston Texans,False,24.0,16.0,boxscore
+1497,2022-10,2022-11-13,Detroit Lions,Chicago Bears,False,31.0,30.0,boxscore
+1498,2022-10,2022-11-13,Kansas City Chiefs,Jacksonville Jaguars,False,27.0,17.0,boxscore
+1499,2022-10,2022-11-13,Pittsburgh Steelers,New Orleans Saints,False,20.0,10.0,boxscore
+1500,2022-10,2022-11-13,Indianapolis Colts,Las Vegas Raiders,False,25.0,20.0,boxscore
+1501,2022-10,2022-11-13,Green Bay Packers,Dallas Cowboys,False,31.0,28.0,boxscore
+1502,2022-10,2022-11-13,Arizona Cardinals,Los Angeles Rams,False,27.0,17.0,boxscore
+1503,2022-10,2022-11-13,San Francisco 49ers,Los Angeles Chargers,False,22.0,16.0,boxscore
+1504,2022-10,2022-11-14,Washington Commanders,Philadelphia Eagles,False,32.0,21.0,boxscore
+1505,2022-11,2022-11-17,Tennessee Titans,Green Bay Packers,False,27.0,17.0,boxscore
+1506,2022-11,2022-11-20,Buffalo Bills,Cleveland Browns,False,31.0,23.0,boxscore
+1507,2022-11,2022-11-20,Detroit Lions,New York Giants,False,31.0,18.0,boxscore
+1508,2022-11,2022-11-20,Washington Commanders,Houston Texans,False,23.0,10.0,boxscore
+1509,2022-11,2022-11-20,New England Patriots,New York Jets,False,10.0,3.0,boxscore
+1510,2022-11,2022-11-20,Atlanta Falcons,Chicago Bears,False,27.0,24.0,boxscore
+1511,2022-11,2022-11-20,Baltimore Ravens,Carolina Panthers,False,13.0,3.0,boxscore
+1512,2022-11,2022-11-20,Philadelphia Eagles,Indianapolis Colts,False,17.0,16.0,boxscore
+1513,2022-11,2022-11-20,New Orleans Saints,Los Angeles Rams,False,27.0,20.0,boxscore
+1514,2022-11,2022-11-20,Las Vegas Raiders,Denver Broncos,False,22.0,16.0,boxscore
+1515,2022-11,2022-11-20,Cincinnati Bengals,Pittsburgh Steelers,False,37.0,30.0,boxscore
+1516,2022-11,2022-11-20,Dallas Cowboys,Minnesota Vikings,False,40.0,3.0,boxscore
+1517,2022-11,2022-11-20,Kansas City Chiefs,Los Angeles Chargers,False,30.0,27.0,boxscore
+1518,2022-11,2022-11-21,San Francisco 49ers,Arizona Cardinals,False,38.0,10.0,boxscore
+1519,2022-12,2022-11-24,Buffalo Bills,Detroit Lions,False,28.0,25.0,boxscore
+1520,2022-12,2022-11-24,Dallas Cowboys,New York Giants,False,28.0,20.0,boxscore
+1521,2022-12,2022-11-24,Minnesota Vikings,New England Patriots,False,33.0,26.0,boxscore
+1522,2022-12,2022-11-27,Cincinnati Bengals,Tennessee Titans,False,20.0,16.0,boxscore
+1523,2022-12,2022-11-27,Cleveland Browns,Tampa Bay Buccaneers,False,23.0,17.0,boxscore
+1524,2022-12,2022-11-27,Miami Dolphins,Houston Texans,False,30.0,15.0,boxscore
+1525,2022-12,2022-11-27,Jacksonville Jaguars,Baltimore Ravens,False,28.0,27.0,boxscore
+1526,2022-12,2022-11-27,Washington Commanders,Atlanta Falcons,False,19.0,13.0,boxscore
+1527,2022-12,2022-11-27,Carolina Panthers,Denver Broncos,False,23.0,10.0,boxscore
+1528,2022-12,2022-11-27,New York Jets,Chicago Bears,False,31.0,10.0,boxscore
+1529,2022-12,2022-11-27,Las Vegas Raiders,Seattle Seahawks,False,40.0,34.0,boxscore
+1530,2022-12,2022-11-27,Los Angeles Chargers,Arizona Cardinals,False,25.0,24.0,boxscore
+1531,2022-12,2022-11-27,Kansas City Chiefs,Los Angeles Rams,False,26.0,10.0,boxscore
+1532,2022-12,2022-11-27,San Francisco 49ers,New Orleans Saints,False,13.0,0.0,boxscore
+1533,2022-12,2022-11-27,Philadelphia Eagles,Green Bay Packers,False,40.0,33.0,boxscore
+1534,2022-12,2022-11-28,Pittsburgh Steelers,Indianapolis Colts,False,24.0,17.0,boxscore
+1535,2022-13,2022-12-01,Buffalo Bills,New England Patriots,False,24.0,10.0,boxscore
+1536,2022-13,2022-12-04,Cleveland Browns,Houston Texans,False,27.0,14.0,boxscore
+1537,2022-13,2022-12-04,Baltimore Ravens,Denver Broncos,False,10.0,9.0,boxscore
+1538,2022-13,2022-12-04,Detroit Lions,Jacksonville Jaguars,False,40.0,14.0,boxscore
+1539,2022-13,2022-12-04,Minnesota Vikings,New York Jets,False,27.0,22.0,boxscore
+1540,2022-13,2022-12-04,Washington Commanders,New York Giants,True,20.0,20.0,boxscore
+1541,2022-13,2022-12-04,Philadelphia Eagles,Tennessee Titans,False,35.0,10.0,boxscore
+1542,2022-13,2022-12-04,Pittsburgh Steelers,Atlanta Falcons,False,19.0,16.0,boxscore
+1543,2022-13,2022-12-04,Green Bay Packers,Chicago Bears,False,28.0,19.0,boxscore
+1544,2022-13,2022-12-04,San Francisco 49ers,Miami Dolphins,False,33.0,17.0,boxscore
+1545,2022-13,2022-12-04,Seattle Seahawks,Los Angeles Rams,False,27.0,23.0,boxscore
+1546,2022-13,2022-12-04,Cincinnati Bengals,Kansas City Chiefs,False,27.0,24.0,boxscore
+1547,2022-13,2022-12-04,Las Vegas Raiders,Los Angeles Chargers,False,27.0,20.0,boxscore
+1548,2022-13,2022-12-04,Dallas Cowboys,Indianapolis Colts,False,54.0,19.0,boxscore
+1549,2022-13,2022-12-05,Tampa Bay Buccaneers,New Orleans Saints,False,17.0,16.0,boxscore
+1550,2022-14,2022-12-08,Los Angeles Rams,Las Vegas Raiders,False,17.0,16.0,boxscore
+1551,2022-14,2022-12-11,Buffalo Bills,New York Jets,False,20.0,12.0,boxscore
+1552,2022-14,2022-12-11,Cincinnati Bengals,Cleveland Browns,False,23.0,10.0,boxscore
+1553,2022-14,2022-12-11,Dallas Cowboys,Houston Texans,False,27.0,23.0,boxscore
+1554,2022-14,2022-12-11,Detroit Lions,Minnesota Vikings,False,34.0,23.0,boxscore
+1555,2022-14,2022-12-11,Jacksonville Jaguars,Tennessee Titans,False,36.0,22.0,boxscore
+1556,2022-14,2022-12-11,Philadelphia Eagles,New York Giants,False,48.0,22.0,boxscore
+1557,2022-14,2022-12-11,Baltimore Ravens,Pittsburgh Steelers,False,16.0,14.0,boxscore
+1558,2022-14,2022-12-11,Kansas City Chiefs,Denver Broncos,False,34.0,28.0,boxscore
+1559,2022-14,2022-12-11,Carolina Panthers,Seattle Seahawks,False,30.0,24.0,boxscore
+1560,2022-14,2022-12-11,San Francisco 49ers,Tampa Bay Buccaneers,False,35.0,7.0,boxscore
+1561,2022-14,2022-12-11,Los Angeles Chargers,Miami Dolphins,False,23.0,17.0,boxscore
+1562,2022-14,2022-12-12,New England Patriots,Arizona Cardinals,False,27.0,13.0,boxscore

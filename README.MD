@@ -30,6 +30,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
   <thead>
     <tr style="text-align: right;">
       <th></th>
+      <th>Week 14</th>
+      <th>Week 13</th>
+      <th>Week 12</th>
+      <th>Week 11</th>
+      <th>Week 10</th>
       <th>Week 9</th>
       <th>Week 8</th>
       <th>Week 7</th>
@@ -47,6 +52,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
       <th>0</th>
       <td>Buffalo Bills</td>
       <td>Buffalo Bills</td>
+      <td>Kansas City Chiefs</td>
+      <td>Kansas City Chiefs</td>
+      <td>Kansas City Chiefs</td>
+      <td>Buffalo Bills</td>
+      <td>Buffalo Bills</td>
       <td>Buffalo Bills</td>
       <td>Buffalo Bills</td>
       <td>Buffalo Bills</td>
@@ -60,6 +70,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
       <th>1</th>
       <td>Kansas City Chiefs</td>
       <td>Kansas City Chiefs</td>
+      <td>Buffalo Bills</td>
+      <td>Buffalo Bills</td>
+      <td>Buffalo Bills</td>
+      <td>Kansas City Chiefs</td>
+      <td>Kansas City Chiefs</td>
       <td>Kansas City Chiefs</td>
       <td>Kansas City Chiefs</td>
       <td>Kansas City Chiefs</td>
@@ -71,6 +86,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>2</th>
+      <td>San Francisco 49ers</td>
+      <td>Dallas Cowboys</td>
+      <td>Dallas Cowboys</td>
+      <td>Dallas Cowboys</td>
+      <td>Minnesota Vikings</td>
       <td>Philadelphia Eagles</td>
       <td>Dallas Cowboys</td>
       <td>Cincinnati Bengals</td>
@@ -85,6 +105,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     <tr>
       <th>3</th>
       <td>Dallas Cowboys</td>
+      <td>San Francisco 49ers</td>
+      <td>San Francisco 49ers</td>
+      <td>San Francisco 49ers</td>
+      <td>Dallas Cowboys</td>
+      <td>Dallas Cowboys</td>
       <td>Philadelphia Eagles</td>
       <td>Dallas Cowboys</td>
       <td>Philadelphia Eagles</td>
@@ -97,6 +122,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>4</th>
+      <td>Philadelphia Eagles</td>
+      <td>Philadelphia Eagles</td>
+      <td>Cincinnati Bengals</td>
+      <td>Tennessee Titans</td>
+      <td>San Francisco 49ers</td>
       <td>Cincinnati Bengals</td>
       <td>Minnesota Vikings</td>
       <td>Philadelphia Eagles</td>
@@ -110,6 +140,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>5</th>
+      <td>Cincinnati Bengals</td>
+      <td>Cincinnati Bengals</td>
+      <td>Philadelphia Eagles</td>
+      <td>Baltimore Ravens</td>
+      <td>Philadelphia Eagles</td>
       <td>Baltimore Ravens</td>
       <td>San Francisco 49ers</td>
       <td>Tampa Bay Buccaneers</td>
@@ -123,6 +158,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>6</th>
+      <td>Baltimore Ravens</td>
+      <td>Minnesota Vikings</td>
+      <td>Minnesota Vikings</td>
+      <td>Cincinnati Bengals</td>
+      <td>Cincinnati Bengals</td>
       <td>Minnesota Vikings</td>
       <td>Tennessee Titans</td>
       <td>Los Angeles Rams</td>
@@ -136,6 +176,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>7</th>
+      <td>Minnesota Vikings</td>
+      <td>Baltimore Ravens</td>
+      <td>Tennessee Titans</td>
+      <td>Philadelphia Eagles</td>
+      <td>Baltimore Ravens</td>
       <td>San Francisco 49ers</td>
       <td>Cincinnati Bengals</td>
       <td>Tennessee Titans</td>
@@ -149,6 +194,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>8</th>
+      <td>New England Patriots</td>
+      <td>Tennessee Titans</td>
+      <td>Baltimore Ravens</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Tennessee Titans</td>
       <td>Tennessee Titans</td>
       <td>Baltimore Ravens</td>
       <td>Minnesota Vikings</td>
@@ -162,6 +212,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>9</th>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Miami Dolphins</td>
+      <td>Minnesota Vikings</td>
+      <td>Tampa Bay Buccaneers</td>
       <td>Seattle Seahawks</td>
       <td>Tampa Bay Buccaneers</td>
       <td>San Francisco 49ers</td>
@@ -175,6 +230,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>10</th>
+      <td>Miami Dolphins</td>
+      <td>Miami Dolphins</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>New England Patriots</td>
+      <td>Seattle Seahawks</td>
       <td>Tampa Bay Buccaneers</td>
       <td>Seattle Seahawks</td>
       <td>Baltimore Ravens</td>
@@ -188,6 +248,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>11</th>
+      <td>Tennessee Titans</td>
+      <td>Seattle Seahawks</td>
+      <td>New England Patriots</td>
+      <td>Seattle Seahawks</td>
+      <td>Miami Dolphins</td>
       <td>New England Patriots</td>
       <td>Los Angeles Rams</td>
       <td>Seattle Seahawks</td>
@@ -201,6 +266,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>12</th>
+      <td>Seattle Seahawks</td>
+      <td>New England Patriots</td>
+      <td>Seattle Seahawks</td>
+      <td>Miami Dolphins</td>
+      <td>New England Patriots</td>
       <td>Los Angeles Rams</td>
       <td>Miami Dolphins</td>
       <td>Miami Dolphins</td>
@@ -214,6 +284,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>13</th>
+      <td>Detroit Lions</td>
+      <td>Cleveland Browns</td>
+      <td>Washington Commanders</td>
+      <td>Washington Commanders</td>
+      <td>Los Angeles Rams</td>
       <td>Miami Dolphins</td>
       <td>New England Patriots</td>
       <td>Green Bay Packers</td>
@@ -227,6 +302,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>14</th>
+      <td>Washington Commanders</td>
+      <td>Las Vegas Raiders</td>
+      <td>New York Jets</td>
+      <td>Los Angeles Chargers</td>
+      <td>Green Bay Packers</td>
       <td>Cleveland Browns</td>
       <td>New Orleans Saints</td>
       <td>Las Vegas Raiders</td>
@@ -240,6 +320,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>15</th>
+      <td>Las Vegas Raiders</td>
+      <td>Washington Commanders</td>
+      <td>Los Angeles Chargers</td>
+      <td>Indianapolis Colts</td>
+      <td>Arizona Cardinals</td>
       <td>Los Angeles Chargers</td>
       <td>Green Bay Packers</td>
       <td>New England Patriots</td>
@@ -253,6 +338,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>16</th>
+      <td>Los Angeles Chargers</td>
+      <td>Green Bay Packers</td>
+      <td>Cleveland Browns</td>
+      <td>New Orleans Saints</td>
+      <td>Los Angeles Chargers</td>
       <td>New Orleans Saints</td>
       <td>Cleveland Browns</td>
       <td>Arizona Cardinals</td>
@@ -266,6 +356,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>17</th>
+      <td>Cleveland Browns</td>
+      <td>New York Jets</td>
+      <td>Las Vegas Raiders</td>
+      <td>Green Bay Packers</td>
+      <td>New York Jets</td>
       <td>New York Jets</td>
       <td>Indianapolis Colts</td>
       <td>Indianapolis Colts</td>
@@ -280,6 +375,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     <tr>
       <th>18</th>
       <td>Green Bay Packers</td>
+      <td>Pittsburgh Steelers</td>
+      <td>Green Bay Packers</td>
+      <td>Los Angeles Rams</td>
+      <td>Indianapolis Colts</td>
+      <td>Green Bay Packers</td>
       <td>Los Angeles Chargers</td>
       <td>Los Angeles Chargers</td>
       <td>Atlanta Falcons</td>
@@ -292,6 +392,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>19</th>
+      <td>New York Jets</td>
+      <td>Detroit Lions</td>
+      <td>Arizona Cardinals</td>
+      <td>Arizona Cardinals</td>
+      <td>Cleveland Browns</td>
       <td>Atlanta Falcons</td>
       <td>Arizona Cardinals</td>
       <td>New Orleans Saints</td>
@@ -305,6 +410,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>20</th>
+      <td>Pittsburgh Steelers</td>
+      <td>Los Angeles Chargers</td>
+      <td>Pittsburgh Steelers</td>
+      <td>New York Jets</td>
+      <td>Washington Commanders</td>
       <td>Arizona Cardinals</td>
       <td>Las Vegas Raiders</td>
       <td>New York Giants</td>
@@ -318,6 +428,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>21</th>
+      <td>New Orleans Saints</td>
+      <td>Arizona Cardinals</td>
+      <td>New Orleans Saints</td>
+      <td>Cleveland Browns</td>
+      <td>New York Giants</td>
       <td>Indianapolis Colts</td>
       <td>Atlanta Falcons</td>
       <td>Atlanta Falcons</td>
@@ -331,6 +446,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>22</th>
+      <td>Los Angeles Rams</td>
+      <td>New Orleans Saints</td>
+      <td>Los Angeles Rams</td>
+      <td>Las Vegas Raiders</td>
+      <td>New Orleans Saints</td>
       <td>New York Giants</td>
       <td>New York Jets</td>
       <td>New York Jets</td>
@@ -344,6 +464,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>23</th>
+      <td>Carolina Panthers</td>
+      <td>Los Angeles Rams</td>
+      <td>Indianapolis Colts</td>
+      <td>Atlanta Falcons</td>
+      <td>Pittsburgh Steelers</td>
       <td>Las Vegas Raiders</td>
       <td>New York Giants</td>
       <td>Cleveland Browns</td>
@@ -357,6 +482,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>24</th>
+      <td>Arizona Cardinals</td>
+      <td>Indianapolis Colts</td>
+      <td>Detroit Lions</td>
+      <td>Pittsburgh Steelers</td>
+      <td>Las Vegas Raiders</td>
       <td>Denver Broncos</td>
       <td>Denver Broncos</td>
       <td>Pittsburgh Steelers</td>
@@ -370,6 +500,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>25</th>
+      <td>Indianapolis Colts</td>
+      <td>New York Giants</td>
+      <td>Atlanta Falcons</td>
+      <td>Detroit Lions</td>
+      <td>Atlanta Falcons</td>
       <td>Washington Commanders</td>
       <td>Washington Commanders</td>
       <td>Chicago Bears</td>
@@ -383,6 +518,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>26</th>
+      <td>Atlanta Falcons</td>
+      <td>Carolina Panthers</td>
+      <td>Carolina Panthers</td>
+      <td>New York Giants</td>
+      <td>Denver Broncos</td>
       <td>Pittsburgh Steelers</td>
       <td>Pittsburgh Steelers</td>
       <td>Denver Broncos</td>
@@ -396,6 +536,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>27</th>
+      <td>New York Giants</td>
+      <td>Atlanta Falcons</td>
+      <td>New York Giants</td>
+      <td>Denver Broncos</td>
+      <td>Carolina Panthers</td>
       <td>Chicago Bears</td>
       <td>Chicago Bears</td>
       <td>Washington Commanders</td>
@@ -409,6 +554,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>28</th>
+      <td>Jacksonville Jaguars</td>
+      <td>Denver Broncos</td>
+      <td>Jacksonville Jaguars</td>
+      <td>Chicago Bears</td>
+      <td>Chicago Bears</td>
       <td>Detroit Lions</td>
       <td>Carolina Panthers</td>
       <td>Carolina Panthers</td>
@@ -422,6 +572,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>29</th>
+      <td>Denver Broncos</td>
+      <td>Jacksonville Jaguars</td>
+      <td>Denver Broncos</td>
+      <td>Carolina Panthers</td>
+      <td>Detroit Lions</td>
       <td>Carolina Panthers</td>
       <td>Detroit Lions</td>
       <td>Detroit Lions</td>
@@ -435,6 +590,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>30</th>
+      <td>Chicago Bears</td>
+      <td>Chicago Bears</td>
+      <td>Chicago Bears</td>
+      <td>Jacksonville Jaguars</td>
+      <td>Jacksonville Jaguars</td>
       <td>Jacksonville Jaguars</td>
       <td>Houston Texans</td>
       <td>Houston Texans</td>
@@ -448,6 +608,11 @@ In implementing the model a range a values were tested across the 2020/21 and 20
     </tr>
     <tr>
       <th>31</th>
+      <td>Houston Texans</td>
+      <td>Houston Texans</td>
+      <td>Houston Texans</td>
+      <td>Houston Texans</td>
+      <td>Houston Texans</td>
       <td>Houston Texans</td>
       <td>Jacksonville Jaguars</td>
       <td>Jacksonville Jaguars</td>
@@ -477,74 +642,84 @@ The following table lists the matchups, and the predicted chance for team 1 to w
   </thead>
   <tbody>
     <tr>
-      <td>Atlanta Falcons</td>
-      <td>Carolina Panthers</td>
-      <td>0.592713</td>
-    </tr>
-    <tr>
+      <td>San Francisco 49ers</td>
       <td>Seattle Seahawks</td>
-      <td>Tampa Bay Buccaneers</td>
-      <td>0.510805</td>
-    </tr>
-    <tr>
-      <td>Cleveland Browns</td>
-      <td>Miami Dolphins</td>
-      <td>0.469595</td>
-    </tr>
-    <tr>
-      <td>Denver Broncos</td>
-      <td>Tennessee Titans</td>
-      <td>0.350382</td>
-    </tr>
-    <tr>
-      <td>Detroit Lions</td>
-      <td>Chicago Bears</td>
-      <td>0.485773</td>
-    </tr>
-    <tr>
-      <td>Houston Texans</td>
-      <td>New York Giants</td>
-      <td>0.391102</td>
-    </tr>
-    <tr>
-      <td>Jacksonville Jaguars</td>
-      <td>Kansas City Chiefs</td>
-      <td>0.201585</td>
-    </tr>
-    <tr>
-      <td>Minnesota Vikings</td>
-      <td>Buffalo Bills</td>
-      <td>0.383729</td>
-    </tr>
-    <tr>
-      <td>New Orleans Saints</td>
-      <td>Pittsburgh Steelers</td>
-      <td>0.572463</td>
+      <td>0.682624</td>
     </tr>
     <tr>
       <td>Indianapolis Colts</td>
-      <td>Las Vegas Raiders</td>
-      <td>0.511412</td>
+      <td>Minnesota Vikings</td>
+      <td>0.360738</td>
     </tr>
     <tr>
-      <td>Arizona Cardinals</td>
-      <td>Los Angeles Rams</td>
-      <td>0.425608</td>
+      <td>Baltimore Ravens</td>
+      <td>Cleveland Browns</td>
+      <td>0.598179</td>
+    </tr>
+    <tr>
+      <td>Miami Dolphins</td>
+      <td>Buffalo Bills</td>
+      <td>0.303554</td>
+    </tr>
+    <tr>
+      <td>Kansas City Chiefs</td>
+      <td>Houston Texans</td>
+      <td>0.850830</td>
+    </tr>
+    <tr>
+      <td>Atlanta Falcons</td>
+      <td>New Orleans Saints</td>
+      <td>0.451260</td>
+    </tr>
+    <tr>
+      <td>New York Giants</td>
+      <td>Washington Commanders</td>
+      <td>0.404794</td>
+    </tr>
+    <tr>
+      <td>Detroit Lions</td>
+      <td>New York Jets</td>
+      <td>0.536327</td>
     </tr>
     <tr>
       <td>Dallas Cowboys</td>
-      <td>Green Bay Packers</td>
-      <td>0.654736</td>
+      <td>Jacksonville Jaguars</td>
+      <td>0.756904</td>
     </tr>
     <tr>
-      <td>Los Angeles Chargers</td>
-      <td>San Francisco 49ers</td>
-      <td>0.405468</td>
+      <td>Pittsburgh Steelers</td>
+      <td>Carolina Panthers</td>
+      <td>0.518798</td>
     </tr>
     <tr>
-      <td>Washington Commanders</td>
       <td>Philadelphia Eagles</td>
-      <td>0.288659</td>
+      <td>Chicago Bears</td>
+      <td>0.787691</td>
+    </tr>
+    <tr>
+      <td>Arizona Cardinals</td>
+      <td>Denver Broncos</td>
+      <td>0.560318</td>
+    </tr>
+    <tr>
+      <td>Cincinnati Bengals</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>0.632380</td>
+    </tr>
+    <tr>
+      <td>Tennessee Titans</td>
+      <td>Los Angeles Chargers</td>
+      <td>0.531694</td>
+    </tr>
+    <tr>
+      <td>New England Patriots</td>
+      <td>Las Vegas Raiders</td>
+      <td>0.562724</td>
+    </tr>
+    <tr>
+      <td>Los Angeles Rams</td>
+      <td>Green Bay Packers</td>
+      <td>0.470884</td>
     </tr>
   </tbody>
 </table>
@@ -589,7 +764,7 @@ To do this numerically each team will start out with a standard normally distrib
 
 # Historical performance
 ## Elo Predictions
-Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winner was predicted, 2 if the winner was correct and the point differential was within 7, and 3 if the winner was correct and the differential was within 3. 1 Thumbs down means the incorrect winner was predicted and the point differential was more than 7, 2 if the winner was incorrect and the point differential was within 7, and 3 if the winner was incorrect and the differential was within 3. Note that the parameter optimization was done for the mean squared error of logistic scores, so another choice of parameters may perform better here. Trying to optimize the parameters to minimize the difference between predicted and realized score differential is something I still want to try. So far the prediction record is: 85-51 (62.5%).
+Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winner was predicted, 2 if the winner was correct and the point differential was within 7, and 3 if the winner was correct and the differential was within 3. 1 Thumbs down means the incorrect winner was predicted and the point differential was more than 7, 2 if the winner was incorrect and the point differential was within 7, and 3 if the winner was incorrect and the differential was within 3. Note that the parameter optimization was done for the mean squared error of logistic scores, so another choice of parameters may perform better here. Trying to optimize the parameters to minimize the difference between predicted and realized score differential is something I still want to try. So far the prediction record is: 131-77 (63.0%).
 
 <table border="1" class="dataframe">
   <thead>
@@ -604,6 +779,654 @@ Here is the performance of the Elo Algorithm. 1 Thumbs up means the correct winn
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>2022-12-12</td>
+      <td>New England Patriots</td>
+      <td>Arizona Cardinals</td>
+      <td>27-13</td>
+      <td>:+1:</td>
+      <td>0.962</td>
+      <td>0.507</td>
+    </tr>
+    <tr>
+      <td>2022-12-11</td>
+      <td>Los Angeles Chargers</td>
+      <td>Miami Dolphins</td>
+      <td>23-17</td>
+      <td>:-1::-1:</td>
+      <td>0.799</td>
+      <td>0.462</td>
+    </tr>
+    <tr>
+      <td>2022-12-11</td>
+      <td>San Francisco 49ers</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>35-7</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.998</td>
+      <td>0.475</td>
+    </tr>
+    <tr>
+      <td>2022-12-11</td>
+      <td>Carolina Panthers</td>
+      <td>Seattle Seahawks</td>
+      <td>30-24</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.799</td>
+      <td>0.369</td>
+    </tr>
+    <tr>
+      <td>2022-12-11</td>
+      <td>Kansas City Chiefs</td>
+      <td>Denver Broncos</td>
+      <td>34-28</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.799</td>
+      <td>0.754</td>
+    </tr>
+    <tr>
+      <td>2022-12-11</td>
+      <td>Baltimore Ravens</td>
+      <td>Pittsburgh Steelers</td>
+      <td>16-14</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.613</td>
+      <td>0.614</td>
+    </tr>
+    <tr>
+      <td>2022-12-11</td>
+      <td>Philadelphia Eagles</td>
+      <td>New York Giants</td>
+      <td>48-22</td>
+      <td>:+1:</td>
+      <td>0.997</td>
+      <td>0.636</td>
+    </tr>
+    <tr>
+      <td>2022-12-11</td>
+      <td>Jacksonville Jaguars</td>
+      <td>Tennessee Titans</td>
+      <td>36-22</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.962</td>
+      <td>0.275</td>
+    </tr>
+    <tr>
+      <td>2022-12-11</td>
+      <td>Detroit Lions</td>
+      <td>Minnesota Vikings</td>
+      <td>34-23</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.926</td>
+      <td>0.299</td>
+    </tr>
+    <tr>
+      <td>2022-12-11</td>
+      <td>Dallas Cowboys</td>
+      <td>Houston Texans</td>
+      <td>27-23</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.715</td>
+      <td>0.738</td>
+    </tr>
+    <tr>
+      <td>2022-12-11</td>
+      <td>Cincinnati Bengals</td>
+      <td>Cleveland Browns</td>
+      <td>23-10</td>
+      <td>:+1:</td>
+      <td>0.952</td>
+      <td>0.661</td>
+    </tr>
+    <tr>
+      <td>2022-12-11</td>
+      <td>Buffalo Bills</td>
+      <td>New York Jets</td>
+      <td>20-12</td>
+      <td>:+1::+1:</td>
+      <td>0.863</td>
+      <td>0.745</td>
+    </tr>
+    <tr>
+      <td>2022-12-08</td>
+      <td>Los Angeles Rams</td>
+      <td>Las Vegas Raiders</td>
+      <td>17-16</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.557</td>
+      <td>0.562</td>
+    </tr>
+    <tr>
+      <td>2022-12-05</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>New Orleans Saints</td>
+      <td>17-16</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.557</td>
+      <td>0.627</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>Dallas Cowboys</td>
+      <td>Indianapolis Colts</td>
+      <td>54-19</td>
+      <td>:+1:</td>
+      <td>1.000</td>
+      <td>0.573</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>Las Vegas Raiders</td>
+      <td>Los Angeles Chargers</td>
+      <td>27-20</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.834</td>
+      <td>0.471</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>Cincinnati Bengals</td>
+      <td>Kansas City Chiefs</td>
+      <td>27-24</td>
+      <td>:-1::-1:</td>
+      <td>0.666</td>
+      <td>0.425</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>Seattle Seahawks</td>
+      <td>Los Angeles Rams</td>
+      <td>27-23</td>
+      <td>:-1::-1:</td>
+      <td>0.715</td>
+      <td>0.421</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>San Francisco 49ers</td>
+      <td>Miami Dolphins</td>
+      <td>33-17</td>
+      <td>:+1:</td>
+      <td>0.975</td>
+      <td>0.578</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>Green Bay Packers</td>
+      <td>Chicago Bears</td>
+      <td>28-19</td>
+      <td>:+1::+1:</td>
+      <td>0.888</td>
+      <td>0.652</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>Pittsburgh Steelers</td>
+      <td>Atlanta Falcons</td>
+      <td>19-16</td>
+      <td>:-1::-1:</td>
+      <td>0.666</td>
+      <td>0.458</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>Philadelphia Eagles</td>
+      <td>Tennessee Titans</td>
+      <td>35-10</td>
+      <td>:+1:</td>
+      <td>0.997</td>
+      <td>0.562</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>Washington Commanders</td>
+      <td>New York Giants</td>
+      <td>20-20</td>
+      <td>:-1:</td>
+      <td>0.500</td>
+      <td>0.435</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>Minnesota Vikings</td>
+      <td>New York Jets</td>
+      <td>27-22</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.760</td>
+      <td>0.634</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>Detroit Lions</td>
+      <td>Jacksonville Jaguars</td>
+      <td>40-14</td>
+      <td>:+1:</td>
+      <td>0.997</td>
+      <td>0.535</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>Baltimore Ravens</td>
+      <td>Denver Broncos</td>
+      <td>10-9</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.557</td>
+      <td>0.601</td>
+    </tr>
+    <tr>
+      <td>2022-12-04</td>
+      <td>Cleveland Browns</td>
+      <td>Houston Texans</td>
+      <td>27-14</td>
+      <td>:+1:</td>
+      <td>0.952</td>
+      <td>0.577</td>
+    </tr>
+    <tr>
+      <td>2022-12-01</td>
+      <td>Buffalo Bills</td>
+      <td>New England Patriots</td>
+      <td>24-10</td>
+      <td>:+1:</td>
+      <td>0.962</td>
+      <td>0.670</td>
+    </tr>
+    <tr>
+      <td>2022-11-28</td>
+      <td>Pittsburgh Steelers</td>
+      <td>Indianapolis Colts</td>
+      <td>24-17</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.834</td>
+      <td>0.420</td>
+    </tr>
+    <tr>
+      <td>2022-11-27</td>
+      <td>Philadelphia Eagles</td>
+      <td>Green Bay Packers</td>
+      <td>40-33</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.834</td>
+      <td>0.499</td>
+    </tr>
+    <tr>
+      <td>2022-11-27</td>
+      <td>San Francisco 49ers</td>
+      <td>New Orleans Saints</td>
+      <td>13-0</td>
+      <td>:+1:</td>
+      <td>0.952</td>
+      <td>0.613</td>
+    </tr>
+    <tr>
+      <td>2022-11-27</td>
+      <td>Kansas City Chiefs</td>
+      <td>Los Angeles Rams</td>
+      <td>26-10</td>
+      <td>:+1:</td>
+      <td>0.975</td>
+      <td>0.623</td>
+    </tr>
+    <tr>
+      <td>2022-11-27</td>
+      <td>Los Angeles Chargers</td>
+      <td>Arizona Cardinals</td>
+      <td>25-24</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.557</td>
+      <td>0.506</td>
+    </tr>
+    <tr>
+      <td>2022-11-27</td>
+      <td>Las Vegas Raiders</td>
+      <td>Seattle Seahawks</td>
+      <td>40-34</td>
+      <td>:+1::+1:</td>
+      <td>0.799</td>
+      <td>0.522</td>
+    </tr>
+    <tr>
+      <td>2022-11-27</td>
+      <td>New York Jets</td>
+      <td>Chicago Bears</td>
+      <td>31-10</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.992</td>
+      <td>0.490</td>
+    </tr>
+    <tr>
+      <td>2022-11-27</td>
+      <td>Carolina Panthers</td>
+      <td>Denver Broncos</td>
+      <td>23-10</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.952</td>
+      <td>0.416</td>
+    </tr>
+    <tr>
+      <td>2022-11-27</td>
+      <td>Washington Commanders</td>
+      <td>Atlanta Falcons</td>
+      <td>19-13</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.799</td>
+      <td>0.428</td>
+    </tr>
+    <tr>
+      <td>2022-11-27</td>
+      <td>Jacksonville Jaguars</td>
+      <td>Baltimore Ravens</td>
+      <td>28-27</td>
+      <td>:-1::-1:</td>
+      <td>0.557</td>
+      <td>0.304</td>
+    </tr>
+    <tr>
+      <td>2022-11-27</td>
+      <td>Miami Dolphins</td>
+      <td>Houston Texans</td>
+      <td>30-15</td>
+      <td>:+1:</td>
+      <td>0.969</td>
+      <td>0.642</td>
+    </tr>
+    <tr>
+      <td>2022-11-27</td>
+      <td>Cleveland Browns</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>23-17</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.799</td>
+      <td>0.344</td>
+    </tr>
+    <tr>
+      <td>2022-11-27</td>
+      <td>Cincinnati Bengals</td>
+      <td>Tennessee Titans</td>
+      <td>20-16</td>
+      <td>:+1::+1:</td>
+      <td>0.715</td>
+      <td>0.533</td>
+    </tr>
+    <tr>
+      <td>2022-11-24</td>
+      <td>Minnesota Vikings</td>
+      <td>New England Patriots</td>
+      <td>33-26</td>
+      <td>:+1::+1:</td>
+      <td>0.834</td>
+      <td>0.532</td>
+    </tr>
+    <tr>
+      <td>2022-11-24</td>
+      <td>Dallas Cowboys</td>
+      <td>New York Giants</td>
+      <td>28-20</td>
+      <td>:+1::+1:</td>
+      <td>0.863</td>
+      <td>0.680</td>
+    </tr>
+    <tr>
+      <td>2022-11-24</td>
+      <td>Buffalo Bills</td>
+      <td>Detroit Lions</td>
+      <td>28-25</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.792</td>
+    </tr>
+    <tr>
+      <td>2022-11-21</td>
+      <td>San Francisco 49ers</td>
+      <td>Arizona Cardinals</td>
+      <td>38-10</td>
+      <td>:+1:</td>
+      <td>0.998</td>
+      <td>0.596</td>
+    </tr>
+    <tr>
+      <td>2022-11-20</td>
+      <td>Kansas City Chiefs</td>
+      <td>Los Angeles Chargers</td>
+      <td>30-27</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.682</td>
+    </tr>
+    <tr>
+      <td>2022-11-20</td>
+      <td>Dallas Cowboys</td>
+      <td>Minnesota Vikings</td>
+      <td>40-3</td>
+      <td>:+1:</td>
+      <td>1.000</td>
+      <td>0.558</td>
+    </tr>
+    <tr>
+      <td>2022-11-20</td>
+      <td>Cincinnati Bengals</td>
+      <td>Pittsburgh Steelers</td>
+      <td>37-30</td>
+      <td>:+1::+1:</td>
+      <td>0.834</td>
+      <td>0.645</td>
+    </tr>
+    <tr>
+      <td>2022-11-20</td>
+      <td>Las Vegas Raiders</td>
+      <td>Denver Broncos</td>
+      <td>22-16</td>
+      <td>:+1::+1:</td>
+      <td>0.799</td>
+      <td>0.521</td>
+    </tr>
+    <tr>
+      <td>2022-11-20</td>
+      <td>New Orleans Saints</td>
+      <td>Los Angeles Rams</td>
+      <td>27-20</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.834</td>
+      <td>0.402</td>
+    </tr>
+    <tr>
+      <td>2022-11-20</td>
+      <td>Philadelphia Eagles</td>
+      <td>Indianapolis Colts</td>
+      <td>17-16</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.557</td>
+      <td>0.576</td>
+    </tr>
+    <tr>
+      <td>2022-11-20</td>
+      <td>Baltimore Ravens</td>
+      <td>Carolina Panthers</td>
+      <td>13-3</td>
+      <td>:+1::+1:</td>
+      <td>0.909</td>
+      <td>0.667</td>
+    </tr>
+    <tr>
+      <td>2022-11-20</td>
+      <td>Atlanta Falcons</td>
+      <td>Chicago Bears</td>
+      <td>27-24</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.539</td>
+    </tr>
+    <tr>
+      <td>2022-11-20</td>
+      <td>New England Patriots</td>
+      <td>New York Jets</td>
+      <td>10-3</td>
+      <td>:+1::+1:</td>
+      <td>0.834</td>
+      <td>0.643</td>
+    </tr>
+    <tr>
+      <td>2022-11-20</td>
+      <td>Washington Commanders</td>
+      <td>Houston Texans</td>
+      <td>23-10</td>
+      <td>:+1:</td>
+      <td>0.952</td>
+      <td>0.522</td>
+    </tr>
+    <tr>
+      <td>2022-11-20</td>
+      <td>Detroit Lions</td>
+      <td>New York Giants</td>
+      <td>31-18</td>
+      <td>:+1:</td>
+      <td>0.952</td>
+      <td>0.505</td>
+    </tr>
+    <tr>
+      <td>2022-11-20</td>
+      <td>Buffalo Bills</td>
+      <td>Cleveland Browns</td>
+      <td>31-23</td>
+      <td>:+1::+1:</td>
+      <td>0.863</td>
+      <td>0.688</td>
+    </tr>
+    <tr>
+      <td>2022-11-17</td>
+      <td>Tennessee Titans</td>
+      <td>Green Bay Packers</td>
+      <td>27-17</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.909</td>
+      <td>0.432</td>
+    </tr>
+    <tr>
+      <td>2022-11-14</td>
+      <td>Washington Commanders</td>
+      <td>Philadelphia Eagles</td>
+      <td>32-21</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.926</td>
+      <td>0.343</td>
+    </tr>
+    <tr>
+      <td>2022-11-13</td>
+      <td>San Francisco 49ers</td>
+      <td>Los Angeles Chargers</td>
+      <td>22-16</td>
+      <td>:+1::+1:</td>
+      <td>0.799</td>
+      <td>0.590</td>
+    </tr>
+    <tr>
+      <td>2022-11-13</td>
+      <td>Arizona Cardinals</td>
+      <td>Los Angeles Rams</td>
+      <td>27-17</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.909</td>
+      <td>0.367</td>
+    </tr>
+    <tr>
+      <td>2022-11-13</td>
+      <td>Green Bay Packers</td>
+      <td>Dallas Cowboys</td>
+      <td>31-28</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.666</td>
+      <td>0.539</td>
+    </tr>
+    <tr>
+      <td>2022-11-13</td>
+      <td>Indianapolis Colts</td>
+      <td>Las Vegas Raiders</td>
+      <td>25-20</td>
+      <td>:+1::+1:</td>
+      <td>0.760</td>
+      <td>0.574</td>
+    </tr>
+    <tr>
+      <td>2022-11-13</td>
+      <td>Pittsburgh Steelers</td>
+      <td>New Orleans Saints</td>
+      <td>20-10</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.909</td>
+      <td>0.473</td>
+    </tr>
+    <tr>
+      <td>2022-11-13</td>
+      <td>Kansas City Chiefs</td>
+      <td>Jacksonville Jaguars</td>
+      <td>27-17</td>
+      <td>:+1::+1:</td>
+      <td>0.909</td>
+      <td>0.743</td>
+    </tr>
+    <tr>
+      <td>2022-11-13</td>
+      <td>Detroit Lions</td>
+      <td>Chicago Bears</td>
+      <td>31-30</td>
+      <td>:-1:</td>
+      <td>0.557</td>
+      <td>0.470</td>
+    </tr>
+    <tr>
+      <td>2022-11-13</td>
+      <td>New York Giants</td>
+      <td>Houston Texans</td>
+      <td>24-16</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.863</td>
+      <td>0.496</td>
+    </tr>
+    <tr>
+      <td>2022-11-13</td>
+      <td>Tennessee Titans</td>
+      <td>Denver Broncos</td>
+      <td>17-10</td>
+      <td>:+1::+1:</td>
+      <td>0.834</td>
+      <td>0.539</td>
+    </tr>
+    <tr>
+      <td>2022-11-13</td>
+      <td>Miami Dolphins</td>
+      <td>Cleveland Browns</td>
+      <td>39-17</td>
+      <td>:+1:</td>
+      <td>0.994</td>
+      <td>0.594</td>
+    </tr>
+    <tr>
+      <td>2022-11-13</td>
+      <td>Minnesota Vikings</td>
+      <td>Buffalo Bills</td>
+      <td>33-30</td>
+      <td>:-1::-1:</td>
+      <td>0.666</td>
+      <td>0.338</td>
+    </tr>
+    <tr>
+      <td>2022-11-13</td>
+      <td>Tampa Bay Buccaneers</td>
+      <td>Seattle Seahawks</td>
+      <td>21-16</td>
+      <td>:+1::+1::+1:</td>
+      <td>0.760</td>
+      <td>0.684</td>
+    </tr>
+    <tr>
+      <td>2022-11-10</td>
+      <td>Carolina Panthers</td>
+      <td>Atlanta Falcons</td>
+      <td>25-15</td>
+      <td>:-1::-1::-1:</td>
+      <td>0.909</td>
+      <td>0.467</td>
+    </tr>
     <tr>
       <td>2022-11-07</td>
       <td>Baltimore Ravens</td>
