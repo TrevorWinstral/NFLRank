@@ -1,17 +1,4 @@
 ,index,Week,Date,Winner/tie,Loser/tie,isTie,PtsW,PtsL,type
-0,1563,2022-15,2022-12-15,San Francisco 49ers,Seattle Seahawks,False,,,preview
-1,1564,2022-15,2022-12-17,Indianapolis Colts,Minnesota Vikings,False,,,preview
-2,1565,2022-15,2022-12-17,Baltimore Ravens,Cleveland Browns,False,,,preview
-3,1566,2022-15,2022-12-17,Miami Dolphins,Buffalo Bills,False,,,preview
-4,1567,2022-15,2022-12-18,Kansas City Chiefs,Houston Texans,False,,,preview
-5,1568,2022-15,2022-12-18,Atlanta Falcons,New Orleans Saints,False,,,preview
-6,1569,2022-15,2022-12-18,New York Giants,Washington Commanders,False,,,preview
-7,1570,2022-15,2022-12-18,Detroit Lions,New York Jets,False,,,preview
-8,1571,2022-15,2022-12-18,Dallas Cowboys,Jacksonville Jaguars,False,,,preview
-9,1572,2022-15,2022-12-18,Pittsburgh Steelers,Carolina Panthers,False,,,preview
-10,1573,2022-15,2022-12-18,Philadelphia Eagles,Chicago Bears,False,,,preview
-11,1574,2022-15,2022-12-18,Arizona Cardinals,Denver Broncos,False,,,preview
-12,1575,2022-15,2022-12-18,Cincinnati Bengals,Tampa Bay Buccaneers,False,,,preview
-13,1576,2022-15,2022-12-18,Tennessee Titans,Los Angeles Chargers,False,,,preview
-14,1577,2022-15,2022-12-18,New England Patriots,Las Vegas Raiders,False,,,preview
-15,1578,2022-15,2022-12-19,Los Angeles Rams,Green Bay Packers,False,,,preview
+0,1636,2022-ConfChamp,2023-01-29,Philadelphia Eagles,San Francisco 49ers,False,31.0,7.0,boxscore
+1,1637,2022-ConfChamp,2023-01-29,Kansas City Chiefs,Cincinnati Bengals,False,23.0,20.0,boxscore
+2,1638,2022-ConfChamp,2023-02-12,Kansas City Chiefs,Philadelphia Eagles,False,,,preview
